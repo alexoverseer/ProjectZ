@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC39A8E1214671520013D333 /* SCNNodeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC39A8E0214671520013D333 /* SCNNodeExtensions.swift */; };
+		BCA10BE8214664620049F72C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA10BE7214664610049F72C /* Alert.swift */; };
 		BCA6ED4521465D4B00CDFC18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6ED4421465D4B00CDFC18 /* AppDelegate.swift */; };
 		BCA6ED4721465D4B00CDFC18 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA6ED4621465D4B00CDFC18 /* art.scnassets */; };
-		BCA6ED4921465D4B00CDFC18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6ED4821465D4B00CDFC18 /* ViewController.swift */; };
+		BCA6ED4921465D4B00CDFC18 /* SolarSystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6ED4821465D4B00CDFC18 /* SolarSystemViewController.swift */; };
 		BCA6ED4C21465D4B00CDFC18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA6ED4A21465D4B00CDFC18 /* Main.storyboard */; };
 		BCA6ED4E21465D4C00CDFC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA6ED4D21465D4C00CDFC18 /* Assets.xcassets */; };
 		BCA6ED5121465D4C00CDFC18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA6ED4F21465D4C00CDFC18 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC39A8E0214671520013D333 /* SCNNodeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNNodeExtensions.swift; sourceTree = "<group>"; };
+		BCA10BE7214664610049F72C /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		BCA6ED4121465D4B00CDFC18 /* AR Solar System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Solar System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA6ED4421465D4B00CDFC18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCA6ED4621465D4B00CDFC18 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		BCA6ED4821465D4B00CDFC18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCA6ED4821465D4B00CDFC18 /* SolarSystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemViewController.swift; sourceTree = "<group>"; };
 		BCA6ED4B21465D4B00CDFC18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCA6ED4D21465D4C00CDFC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCA6ED5021465D4C00CDFC18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +41,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC39A8DF2146712F0013D333 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BC39A8E0214671520013D333 /* SCNNodeExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BCA10BE9214664650049F72C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BCA10BE7214664610049F72C /* Alert.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BCA10BEA2146658E0049F72C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BCA10BEB214665990049F72C /* Solar System */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BCA10BEB214665990049F72C /* Solar System */ = {
+			isa = PBXGroup;
+			children = (
+				BCA6ED4821465D4B00CDFC18 /* SolarSystemViewController.swift */,
+			);
+			path = "Solar System";
+			sourceTree = "<group>";
+		};
 		BCA6ED3821465D4B00CDFC18 = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +93,9 @@
 			isa = PBXGroup;
 			children = (
 				BCA6ED4421465D4B00CDFC18 /* AppDelegate.swift */,
-				BCA6ED4821465D4B00CDFC18 /* ViewController.swift */,
+				BC39A8DF2146712F0013D333 /* Extensions */,
+				BCA10BE9214664650049F72C /* Utilities */,
+				BCA10BEA2146658E0049F72C /* Modules */,
 				BCA6ED4A21465D4B00CDFC18 /* Main.storyboard */,
 				BCA6ED4621465D4B00CDFC18 /* art.scnassets */,
 				BCA6ED4D21465D4C00CDFC18 /* Assets.xcassets */,
@@ -95,7 +133,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = Bananaland;
+				ORGANIZATIONNAME = "Alexandr Pavlov";
 				TargetAttributes = {
 					BCA6ED4021465D4B00CDFC18 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -139,7 +177,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCA6ED4921465D4B00CDFC18 /* ViewController.swift in Sources */,
+				BC39A8E1214671520013D333 /* SCNNodeExtensions.swift in Sources */,
+				BCA10BE8214664620049F72C /* Alert.swift in Sources */,
+				BCA6ED4921465D4B00CDFC18 /* SolarSystemViewController.swift in Sources */,
 				BCA6ED4521465D4B00CDFC18 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
