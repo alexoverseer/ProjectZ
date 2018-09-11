@@ -46,7 +46,7 @@ final class SolarSystemInteractor: SolarSystemOutput {
         case .mercury:
             return [Mercury()]
         case .venus:
-            return [Planet]()
+            return [Venus()]
         case .earthAndMoon:
             return [Planet]()
         case .mars:

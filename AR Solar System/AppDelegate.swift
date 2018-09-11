@@ -8,12 +8,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         setUpWindow()
         
-        let spacePeopleAPI: SpacePeopleProtocol = SpacePeople()
-        spacePeopleAPI.requestSpacePeopleDetails(onSuccess: { people in
-            print(people)
-        }, onFailure: { error in
-            print(error)
-        })
+//        let spacePeopleAPI: SpacePeopleProtocol = SpacePeople()
+//        spacePeopleAPI.requestSpacePeopleDetails(onSuccess: { people in
+//            print(people)
+//        }, onFailure: { error in
+//            print(error)
+//        })
         
         return true
     }

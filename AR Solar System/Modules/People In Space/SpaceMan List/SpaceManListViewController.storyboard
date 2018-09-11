@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Space Man List View Controller-->
+        <scene sceneID="8tc-Za-1H3">
+            <objects>
+                <viewController storyboardIdentifier="SpaceManListViewController" id="ElW-pV-ttL" customClass="SpaceManListViewController" customModule="AR_Solar_System" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MJN-Ok-DHb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spaceMan_background" translatesAutoresizingMaskIntoConstraints="NO" id="Siv-2Q-oqh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vuK-II-uC7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="UOj-6b-GfC">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a44-3B-Z9w">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="EEX-S1-CIN">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Q62-dO-qhb">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </tableView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="Q62-dO-qhb" secondAttribute="trailing" id="1ip-YT-gIs"/>
+                                                    <constraint firstItem="Q62-dO-qhb" firstAttribute="leading" secondItem="EEX-S1-CIN" secondAttribute="leading" id="JYO-Cy-ESh"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Q62-dO-qhb" secondAttribute="bottom" id="N73-Gv-DhH"/>
+                                                    <constraint firstItem="Q62-dO-qhb" firstAttribute="top" secondItem="EEX-S1-CIN" secondAttribute="top" id="bUx-cp-SgB"/>
+                                                </constraints>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="dark"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="a44-3B-Z9w" firstAttribute="leading" secondItem="UOj-6b-GfC" secondAttribute="leading" id="AoL-G1-sLX"/>
+                                        <constraint firstItem="a44-3B-Z9w" firstAttribute="top" secondItem="UOj-6b-GfC" secondAttribute="top" id="SCI-H1-ovn"/>
+                                        <constraint firstAttribute="bottom" secondItem="a44-3B-Z9w" secondAttribute="bottom" id="gcq-ta-Znu"/>
+                                        <constraint firstAttribute="trailing" secondItem="a44-3B-Z9w" secondAttribute="trailing" id="sw8-6J-hLm"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Siv-2Q-oqh" firstAttribute="bottom" secondItem="MJN-Ok-DHb" secondAttribute="bottom" id="3bN-R9-0xW"/>
+                            <constraint firstItem="Siv-2Q-oqh" firstAttribute="leading" secondItem="MJN-Ok-DHb" secondAttribute="leading" id="FAE-pm-dYP"/>
+                            <constraint firstItem="vuK-II-uC7" firstAttribute="trailing" secondItem="MJN-Ok-DHb" secondAttribute="trailing" id="ThN-bs-p0O"/>
+                            <constraint firstItem="vuK-II-uC7" firstAttribute="leading" secondItem="MJN-Ok-DHb" secondAttribute="leading" id="Wa0-3L-BWq"/>
+                            <constraint firstItem="vuK-II-uC7" firstAttribute="top" secondItem="MJN-Ok-DHb" secondAttribute="top" id="fyB-8j-ACx"/>
+                            <constraint firstItem="Siv-2Q-oqh" firstAttribute="trailing" secondItem="MJN-Ok-DHb" secondAttribute="trailing" id="tQ4-kz-dxQ"/>
+                            <constraint firstItem="Siv-2Q-oqh" firstAttribute="top" secondItem="MJN-Ok-DHb" secondAttribute="top" id="zKR-AG-4Q2"/>
+                            <constraint firstItem="vuK-II-uC7" firstAttribute="bottom" secondItem="MJN-Ok-DHb" secondAttribute="bottom" id="zxF-oW-ShR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QQv-gQ-fCz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YB7-vI-p9d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-780" y="33.733133433283363"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="spaceMan_background" width="500" height="781"/>
+    </resources>
+</document>

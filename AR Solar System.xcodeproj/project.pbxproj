@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		6467254294DF4D2F9271B831 /* Pods_AR_Solar_System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B94694CF3363DC57FAAA955 /* Pods_AR_Solar_System.framework */; };
+		BC0EADF32148462400A84818 /* SpaceManListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0EADF22148462400A84818 /* SpaceManListViewController.storyboard */; };
+		BC0EADF52148463100A84818 /* SpaceManDetailsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0EADF42148463100A84818 /* SpaceManDetailsViewController.storyboard */; };
+		BC0EADF72148464F00A84818 /* SpaceManListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0EADF62148464F00A84818 /* SpaceManListBuilder.swift */; };
+		BC0EADF92148465900A84818 /* SpaceManListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0EADF82148465900A84818 /* SpaceManListInteractor.swift */; };
+		BC0EADFB2148466600A84818 /* SpaceManListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0EADFA2148466600A84818 /* SpaceManListViewController.swift */; };
 		BC39A8E1214671520013D333 /* SCNNodeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC39A8E0214671520013D333 /* SCNNodeExtensions.swift */; };
 		BC5CD7442147B6BB0048CCAF /* PlanetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD7422147B6BB0048CCAF /* PlanetCollectionViewCell.swift */; };
 		BC5CD7452147B6BB0048CCAF /* PlanetCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5CD7432147B6BB0048CCAF /* PlanetCollectionViewCell.xib */; };
@@ -21,7 +26,7 @@
 		BC5CD75A214807200048CCAF /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD758214807200048CCAF /* Request.swift */; };
 		BC5CD75B214807200048CCAF /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD759214807200048CCAF /* ErrorType.swift */; };
 		BC5CD75D214807C00048CCAF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD75C214807C00048CCAF /* Utils.swift */; };
-		BC5CD760214807F60048CCAF /* SpacePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD75F214807F60048CCAF /* SpacePeople.swift */; };
+		BC5CD760214807F60048CCAF /* SpacePeopleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD75F214807F60048CCAF /* SpacePeopleService.swift */; };
 		BCA10BE8214664620049F72C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA10BE7214664610049F72C /* Alert.swift */; };
 		BCA6ED4521465D4B00CDFC18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6ED4421465D4B00CDFC18 /* AppDelegate.swift */; };
 		BCA6ED4721465D4B00CDFC18 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA6ED4621465D4B00CDFC18 /* art.scnassets */; };
@@ -46,6 +51,11 @@
 /* Begin PBXFileReference section */
 		0E4FC49E5633DAABD487A8FD /* Pods-AR Solar System.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR Solar System.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AR Solar System/Pods-AR Solar System.debug.xcconfig"; sourceTree = "<group>"; };
 		8B94694CF3363DC57FAAA955 /* Pods_AR_Solar_System.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_Solar_System.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0EADF22148462400A84818 /* SpaceManListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpaceManListViewController.storyboard; sourceTree = "<group>"; };
+		BC0EADF42148463100A84818 /* SpaceManDetailsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpaceManDetailsViewController.storyboard; sourceTree = "<group>"; };
+		BC0EADF62148464F00A84818 /* SpaceManListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManListBuilder.swift; sourceTree = "<group>"; };
+		BC0EADF82148465900A84818 /* SpaceManListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManListInteractor.swift; sourceTree = "<group>"; };
+		BC0EADFA2148466600A84818 /* SpaceManListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManListViewController.swift; sourceTree = "<group>"; };
 		BC39A8E0214671520013D333 /* SCNNodeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNNodeExtensions.swift; sourceTree = "<group>"; };
 		BC5CD7422147B6BB0048CCAF /* PlanetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCollectionViewCell.swift; sourceTree = "<group>"; };
 		BC5CD7432147B6BB0048CCAF /* PlanetCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlanetCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -59,7 +69,7 @@
 		BC5CD758214807200048CCAF /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		BC5CD759214807200048CCAF /* ErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorType.swift; sourceTree = "<group>"; };
 		BC5CD75C214807C00048CCAF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		BC5CD75F214807F60048CCAF /* SpacePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePeople.swift; sourceTree = "<group>"; };
+		BC5CD75F214807F60048CCAF /* SpacePeopleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePeopleService.swift; sourceTree = "<group>"; };
 		BCA10BE7214664610049F72C /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		BCA6ED4121465D4B00CDFC18 /* AR Solar System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Solar System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA6ED4421465D4B00CDFC18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +123,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BC0EADEF2148456100A84818 /* People In Space */ = {
+			isa = PBXGroup;
+			children = (
+				BC0EADF12148459E00A84818 /* SpaceMan List */,
+				BC0EADF02148457F00A84818 /* SpaceMan Details */,
+			);
+			path = "People In Space";
+			sourceTree = "<group>";
+		};
+		BC0EADF02148457F00A84818 /* SpaceMan Details */ = {
+			isa = PBXGroup;
+			children = (
+				BC0EADF42148463100A84818 /* SpaceManDetailsViewController.storyboard */,
+			);
+			path = "SpaceMan Details";
+			sourceTree = "<group>";
+		};
+		BC0EADF12148459E00A84818 /* SpaceMan List */ = {
+			isa = PBXGroup;
+			children = (
+				BC0EADF62148464F00A84818 /* SpaceManListBuilder.swift */,
+				BC0EADF82148465900A84818 /* SpaceManListInteractor.swift */,
+				BC0EADFA2148466600A84818 /* SpaceManListViewController.swift */,
+				BC0EADF22148462400A84818 /* SpaceManListViewController.storyboard */,
+			);
+			path = "SpaceMan List";
+			sourceTree = "<group>";
+		};
 		BC39A8DF2146712F0013D333 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +202,7 @@
 		BC5CD75E214807D30048CCAF /* SpacePeople */ = {
 			isa = PBXGroup;
 			children = (
-				BC5CD75F214807F60048CCAF /* SpacePeople.swift */,
+				BC5CD75F214807F60048CCAF /* SpacePeopleService.swift */,
 			);
 			path = SpacePeople;
 			sourceTree = "<group>";
@@ -183,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				BCA10BEB214665990049F72C /* Solar System */,
+				BC0EADEF2148456100A84818 /* People In Space */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -316,6 +355,8 @@
 				BC5CD74D2147C4AA0048CCAF /* SolarSystemViewController.storyboard in Resources */,
 				BC5CD7452147B6BB0048CCAF /* PlanetCollectionViewCell.xib in Resources */,
 				BCA6ED4721465D4B00CDFC18 /* art.scnassets in Resources */,
+				BC0EADF32148462400A84818 /* SpaceManListViewController.storyboard in Resources */,
+				BC0EADF52148463100A84818 /* SpaceManDetailsViewController.storyboard in Resources */,
 				BCA6ED5121465D4C00CDFC18 /* LaunchScreen.storyboard in Resources */,
 				BCA6ED4E21465D4C00CDFC18 /* Assets.xcassets in Resources */,
 			);
@@ -388,14 +429,16 @@
 				BCF6D4E22146AEF600D39D69 /* Moon.swift in Sources */,
 				BC5CD7492147C33C0048CCAF /* SolarSystemBuilder.swift in Sources */,
 				BCF6D4E02146AEEE00D39D69 /* Earth.swift in Sources */,
+				BC0EADF72148464F00A84818 /* SpaceManListBuilder.swift in Sources */,
 				BC5CD755214806320048CCAF /* PeopleInSpaceRightNow.swift in Sources */,
 				BCF6D4E62146AF0500D39D69 /* Jupiter.swift in Sources */,
 				BC5CD757214806560048CCAF /* SpaceMan.swift in Sources */,
+				BC0EADFB2148466600A84818 /* SpaceManListViewController.swift in Sources */,
 				BCF6D4EA2146AF1100D39D69 /* Uranus.swift in Sources */,
 				BCF6D4EC2146AF1B00D39D69 /* Neptune.swift in Sources */,
 				BC5CD7472147C3070048CCAF /* StoryboardInstantiable.swift in Sources */,
 				BC5CD75A214807200048CCAF /* Request.swift in Sources */,
-				BC5CD760214807F60048CCAF /* SpacePeople.swift in Sources */,
+				BC5CD760214807F60048CCAF /* SpacePeopleService.swift in Sources */,
 				BC5CD7442147B6BB0048CCAF /* PlanetCollectionViewCell.swift in Sources */,
 				BC5CD75B214807200048CCAF /* ErrorType.swift in Sources */,
 				BCF6D4DA2146AED000D39D69 /* Sun.swift in Sources */,
@@ -406,6 +449,7 @@
 				BCF6D4D521469F6900D39D69 /* Planet.swift in Sources */,
 				BCF6D4DE2146AEE700D39D69 /* Venus.swift in Sources */,
 				BCF6D4EE2146AF2300D39D69 /* Pluto.swift in Sources */,
+				BC0EADF92148465900A84818 /* SpaceManListInteractor.swift in Sources */,
 				BC5CD74B2147C3760048CCAF /* SolarSystemInteractor.swift in Sources */,
 				BC5CD7502147DC6E0048CCAF /* PlanetOption.swift in Sources */,
 				BCF6D4DC2146AEE000D39D69 /* Mercury.swift in Sources */,

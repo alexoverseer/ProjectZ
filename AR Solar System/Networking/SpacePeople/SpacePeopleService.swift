@@ -5,7 +5,7 @@ protocol SpacePeopleProtocol {
                                    onFailure: @escaping (ErrorType) -> Void)
 }
 
-struct SpacePeople: SpacePeopleProtocol {
+struct SpacePeopleService: SpacePeopleProtocol {
     
     func requestSpacePeopleDetails(onSuccess: @escaping (PeopleInSpaceRightNow) -> Void,
                                    onFailure: @escaping (ErrorType) -> Void) {

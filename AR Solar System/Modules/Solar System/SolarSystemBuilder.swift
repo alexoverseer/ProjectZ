@@ -8,6 +8,7 @@ final class SolarSystemBuilder {
         navigationController.navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationController.navigationBar.shadowImage = UIImage()
         navigationController.navigationBar.isTranslucent = true
+        navigationController.navigationBar.tintColor = UIColor.white
         
         viewController.interactor = createInteractor(with: viewController)
         

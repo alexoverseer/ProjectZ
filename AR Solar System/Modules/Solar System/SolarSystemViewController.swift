@@ -37,14 +37,19 @@ final class SolarSystemViewController: UIViewController, StoryboardInstantiable 
     private func setupScene() {
         sceneView.delegate = self
         sceneView.showsStatistics = false
-
+        
         let scene = SCNScene()
         sceneView.scene = scene
     }
-
+    
     private func setupUI() {
         planetsCollectionView.register(UINib(nibName: PlanetCollectionViewCell.identifier, bundle: nil),
                                        forCellWithReuseIdentifier: PlanetCollectionViewCell.identifier)
+    }
+    
+    @IBAction private func showManInSpace() {
+        let controller = SpaceManListBuilder.build()
+        navigationController?.pushViewController(controller, animated: true)
     }
 }
 
@@ -79,7 +84,7 @@ extension SolarSystemViewController: UICollectionViewDataSource {
         
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PlanetCollectionViewCell.identifier,
                                                             for: indexPath) as? PlanetCollectionViewCell else {
-            fatalError("DequeueReusableCell failed while casting")
+                                                                fatalError("DequeueReusableCell failed while casting")
         }
         
         let planetOption = interactor.planetOptions[indexPath.row]
@@ -104,12 +109,12 @@ extension SolarSystemViewController: UICollectionViewDelegate {
 extension SolarSystemViewController: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-
-        return CGSize(width: collectionView.frame.width / 3, height: collectionView.frame.height)
+        
+        return CGSize(width: collectionView.frame.width / 3, height: collectionView.frame.height - 16)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         
-        return 0
+        return 8
     }
 }

@@ -19,19 +19,19 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Csd-U2-Bf1">
-                        <rect key="frame" x="8" y="8" width="216" height="91"/>
+                        <rect key="frame" x="0.0" y="0.0" width="232" height="107"/>
                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Vxn-oT-noF">
-                            <rect key="frame" x="0.0" y="0.0" width="216" height="91"/>
+                            <rect key="frame" x="0.0" y="0.0" width="232" height="107"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="evI-7I-rge">
-                                    <rect key="frame" x="0.0" y="0.0" width="216" height="91"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="232" height="107"/>
                                     <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="r2L-U2-dPq">
-                                        <rect key="frame" x="0.0" y="0.0" width="216" height="91"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="232" height="107"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sun, Earth &amp; Moon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zvq-bC-4ml">
-                                                <rect key="frame" x="8" y="8" width="200" height="75"/>
+                                                <rect key="frame" x="8" y="8" width="216" height="91"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -67,10 +67,10 @@
                 </subviews>
             </view>
             <constraints>
-                <constraint firstItem="Csd-U2-Bf1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="5ry-pi-I2D"/>
-                <constraint firstAttribute="bottom" secondItem="Csd-U2-Bf1" secondAttribute="bottom" constant="8" id="L57-q8-n8l"/>
-                <constraint firstItem="Csd-U2-Bf1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="QRL-ei-I5u"/>
-                <constraint firstAttribute="trailing" secondItem="Csd-U2-Bf1" secondAttribute="trailing" constant="8" id="wVq-vW-2HU"/>
+                <constraint firstItem="Csd-U2-Bf1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="5ry-pi-I2D"/>
+                <constraint firstAttribute="bottom" secondItem="Csd-U2-Bf1" secondAttribute="bottom" id="L57-q8-n8l"/>
+                <constraint firstItem="Csd-U2-Bf1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="QRL-ei-I5u"/>
+                <constraint firstAttribute="trailing" secondItem="Csd-U2-Bf1" secondAttribute="trailing" id="wVq-vW-2HU"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="375" height="107"/>

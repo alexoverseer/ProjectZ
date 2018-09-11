@@ -27,5 +27,8 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 
+Pods/
+Podfile.lock
+
 # macOS specific
 .DS_Store
