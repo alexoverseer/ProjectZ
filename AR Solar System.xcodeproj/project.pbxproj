@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6467254294DF4D2F9271B831 /* Pods_AR_Solar_System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B94694CF3363DC57FAAA955 /* Pods_AR_Solar_System.framework */; };
 		BC39A8E1214671520013D333 /* SCNNodeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC39A8E0214671520013D333 /* SCNNodeExtensions.swift */; };
 		BC5CD7442147B6BB0048CCAF /* PlanetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD7422147B6BB0048CCAF /* PlanetCollectionViewCell.swift */; };
 		BC5CD7452147B6BB0048CCAF /* PlanetCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5CD7432147B6BB0048CCAF /* PlanetCollectionViewCell.xib */; };
@@ -15,6 +16,12 @@
 		BC5CD74B2147C3760048CCAF /* SolarSystemInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD74A2147C3760048CCAF /* SolarSystemInteractor.swift */; };
 		BC5CD74D2147C4AA0048CCAF /* SolarSystemViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5CD74C2147C4AA0048CCAF /* SolarSystemViewController.storyboard */; };
 		BC5CD7502147DC6E0048CCAF /* PlanetOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD74F2147DC6E0048CCAF /* PlanetOption.swift */; };
+		BC5CD755214806320048CCAF /* PeopleInSpaceRightNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD754214806320048CCAF /* PeopleInSpaceRightNow.swift */; };
+		BC5CD757214806560048CCAF /* SpaceMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD756214806560048CCAF /* SpaceMan.swift */; };
+		BC5CD75A214807200048CCAF /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD758214807200048CCAF /* Request.swift */; };
+		BC5CD75B214807200048CCAF /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD759214807200048CCAF /* ErrorType.swift */; };
+		BC5CD75D214807C00048CCAF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD75C214807C00048CCAF /* Utils.swift */; };
+		BC5CD760214807F60048CCAF /* SpacePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD75F214807F60048CCAF /* SpacePeople.swift */; };
 		BCA10BE8214664620049F72C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA10BE7214664610049F72C /* Alert.swift */; };
 		BCA6ED4521465D4B00CDFC18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6ED4421465D4B00CDFC18 /* AppDelegate.swift */; };
 		BCA6ED4721465D4B00CDFC18 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA6ED4621465D4B00CDFC18 /* art.scnassets */; };
@@ -37,6 +44,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E4FC49E5633DAABD487A8FD /* Pods-AR Solar System.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR Solar System.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AR Solar System/Pods-AR Solar System.debug.xcconfig"; sourceTree = "<group>"; };
+		8B94694CF3363DC57FAAA955 /* Pods_AR_Solar_System.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_Solar_System.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC39A8E0214671520013D333 /* SCNNodeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNNodeExtensions.swift; sourceTree = "<group>"; };
 		BC5CD7422147B6BB0048CCAF /* PlanetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCollectionViewCell.swift; sourceTree = "<group>"; };
 		BC5CD7432147B6BB0048CCAF /* PlanetCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlanetCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -45,6 +54,12 @@
 		BC5CD74A2147C3760048CCAF /* SolarSystemInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemInteractor.swift; sourceTree = "<group>"; };
 		BC5CD74C2147C4AA0048CCAF /* SolarSystemViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SolarSystemViewController.storyboard; sourceTree = "<group>"; };
 		BC5CD74F2147DC6E0048CCAF /* PlanetOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetOption.swift; sourceTree = "<group>"; };
+		BC5CD754214806320048CCAF /* PeopleInSpaceRightNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleInSpaceRightNow.swift; sourceTree = "<group>"; };
+		BC5CD756214806560048CCAF /* SpaceMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpaceMan.swift; path = "AR Solar System/Networking/SpaceMan.swift"; sourceTree = SOURCE_ROOT; };
+		BC5CD758214807200048CCAF /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		BC5CD759214807200048CCAF /* ErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorType.swift; sourceTree = "<group>"; };
+		BC5CD75C214807C00048CCAF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		BC5CD75F214807F60048CCAF /* SpacePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePeople.swift; sourceTree = "<group>"; };
 		BCA10BE7214664610049F72C /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		BCA6ED4121465D4B00CDFC18 /* AR Solar System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Solar System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA6ED4421465D4B00CDFC18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +81,7 @@
 		BCF6D4E92146AF1100D39D69 /* Uranus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uranus.swift; sourceTree = "<group>"; };
 		BCF6D4EB2146AF1B00D39D69 /* Neptune.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neptune.swift; sourceTree = "<group>"; };
 		BCF6D4ED2146AF2300D39D69 /* Pluto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pluto.swift; sourceTree = "<group>"; };
+		F7813CA5D822A53BF3912A76 /* Pods-AR Solar System.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR Solar System.release.xcconfig"; path = "Pods/Target Support Files/Pods-AR Solar System/Pods-AR Solar System.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,12 +89,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6467254294DF4D2F9271B831 /* Pods_AR_Solar_System.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01639CB9365839E1E204C78A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E4FC49E5633DAABD487A8FD /* Pods-AR Solar System.debug.xcconfig */,
+				F7813CA5D822A53BF3912A76 /* Pods-AR Solar System.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA402951CAC2B5BE5835DED6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B94694CF3363DC57FAAA955 /* Pods_AR_Solar_System.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC39A8DF2146712F0013D333 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,11 +141,40 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		BC5CD752214805EB0048CCAF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BC5CD758214807200048CCAF /* Request.swift */,
+				BC5CD759214807200048CCAF /* ErrorType.swift */,
+				BC5CD753214806080048CCAF /* Models */,
+				BC5CD75E214807D30048CCAF /* SpacePeople */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BC5CD753214806080048CCAF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC5CD754214806320048CCAF /* PeopleInSpaceRightNow.swift */,
+				BC5CD756214806560048CCAF /* SpaceMan.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC5CD75E214807D30048CCAF /* SpacePeople */ = {
+			isa = PBXGroup;
+			children = (
+				BC5CD75F214807F60048CCAF /* SpacePeople.swift */,
+			);
+			path = SpacePeople;
+			sourceTree = "<group>";
+		};
 		BCA10BE9214664650049F72C /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 				BCA10BE7214664610049F72C /* Alert.swift */,
 				BC5CD7462147C3070048CCAF /* StoryboardInstantiable.swift */,
+				BC5CD75C214807C00048CCAF /* Utils.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -141,6 +204,8 @@
 			children = (
 				BCA6ED4321465D4B00CDFC18 /* AR Solar System */,
 				BCA6ED4221465D4B00CDFC18 /* Products */,
+				01639CB9365839E1E204C78A /* Pods */,
+				AA402951CAC2B5BE5835DED6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,6 +223,7 @@
 				BCA6ED4421465D4B00CDFC18 /* AppDelegate.swift */,
 				BC39A8DF2146712F0013D333 /* Extensions */,
 				BCA10BE9214664650049F72C /* Utilities */,
+				BC5CD752214805EB0048CCAF /* Networking */,
 				BC39A8E221469E400013D333 /* Models */,
 				BCA10BEA2146658E0049F72C /* Modules */,
 				BCA6ED4621465D4B00CDFC18 /* art.scnassets */,
@@ -193,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCA6ED5521465D4C00CDFC18 /* Build configuration list for PBXNativeTarget "AR Solar System" */;
 			buildPhases = (
+				2E4B210019A3675CE40EB7F7 /* [CP] Check Pods Manifest.lock */,
 				BCA6ED3D21465D4B00CDFC18 /* Sources */,
 				BCA6ED3E21465D4B00CDFC18 /* Frameworks */,
 				BCA6ED3F21465D4B00CDFC18 /* Resources */,
+				2545F773BD5B3022D8668B96 /* [CP] Embed Pods Frameworks */,
+				BC5CD7512148036D0048CCAF /* Run Script - SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -254,6 +323,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2545F773BD5B3022D8668B96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AR Solar System/Pods-AR Solar System-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AR Solar System/Pods-AR Solar System-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E4B210019A3675CE40EB7F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AR Solar System-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC5CD7512148036D0048CCAF /* Run Script - SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - SwiftLint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BCA6ED3D21465D4B00CDFC18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,15 +383,21 @@
 			files = (
 				BCF6D4E82146AF0B00D39D69 /* Saturn.swift in Sources */,
 				BC39A8E1214671520013D333 /* SCNNodeExtensions.swift in Sources */,
+				BC5CD75D214807C00048CCAF /* Utils.swift in Sources */,
 				BCF6D4D72146AC7300D39D69 /* Ring.swift in Sources */,
 				BCF6D4E22146AEF600D39D69 /* Moon.swift in Sources */,
 				BC5CD7492147C33C0048CCAF /* SolarSystemBuilder.swift in Sources */,
 				BCF6D4E02146AEEE00D39D69 /* Earth.swift in Sources */,
+				BC5CD755214806320048CCAF /* PeopleInSpaceRightNow.swift in Sources */,
 				BCF6D4E62146AF0500D39D69 /* Jupiter.swift in Sources */,
+				BC5CD757214806560048CCAF /* SpaceMan.swift in Sources */,
 				BCF6D4EA2146AF1100D39D69 /* Uranus.swift in Sources */,
 				BCF6D4EC2146AF1B00D39D69 /* Neptune.swift in Sources */,
 				BC5CD7472147C3070048CCAF /* StoryboardInstantiable.swift in Sources */,
+				BC5CD75A214807200048CCAF /* Request.swift in Sources */,
+				BC5CD760214807F60048CCAF /* SpacePeople.swift in Sources */,
 				BC5CD7442147B6BB0048CCAF /* PlanetCollectionViewCell.swift in Sources */,
+				BC5CD75B214807200048CCAF /* ErrorType.swift in Sources */,
 				BCF6D4DA2146AED000D39D69 /* Sun.swift in Sources */,
 				BCA10BE8214664620049F72C /* Alert.swift in Sources */,
 				BCA6ED4921465D4B00CDFC18 /* SolarSystemViewController.swift in Sources */,
@@ -414,6 +542,7 @@
 		};
 		BCA6ED5621465D4C00CDFC18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4FC49E5633DAABD487A8FD /* Pods-AR Solar System.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -433,6 +562,7 @@
 		};
 		BCA6ED5721465D4C00CDFC18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7813CA5D822A53BF3912A76 /* Pods-AR Solar System.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

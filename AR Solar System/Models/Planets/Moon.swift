@@ -3,7 +3,7 @@ import ARKit
 
 class Moon: Planet {
     
-    var ring = Ring(ringSize: 0.08, pipeRadius: 0.000001)
+    var ring = Ring(ringSize: 0.08, pipeRadius: 0.000_001)
     
     init() {
         super.init(radius: 0.01, planetName: Planets.moon)

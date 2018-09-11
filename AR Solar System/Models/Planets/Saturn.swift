@@ -24,7 +24,7 @@ class Saturn: Planet {
         
         let loopNode = SCNNode(geometry: saturnLoop)
         loopNode.position = SCNVector3(x: 0, y: 0, z: 0)
-        loopNode.rotation = SCNVector4(x: -0.5, y: -0.5, z: 0, w:5)
+        loopNode.rotation = SCNVector4(x: -0.5, y: -0.5, z: 0, w: 5)
         self.addChildNode(loopNode)
     }
     

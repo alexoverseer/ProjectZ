@@ -76,7 +76,12 @@ extension SolarSystemViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PlanetCollectionViewCell.identifier, for: indexPath) as! PlanetCollectionViewCell
+        
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PlanetCollectionViewCell.identifier,
+                                                            for: indexPath) as? PlanetCollectionViewCell else {
+            fatalError("DequeueReusableCell failed while casting")
+        }
+        
         let planetOption = interactor.planetOptions[indexPath.row]
         cell.populate(with: planetOption)
         
