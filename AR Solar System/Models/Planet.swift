@@ -34,4 +34,8 @@ class Planet: SCNNode {
     func planet() -> SCNNode {
         return self
     }
+    
+    func planetWithRing() -> SCNNode {
+        return self
+    }
 }

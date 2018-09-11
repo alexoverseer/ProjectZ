@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Solar System View Controller-->
+        <scene sceneID="c8a-ut-2iR">
+            <objects>
+                <viewController storyboardIdentifier="SolarSystemViewController" id="r0n-lQ-Da4" customClass="SolarSystemViewController" customModule="AR_Solar_System" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ClZ-Gx-zbI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YMV-BS-LkT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </arscnView>
+                            <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jae-C9-g8L">
+                                <rect key="frame" x="10" y="688" width="355" height="80"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Ifi-me-eiO">
+                                    <rect key="frame" x="0.0" y="0.0" width="355" height="80"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="feI-Ue-5A0">
+                                            <rect key="frame" x="0.0" y="0.0" width="355" height="80"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="smE-VQ-yDg">
+                                                <size key="itemSize" width="50" height="50"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <cells/>
+                                            <connections>
+                                                <outlet property="dataSource" destination="r0n-lQ-Da4" id="yDg-g5-PWg"/>
+                                                <outlet property="delegate" destination="r0n-lQ-Da4" id="bft-Q9-f4Y"/>
+                                            </connections>
+                                        </collectionView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="feI-Ue-5A0" firstAttribute="leading" secondItem="Ifi-me-eiO" secondAttribute="leading" id="5LH-BF-u1v"/>
+                                        <constraint firstAttribute="trailing" secondItem="feI-Ue-5A0" secondAttribute="trailing" id="Adv-Xw-Hhw"/>
+                                        <constraint firstAttribute="bottom" secondItem="feI-Ue-5A0" secondAttribute="bottom" id="FAt-N2-Ckn"/>
+                                        <constraint firstItem="feI-Ue-5A0" firstAttribute="top" secondItem="Ifi-me-eiO" secondAttribute="top" id="Hww-ju-vIi"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="XjF-48-FVl"/>
+                                </constraints>
+                                <blurEffect style="light"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </visualEffectView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jsf-WW-E6l">
+                                <rect key="frame" x="67" y="44" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1529411765" green="0.41176470590000003" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YMV-BS-LkT" firstAttribute="bottom" secondItem="ClZ-Gx-zbI" secondAttribute="bottom" id="KDf-eL-cM0"/>
+                            <constraint firstItem="YMV-BS-LkT" firstAttribute="leading" secondItem="ClZ-Gx-zbI" secondAttribute="leading" id="OgK-JZ-yuP"/>
+                            <constraint firstItem="hjn-H9-2SR" firstAttribute="bottom" secondItem="Jae-C9-g8L" secondAttribute="bottom" constant="10" id="Smk-m8-sYz"/>
+                            <constraint firstItem="Jae-C9-g8L" firstAttribute="leading" secondItem="hjn-H9-2SR" secondAttribute="leading" constant="10" id="YnK-pz-iO8"/>
+                            <constraint firstItem="hjn-H9-2SR" firstAttribute="trailing" secondItem="Jae-C9-g8L" secondAttribute="trailing" constant="10" id="eBw-l0-E2m"/>
+                            <constraint firstItem="YMV-BS-LkT" firstAttribute="top" secondItem="ClZ-Gx-zbI" secondAttribute="top" id="pL1-ZP-kfc"/>
+                            <constraint firstItem="YMV-BS-LkT" firstAttribute="trailing" secondItem="ClZ-Gx-zbI" secondAttribute="trailing" id="y8a-fG-Jdu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hjn-H9-2SR"/>
+                    </view>
+                    <connections>
+                        <outlet property="planetsCollectionView" destination="feI-Ue-5A0" id="PAx-HS-8nD"/>
+                        <outlet property="sceneView" destination="YMV-BS-LkT" id="IgB-rc-o3g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xxm-c4-JkU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="832.79999999999995" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>

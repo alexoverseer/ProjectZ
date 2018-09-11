@@ -17,17 +17,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AR Solar System" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kV3-Iq-3ul">
-                                <rect key="frame" x="71.5" y="316" width="232" height="36"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MeteorShower" translatesAutoresizingMaskIntoConstraints="NO" id="Kcq-bi-CD0">
+                                <rect key="frame" x="87" y="233" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="chn-mH-0Qm"/>
+                                    <constraint firstAttribute="height" constant="200" id="qCo-MK-Mkj"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="kV3-Iq-3ul" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="QyV-IR-Vjg"/>
-                            <constraint firstItem="kV3-Iq-3ul" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="oBJ-O4-6BJ"/>
+                            <constraint firstItem="Kcq-bi-CD0" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="KxI-nO-bPh"/>
+                            <constraint firstItem="Kcq-bi-CD0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kpr-nr-z9c"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -37,4 +38,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="MeteorShower" width="256" height="256"/>
+    </resources>
 </document>

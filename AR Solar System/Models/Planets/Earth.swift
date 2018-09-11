@@ -25,7 +25,7 @@ class Earth: Planet {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func planet() -> SCNNode {
+    override func planetWithRing() -> SCNNode {
         return ring
     }
 }
