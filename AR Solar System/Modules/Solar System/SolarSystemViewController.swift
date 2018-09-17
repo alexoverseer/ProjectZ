@@ -67,9 +67,9 @@ extension SolarSystemViewController: ARSCNViewDelegate {
     
     func session(_ session: ARSession, didFailWithError error: Error) {
         DispatchQueue.main.async {
-            let okAction = AlertAction(onSelect: {}, name: "OK", style: .default)
-            let alert = UIAlertController(info: AlertInfo(title: "Error", message: error.localizedDescription, actions: [okAction]))
-            self.present(alert, animated: true)
+//            let okAction = AlertAction(onSelect: {}, name: "OK", style: .default)
+//            let alert = UIAlertController(info: AlertInfo(title: "Error", message: error.localizedDescription, actions: [okAction]))
+//            self.present(alert, animated: true)
         }
     }
 }

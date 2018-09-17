@@ -33,6 +33,13 @@
 		BCA6ED4921465D4B00CDFC18 /* SolarSystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6ED4821465D4B00CDFC18 /* SolarSystemViewController.swift */; };
 		BCA6ED4E21465D4C00CDFC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA6ED4D21465D4C00CDFC18 /* Assets.xcassets */; };
 		BCA6ED5121465D4C00CDFC18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA6ED4F21465D4C00CDFC18 /* LaunchScreen.storyboard */; };
+		BCB029662150396B00881901 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB029652150396B00881901 /* ImageDownloader.swift */; };
+		BCB029682150433B00881901 /* SpaceManDetailsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB029672150433B00881901 /* SpaceManDetailsBuilder.swift */; };
+		BCB0296A2150434600881901 /* SpaceManDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB029692150434600881901 /* SpaceManDetailsInteractor.swift */; };
+		BCB0296C2150435500881901 /* SpaceManDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB0296B2150435500881901 /* SpaceManDetailsViewController.swift */; };
+		BCB0296E2150506A00881901 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB0296D2150506A00881901 /* UIViewControllerExtensions.swift */; };
+		BCCAEF2F2150324A0080C2FC /* CosmonautTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCAEF2D2150324A0080C2FC /* CosmonautTableViewCell.swift */; };
+		BCCAEF302150324A0080C2FC /* CosmonautTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCAEF2E2150324A0080C2FC /* CosmonautTableViewCell.xib */; };
 		BCF6D4D521469F6900D39D69 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF6D4D421469F6900D39D69 /* Planet.swift */; };
 		BCF6D4D72146AC7300D39D69 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF6D4D62146AC7300D39D69 /* Ring.swift */; };
 		BCF6D4DA2146AED000D39D69 /* Sun.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF6D4D92146AED000D39D69 /* Sun.swift */; };
@@ -78,6 +85,13 @@
 		BCA6ED4D21465D4C00CDFC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCA6ED5021465D4C00CDFC18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCA6ED5221465D4C00CDFC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB029652150396B00881901 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		BCB029672150433B00881901 /* SpaceManDetailsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManDetailsBuilder.swift; sourceTree = "<group>"; };
+		BCB029692150434600881901 /* SpaceManDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManDetailsInteractor.swift; sourceTree = "<group>"; };
+		BCB0296B2150435500881901 /* SpaceManDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManDetailsViewController.swift; sourceTree = "<group>"; };
+		BCB0296D2150506A00881901 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		BCCAEF2D2150324A0080C2FC /* CosmonautTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmonautTableViewCell.swift; sourceTree = "<group>"; };
+		BCCAEF2E2150324A0080C2FC /* CosmonautTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CosmonautTableViewCell.xib; sourceTree = "<group>"; };
 		BCF6D4D421469F6900D39D69 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		BCF6D4D62146AC7300D39D69 /* Ring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
 		BCF6D4D92146AED000D39D69 /* Sun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sun.swift; sourceTree = "<group>"; };
@@ -135,6 +149,9 @@
 		BC0EADF02148457F00A84818 /* SpaceMan Details */ = {
 			isa = PBXGroup;
 			children = (
+				BCB029672150433B00881901 /* SpaceManDetailsBuilder.swift */,
+				BCB029692150434600881901 /* SpaceManDetailsInteractor.swift */,
+				BCB0296B2150435500881901 /* SpaceManDetailsViewController.swift */,
 				BC0EADF42148463100A84818 /* SpaceManDetailsViewController.storyboard */,
 			);
 			path = "SpaceMan Details";
@@ -143,6 +160,7 @@
 		BC0EADF12148459E00A84818 /* SpaceMan List */ = {
 			isa = PBXGroup;
 			children = (
+				BCCAEF2C2150322C0080C2FC /* Cells */,
 				BC0EADF62148464F00A84818 /* SpaceManListBuilder.swift */,
 				BC0EADF82148465900A84818 /* SpaceManListInteractor.swift */,
 				BC0EADFA2148466600A84818 /* SpaceManListViewController.swift */,
@@ -155,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				BC39A8E0214671520013D333 /* SCNNodeExtensions.swift */,
+				BCB0296D2150506A00881901 /* UIViewControllerExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -213,6 +232,7 @@
 				BCA10BE7214664610049F72C /* Alert.swift */,
 				BC5CD7462147C3070048CCAF /* StoryboardInstantiable.swift */,
 				BC5CD75C214807C00048CCAF /* Utils.swift */,
+				BCB029652150396B00881901 /* ImageDownloader.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +291,15 @@
 				BCA6ED5221465D4C00CDFC18 /* Info.plist */,
 			);
 			path = "AR Solar System";
+			sourceTree = "<group>";
+		};
+		BCCAEF2C2150322C0080C2FC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BCCAEF2D2150324A0080C2FC /* CosmonautTableViewCell.swift */,
+				BCCAEF2E2150324A0080C2FC /* CosmonautTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		BCF6D4D82146AEBE00D39D69 /* Planets */ = {
@@ -359,6 +388,7 @@
 				BC0EADF52148463100A84818 /* SpaceManDetailsViewController.storyboard in Resources */,
 				BCA6ED5121465D4C00CDFC18 /* LaunchScreen.storyboard in Resources */,
 				BCA6ED4E21465D4C00CDFC18 /* Assets.xcassets in Resources */,
+				BCCAEF302150324A0080C2FC /* CosmonautTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,10 +403,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AR Solar System/Pods-AR Solar System-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -427,6 +459,7 @@
 				BC5CD75D214807C00048CCAF /* Utils.swift in Sources */,
 				BCF6D4D72146AC7300D39D69 /* Ring.swift in Sources */,
 				BCF6D4E22146AEF600D39D69 /* Moon.swift in Sources */,
+				BCB0296E2150506A00881901 /* UIViewControllerExtensions.swift in Sources */,
 				BC5CD7492147C33C0048CCAF /* SolarSystemBuilder.swift in Sources */,
 				BCF6D4E02146AEEE00D39D69 /* Earth.swift in Sources */,
 				BC0EADF72148464F00A84818 /* SpaceManListBuilder.swift in Sources */,
@@ -436,12 +469,16 @@
 				BC0EADFB2148466600A84818 /* SpaceManListViewController.swift in Sources */,
 				BCF6D4EA2146AF1100D39D69 /* Uranus.swift in Sources */,
 				BCF6D4EC2146AF1B00D39D69 /* Neptune.swift in Sources */,
+				BCB029682150433B00881901 /* SpaceManDetailsBuilder.swift in Sources */,
 				BC5CD7472147C3070048CCAF /* StoryboardInstantiable.swift in Sources */,
 				BC5CD75A214807200048CCAF /* Request.swift in Sources */,
 				BC5CD760214807F60048CCAF /* SpacePeopleService.swift in Sources */,
 				BC5CD7442147B6BB0048CCAF /* PlanetCollectionViewCell.swift in Sources */,
 				BC5CD75B214807200048CCAF /* ErrorType.swift in Sources */,
+				BCCAEF2F2150324A0080C2FC /* CosmonautTableViewCell.swift in Sources */,
 				BCF6D4DA2146AED000D39D69 /* Sun.swift in Sources */,
+				BCB0296A2150434600881901 /* SpaceManDetailsInteractor.swift in Sources */,
+				BCB0296C2150435500881901 /* SpaceManDetailsViewController.swift in Sources */,
 				BCA10BE8214664620049F72C /* Alert.swift in Sources */,
 				BCA6ED4921465D4B00CDFC18 /* SolarSystemViewController.swift in Sources */,
 				BCA6ED4521465D4B00CDFC18 /* AppDelegate.swift in Sources */,
@@ -449,6 +486,7 @@
 				BCF6D4D521469F6900D39D69 /* Planet.swift in Sources */,
 				BCF6D4DE2146AEE700D39D69 /* Venus.swift in Sources */,
 				BCF6D4EE2146AF2300D39D69 /* Pluto.swift in Sources */,
+				BCB029662150396B00881901 /* ImageDownloader.swift in Sources */,
 				BC0EADF92148465900A84818 /* SpaceManListInteractor.swift in Sources */,
 				BC5CD74B2147C3760048CCAF /* SolarSystemInteractor.swift in Sources */,
 				BC5CD7502147DC6E0048CCAF /* PlanetOption.swift in Sources */,
