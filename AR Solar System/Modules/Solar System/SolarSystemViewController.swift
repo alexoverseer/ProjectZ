@@ -51,6 +51,11 @@ final class SolarSystemViewController: UIViewController, StoryboardInstantiable 
         let controller = SpaceManListBuilder.build()
         navigationController?.pushViewController(controller, animated: true)
     }
+    
+    @IBAction private func showAudioPlayer() {
+        let controller = AudioPlayerBuilder.build()
+        present(controller, animated: true, completion: nil)
+    }
 }
 
 extension SolarSystemViewController: SolarSystemInput {

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -60,7 +61,7 @@
                                 </userDefinedRuntimeAttributes>
                             </visualEffectView>
                             <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mPT-UP-nNO">
-                                <rect key="frame" x="116" y="636" width="40" height="40"/>
+                                <rect key="frame" x="115.66666666666669" y="636" width="40" height="40"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="nrR-E5-mRs">
                                     <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -180,12 +181,46 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </visualEffectView>
+                            <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U2t-iz-VL2">
+                                <rect key="frame" x="12" y="44" width="40" height="40"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="tA4-Hm-M8Q">
+                                    <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PE2-4v-g6Q">
+                                            <rect key="frame" x="8" y="8" width="24" height="24"/>
+                                            <state key="normal" image="music_icon"/>
+                                            <state key="selected" image="pause_selected_icon"/>
+                                            <connections>
+                                                <action selector="showAudioPlayer" destination="r0n-lQ-Da4" eventType="touchUpInside" id="Lqy-FS-Ooz"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="PE2-4v-g6Q" secondAttribute="bottom" constant="8" id="Pw5-zQ-9wg"/>
+                                        <constraint firstItem="PE2-4v-g6Q" firstAttribute="leading" secondItem="tA4-Hm-M8Q" secondAttribute="leading" constant="8" id="RBV-ov-QtA"/>
+                                        <constraint firstAttribute="trailing" secondItem="PE2-4v-g6Q" secondAttribute="trailing" constant="8" id="XBN-op-Syj"/>
+                                        <constraint firstItem="PE2-4v-g6Q" firstAttribute="top" secondItem="tA4-Hm-M8Q" secondAttribute="top" constant="8" id="gXZ-mN-PP6"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="lVB-sQ-du7"/>
+                                    <constraint firstAttribute="width" constant="40" id="s6T-gq-EHg"/>
+                                </constraints>
+                                <blurEffect style="dark"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </visualEffectView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Jae-C9-g8L" firstAttribute="top" secondItem="mPT-UP-nNO" secondAttribute="bottom" constant="12" id="0o6-4T-DTm"/>
                             <constraint firstItem="mMa-P4-hj5" firstAttribute="leading" secondItem="mPT-UP-nNO" secondAttribute="trailing" constant="12" id="E8f-k6-3BR"/>
                             <constraint firstItem="4ds-ad-gxJ" firstAttribute="top" secondItem="hjn-H9-2SR" secondAttribute="top" id="FfJ-9B-vPc"/>
+                            <constraint firstItem="U2t-iz-VL2" firstAttribute="top" secondItem="hjn-H9-2SR" secondAttribute="top" id="Hoz-TI-ErZ"/>
                             <constraint firstItem="YMV-BS-LkT" firstAttribute="bottom" secondItem="ClZ-Gx-zbI" secondAttribute="bottom" id="KDf-eL-cM0"/>
                             <constraint firstItem="hjn-H9-2SR" firstAttribute="trailing" secondItem="4ds-ad-gxJ" secondAttribute="trailing" constant="12" id="M8Q-t1-PT1"/>
                             <constraint firstItem="YMV-BS-LkT" firstAttribute="leading" secondItem="ClZ-Gx-zbI" secondAttribute="leading" id="OgK-JZ-yuP"/>
@@ -195,6 +230,7 @@
                             <constraint firstItem="Jae-C9-g8L" firstAttribute="leading" secondItem="hjn-H9-2SR" secondAttribute="leading" constant="10" id="YnK-pz-iO8"/>
                             <constraint firstItem="hjn-H9-2SR" firstAttribute="trailing" secondItem="Jae-C9-g8L" secondAttribute="trailing" constant="10" id="eBw-l0-E2m"/>
                             <constraint firstItem="mMa-P4-hj5" firstAttribute="centerX" secondItem="ClZ-Gx-zbI" secondAttribute="centerX" id="eKD-ek-Pui"/>
+                            <constraint firstItem="U2t-iz-VL2" firstAttribute="leading" secondItem="hjn-H9-2SR" secondAttribute="leading" constant="12" id="edM-h2-EaH"/>
                             <constraint firstItem="Jae-C9-g8L" firstAttribute="top" secondItem="mMa-P4-hj5" secondAttribute="bottom" constant="12" id="hNo-MI-h5m"/>
                             <constraint firstItem="YMV-BS-LkT" firstAttribute="top" secondItem="ClZ-Gx-zbI" secondAttribute="top" id="pL1-ZP-kfc"/>
                             <constraint firstItem="YMV-BS-LkT" firstAttribute="trailing" secondItem="ClZ-Gx-zbI" secondAttribute="trailing" id="y8a-fG-Jdu"/>
@@ -215,6 +251,7 @@
         <image name="astronaut_icon" width="33" height="33"/>
         <image name="binocular_icon" width="33" height="33"/>
         <image name="compas_icon" width="33" height="33"/>
+        <image name="music_icon" width="32" height="32"/>
         <image name="pause_icon" width="33" height="33"/>
         <image name="pause_selected_icon" width="33" height="33"/>
     </resources>

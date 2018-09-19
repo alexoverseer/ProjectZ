@@ -5,15 +5,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         setUpWindow()
-        
-//        let spacePeopleAPI: SpacePeopleProtocol = SpacePeople()
-//        spacePeopleAPI.requestSpacePeopleDetails(onSuccess: { people in
-//            print(people)
-//        }, onFailure: { error in
-//            print(error)
-//        })
+        configurateInitialState()
         
         return true
     }
@@ -22,5 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = SolarSystemBuilder.build()
         window?.makeKeyAndVisible()
+    }
+    
+    private func configurateInitialState() {
+        let firstLaunch = FirstLaunch(userDefaults: .standard,
+                                      key: "com.bananaland.AR-Solar-System.WasLaunchedBefore")
+        if firstLaunch.isFirstLaunch {
+            UserDefaults.standard.backgroundMusicState = true
+            UserDefaults.standard.backgroundMusicVolume = 1.0
+        }
     }
 }
