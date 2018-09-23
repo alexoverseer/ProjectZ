@@ -1,14 +1,18 @@
 import Foundation
 
-final class TracksBuilder {
+protocol TracksBuilder {
+    func build() -> [AudioTrack]
+}
+
+final class AudioTracksBuilder: TracksBuilder {
     
-    static private var trackNamesArray: [String] = {
+    private var trackNamesArray: [String] = {
         return ["Floating Drone - Teddy Bergström",
                 "The Cosmos - Johannes Bornlöf",
                 "Lonely Space Rhodes - Jonas Elander"]
     }()
     
-    static func build() -> [AudioTrack] {
+    func build() -> [AudioTrack] {
         
         return trackNamesArray.map { trackName -> AudioTrack in
             let pathToTrack = Bundle.main.path(forResource: trackName, ofType: "mp3")!

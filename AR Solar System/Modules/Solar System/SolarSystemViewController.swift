@@ -17,6 +17,7 @@ final class SolarSystemViewController: UIViewController, StoryboardInstantiable 
         interactor.viewDidLoad()
         setupScene()
         setupUI()
+        AudioPlayer.shared.play()
     }
     
     override func viewWillAppear(_ animated: Bool) {

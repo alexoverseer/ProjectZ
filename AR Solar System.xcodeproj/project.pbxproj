@@ -27,6 +27,7 @@
 		BC5CD75B214807200048CCAF /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD759214807200048CCAF /* ErrorType.swift */; };
 		BC5CD75D214807C00048CCAF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD75C214807C00048CCAF /* Utils.swift */; };
 		BC5CD760214807F60048CCAF /* SpacePeopleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD75F214807F60048CCAF /* SpacePeopleService.swift */; };
+		BC6807AE2157DB5100923B15 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6807AD2157DB5100923B15 /* AudioPlayer.swift */; };
 		BCA10BE8214664620049F72C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA10BE7214664610049F72C /* Alert.swift */; };
 		BCA6ED4521465D4B00CDFC18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6ED4421465D4B00CDFC18 /* AppDelegate.swift */; };
 		BCA6ED4721465D4B00CDFC18 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA6ED4621465D4B00CDFC18 /* art.scnassets */; };
@@ -88,6 +89,7 @@
 		BC5CD759214807200048CCAF /* ErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorType.swift; sourceTree = "<group>"; };
 		BC5CD75C214807C00048CCAF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		BC5CD75F214807F60048CCAF /* SpacePeopleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePeopleService.swift; sourceTree = "<group>"; };
+		BC6807AD2157DB5100923B15 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		BCA10BE7214664610049F72C /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		BCA6ED4121465D4B00CDFC18 /* AR Solar System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Solar System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA6ED4421465D4B00CDFC18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -345,6 +347,7 @@
 			children = (
 				BCE3832E2152E7F200662D79 /* Model */,
 				BCE383312152E8CB00662D79 /* TracksBuilder.swift */,
+				BC6807AD2157DB5100923B15 /* AudioPlayer.swift */,
 			);
 			path = Player;
 			sourceTree = "<group>";
@@ -535,6 +538,7 @@
 			files = (
 				BCF6D4E82146AF0B00D39D69 /* Saturn.swift in Sources */,
 				BCE383222152CD2700662D79 /* AudioPlayerBuilder.swift in Sources */,
+				BC6807AE2157DB5100923B15 /* AudioPlayer.swift in Sources */,
 				BC39A8E1214671520013D333 /* SCNNodeExtensions.swift in Sources */,
 				BC5CD75D214807C00048CCAF /* Utils.swift in Sources */,
 				BCF6D4D72146AC7300D39D69 /* Ring.swift in Sources */,

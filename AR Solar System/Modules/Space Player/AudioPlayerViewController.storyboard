@@ -20,6 +20,7 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spaceMan_background" translatesAutoresizingMaskIntoConstraints="NO" id="4vf-Zb-Vbc">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <gestureRecognizers/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kHc-3I-hIe">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -27,7 +28,11 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </view>
+                                <gestureRecognizers/>
                                 <blurEffect style="dark"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="mYd-VN-Mjq" appends="YES" id="4Fs-LL-6tf"/>
+                                </connections>
                             </visualEffectView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uH8-GG-1dp">
                                 <rect key="frame" x="300" y="257.5" width="51" height="31"/>
@@ -44,7 +49,10 @@
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Johannes Bornlöf - The Cosmos" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sgq-3c-jN9">
-                                <rect key="frame" x="20" y="378.5" width="335" height="24"/>
+                                <rect key="frame" x="20" y="368.5" width="335" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="SnQ-DA-gmc"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -67,7 +75,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="ttF-TO-iI8">
-                                <rect key="frame" x="20" y="410.5" width="335" height="50"/>
+                                <rect key="frame" x="20" y="426.5" width="335" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elx-IZ-Gli">
                                         <rect key="frame" x="0.0" y="10" width="85.5" height="30"/>
@@ -103,7 +111,7 @@
                             <constraint firstItem="eEW-dj-5Ew" firstAttribute="centerY" secondItem="uH8-GG-1dp" secondAttribute="centerY" id="6OW-lF-af9"/>
                             <constraint firstItem="uH8-GG-1dp" firstAttribute="leading" secondItem="eEW-dj-5Ew" secondAttribute="trailing" constant="8" id="B5Q-AM-jfG"/>
                             <constraint firstItem="kHc-3I-hIe" firstAttribute="leading" secondItem="Imu-g9-VAA" secondAttribute="leading" id="C8y-V4-25E"/>
-                            <constraint firstItem="Sgq-3c-jN9" firstAttribute="top" secondItem="5P2-4T-hWW" secondAttribute="bottom" constant="30" id="Dg2-oU-7qe"/>
+                            <constraint firstItem="Sgq-3c-jN9" firstAttribute="top" secondItem="5P2-4T-hWW" secondAttribute="bottom" constant="20" id="Dg2-oU-7qe"/>
                             <constraint firstItem="SCC-at-KLw" firstAttribute="top" secondItem="MJa-dt-8tI" secondAttribute="top" id="Gja-Uj-tfH"/>
                             <constraint firstItem="kHc-3I-hIe" firstAttribute="top" secondItem="Imu-g9-VAA" secondAttribute="top" id="HnS-br-SgN"/>
                             <constraint firstItem="eEW-dj-5Ew" firstAttribute="leading" secondItem="MJa-dt-8tI" secondAttribute="leading" constant="20" id="Ila-2d-HiK"/>
@@ -134,6 +142,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1He-rN-CHG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="down" id="mYd-VN-Mjq">
+                    <connections>
+                        <action selector="closeControllerGesture:" destination="8du-qQ-25v" id="gEp-eM-MT8"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="312.80000000000001" y="110.19490254872565"/>
         </scene>
