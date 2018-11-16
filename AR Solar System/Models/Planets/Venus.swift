@@ -5,11 +5,11 @@ class Venus: Planet {
     
     var ring = Ring(ringSize: 0.5)
     
-    init() {
-        super.init(radius: 0.04, planetName: Planets.venus)
+    init(radius: CGFloat = 0.04, rotationSpeed: Float = 0.4) {
+        super.init(radius: radius, planetName: Planets.venus)
         
         self.position = SCNVector3(x: 0.5, y: 0, z: 0)
-        self.rotateObject(rotation: 0.4, duration: 0.4)
+        self.rotateObject(rotation: 0.4, duration: rotationSpeed)
         ring.rotateObject(rotation: 0.4, duration: 1)
         ring.addChildNode(self)
     }

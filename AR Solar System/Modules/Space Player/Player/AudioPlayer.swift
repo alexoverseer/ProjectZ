@@ -1,10 +1,6 @@
 import Foundation
 import AVFoundation
 
-protocol AudioPlayerDelegate: class {
-    func audioPlayerDidChangeTrack(trackName: String)
-}
-
 class AudioPlayer: NSObject {
     
     static let shared = AudioPlayer()
@@ -46,8 +42,8 @@ class AudioPlayer: NSObject {
     func play() {
         if UserDefaults.standard.backgroundMusicState {
             audioPlayer = try? AVAudioPlayer.init(contentsOf: audioTracks[trackIndex].trackURL)
-            audioPlayer?.delegate = self;
-            audioPlayer?.numberOfLoops = 0;
+            audioPlayer?.delegate = self
+            audioPlayer?.numberOfLoops = 0
             audioPlayer?.volume = UserDefaults.standard.backgroundMusicVolume
             audioPlayer?.play()
             delegate?.audioPlayerDidChangeTrack(trackName: audioTracks[trackIndex].trackName)

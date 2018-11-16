@@ -15,63 +15,43 @@ final class SolarSystemInteractor: SolarSystemOutput {
     
     weak var view: SolarSystemInput?
     
-    var planetOptions = [PlanetCategory(title: "Mercury", imageName: "", type: .mercury, isSelected: true),
-                         PlanetCategory(title: "Venus", imageName: "", type: .venus, isSelected: false),
-                         PlanetCategory(title: "Earth & Moon", imageName: "", type: .earthAndMoon, isSelected: false),
-                         PlanetCategory(title: "Mars", imageName: "", type: .mars, isSelected: false),
-                         PlanetCategory(title: "Jupiter & Moons", imageName: "", type: .jupiterAndMoons, isSelected: false),
-                         PlanetCategory(title: "Saturn & Moons", imageName: "", type: .saturnAndMoons, isSelected: false),
-                         PlanetCategory(title: "Uranus & Moons", imageName: "", type: .uranusAndMoons, isSelected: false),
-                         PlanetCategory(title: "Neptune & Triton", imageName: "", type: .neptuneAndMoons, isSelected: false),
-                         PlanetCategory(title: "Pluton & Charon", imageName: "", type: .plutonAndCharon, isSelected: false),
-                         PlanetCategory(title: "Solar System", imageName: "", type: .solarSystem, isSelected: false),
-                         PlanetCategory(title: "Sun, Earth & Moon", imageName: "", type: .sunEarthAndMoon, isSelected: false)]
+    var planetOptions = PlanetCategoryBuilder.buildCategories()
     
     func viewDidLoad() {
-        
-        let planetConfiguration = getPlanets(for: PlanetOption(rawValue: 0)!)
-        let generatedScene = generateScene(with: planetConfiguration)
+        let generatedScene = getScene(for: PlanetOption(rawValue: 0)!)
         view?.setupSceneView(with: generatedScene)
     }
     
     func setNewPlanetType(for index: Int) {
-        let planetConfiguration = getPlanets(for: PlanetOption(rawValue: index)!)
-        let generatedScene = generateScene(with: planetConfiguration)
+        let generatedScene = getScene(for: PlanetOption(rawValue: index)!)
         view?.setupSceneView(with: generatedScene)
     }
     
-    func getPlanets(for option: PlanetOption) -> [Planet] {
+    func getScene(for option: PlanetOption) -> SCNNode {
         
         switch option {
         case .mercury:
-            return [Mercury()]
+            return MercuryBuilder().build()
         case .venus:
-            return [Venus()]
+            return VenusBuilder().build()
         case .earthAndMoon:
-            return [Planet]()
+            return EarthAndMoonBuilder().build()
         case .mars:
-            return [Planet]()
+            return MarsBuilder().build()
         case .jupiterAndMoons:
-            return [Planet]()
+            return JupiterAndMoons().build()
         case .saturnAndMoons:
-            return [Planet]()
+            return SCNNode()
         case .uranusAndMoons:
-            return [Planet]()
+            return SCNNode()
         case .neptuneAndMoons:
-            return [Planet]()
+            return SCNNode()
         case .plutonAndCharon:
-            return [Planet]()
+            return SCNNode()
         case .solarSystem:
-            return [Sun(), Mercury(), Venus(), Earth(), Mars(), Jupiter(), Saturn(), Uranus(), Neptune(), Pluto()]
+            return SolarSystemPlanetBuilder().build()
         case .sunEarthAndMoon:
-            return [Planet]()
+            return SCNNode()
         }
-    }
-    
-    func generateScene(with planets: [Planet]) -> SCNNode {
-        let baseNode = SCNNode()
-        baseNode.position = SCNVector3(x: 0, y: -0.5, z: -1)
-        _ = planets.map { baseNode.addChildNode($0.planetWithRing()) }
-        return baseNode
     }
 }

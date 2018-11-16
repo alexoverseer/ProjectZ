@@ -59,13 +59,8 @@ final class AudioPlayerViewController: UIViewController, StoryboardInstantiable 
         dismiss(animated: true, completion: nil)
     }
     
-    
     private func updatePlayPauseButtonState() {
-        if AudioPlayer.shared.isPlaying() {
-            playPauseButton.isSelected = true
-        } else {
-            playPauseButton.isSelected = false
-        }
+        playPauseButton.isSelected = AudioPlayer.shared.isPlaying()
     }
 }
 

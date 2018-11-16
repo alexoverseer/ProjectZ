@@ -44,8 +44,7 @@ final class SolarSystemViewController: UIViewController, StoryboardInstantiable 
     }
     
     private func setupUI() {
-        planetsCollectionView.register(UINib(nibName: PlanetCollectionViewCell.identifier, bundle: nil),
-                                       forCellWithReuseIdentifier: PlanetCollectionViewCell.identifier)
+        planetsCollectionView?.register(cellType: PlanetCollectionViewCell.self)
     }
     
     @IBAction private func showManInSpace() {
@@ -73,9 +72,7 @@ extension SolarSystemViewController: ARSCNViewDelegate {
     
     func session(_ session: ARSession, didFailWithError error: Error) {
         DispatchQueue.main.async {
-//            let okAction = AlertAction(onSelect: {}, name: "OK", style: .default)
-//            let alert = UIAlertController(info: AlertInfo(title: "Error", message: error.localizedDescription, actions: [okAction]))
-//            self.present(alert, animated: true)
+            self.showAlert(with: "Error", alertMessage: error.localizedDescription)
         }
     }
 }
@@ -87,11 +84,7 @@ extension SolarSystemViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PlanetCollectionViewCell.identifier,
-                                                            for: indexPath) as? PlanetCollectionViewCell else {
-                                                                fatalError("DequeueReusableCell failed while casting")
-        }
+        let cell: PlanetCollectionViewCell = collectionView.dequeueReusableCell(for: indexPath)
         
         let planetOption = interactor.planetOptions[indexPath.row]
         cell.populate(with: planetOption)

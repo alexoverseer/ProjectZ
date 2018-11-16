@@ -1,8 +1,7 @@
 import UIKit
+import Reusable
 
-final class PlanetCollectionViewCell: UICollectionViewCell {
-
-    static let identifier = "PlanetCollectionViewCell"
+final class PlanetCollectionViewCell: UICollectionViewCell, NibReusable {
     
     @IBOutlet private weak var planetNameLabel: UILabel!
     @IBOutlet private weak var blureView: UIVisualEffectView!

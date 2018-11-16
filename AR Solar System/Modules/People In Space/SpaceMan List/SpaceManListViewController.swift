@@ -20,8 +20,7 @@ final class SpaceManListViewController: UIViewController, StoryboardInstantiable
     // MARK: - Private functions
     
     private func setupUI() {
-        cosmonautsListTableView.register(UINib(nibName: CosmonautTableViewCell.identifier, bundle: nil),
-                                         forCellReuseIdentifier: CosmonautTableViewCell.identifier)
+        cosmonautsListTableView?.register(cellType: CosmonautTableViewCell.self)
         cosmonautsListTableView.tableFooterView = UIView()
     }
 }
@@ -35,6 +34,7 @@ extension SpaceManListViewController: SpaceManListInput {
     
     func onError(_ error: ErrorType) {
         loadingActivityIndicator.stopAnimating()
+        showAlert(with: "Error", alertMessage: error.localizedDescription)
     }
     
     func showCosmonautDetails(spaceMan: SpaceMan) {
@@ -54,8 +54,7 @@ extension SpaceManListViewController: UITableViewDataSource {
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: CosmonautTableViewCell.identifier, for: indexPath) as! CosmonautTableViewCell
-        
+        let cell: CosmonautTableViewCell = tableView.dequeueReusableCell(for: indexPath)
         if let cosmonaut = interactor.peopleInSpaceRightNow?.people[indexPath.row] {
             cell.populate(with: cosmonaut)
         }

@@ -14,9 +14,17 @@ struct AlertInfo {
 }
 
 struct AlertAction {
-    let onSelect: () -> Void
+    typealias Action = (() -> Void)?
+    
+    let onSelect: Action
     let name: String
     let style: UIAlertAction.Style
+    
+    init(name: String, action: Action, style: UIAlertAction.Style = .destructive) {
+        self.onSelect = action
+        self.name = name
+        self.style = style
+    }
 }
 
 extension UIAlertController {
@@ -24,9 +32,17 @@ extension UIAlertController {
         self.init(title: info.title, message: info.message, preferredStyle: style)
         info.actions.forEach { actionInfo in
             let action = UIAlertAction(title: actionInfo.name, style: actionInfo.style, handler: { _ in
-                actionInfo.onSelect()
+                actionInfo.onSelect?()
             })
             self.addAction(action)
         }
+    }
+}
+
+extension UIViewController {
+    func showAlert(with title: String? = nil, alertMessage: String? = nil) {
+        let okAction = AlertAction(name: "OK", action: {})
+        let alert = UIAlertController(info: AlertInfo(title: title, message: alertMessage, actions: [okAction]))
+        self.present(alert, animated: true)
     }
 }

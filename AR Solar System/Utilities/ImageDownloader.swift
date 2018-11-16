@@ -5,8 +5,6 @@ struct SharedImageDownloader {
     
     static let shared = SharedImageDownloader()
     
-    private init() {}
-    
     // MARK: - Public
     
     func fetchImage(with imageUrl: String, completion: @escaping (UIImage?) -> Void) {

@@ -7,5 +7,6 @@ target 'AR Solar System' do
   pod 'Alamofire'
   pod 'SwiftLint'
   pod 'Kingfisher'
-
+  pod 'Reusable'
+  
 end

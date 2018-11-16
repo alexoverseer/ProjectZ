@@ -1,8 +1,7 @@
 import UIKit
+import Reusable
 
-class CosmonautTableViewCell: UITableViewCell {
-
-    static let identifier = "CosmonautTableViewCell"
+class CosmonautTableViewCell: UITableViewCell, NibReusable {
     
     @IBOutlet weak var comsmonautNameLabel: UILabel!
     @IBOutlet weak var comsmonautCountryFlagImageView: UIImageView!

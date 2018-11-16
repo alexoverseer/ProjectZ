@@ -5,11 +5,11 @@ class Mercury: Planet {
     
     var ring = Ring(ringSize: 0.3)
     
-    init() {
-        super.init(radius: 0.03, planetName: Planets.mercury)
+    init(radius: CGFloat = 0.03, rotationSpeed: Float = 0.4) {
+        super.init(radius: radius, planetName: Planets.mercury)
         
         self.position = SCNVector3(x: 0.3, y: 0, z: 0)
-        self.rotateObject(rotation: 0.6, duration: 0.4)
+        self.rotateObject(rotation: 0.6, duration: rotationSpeed)
         ring.rotateObject(rotation: 0.6, duration: 1)
         ring.addChildNode(self)
     }
