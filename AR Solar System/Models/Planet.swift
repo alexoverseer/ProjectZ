@@ -14,14 +14,21 @@ enum Planets: String {
     case pluto = "Pluto"
 }
 
+enum JupiterMoons: String {
+    case ioMoon = "Io"
+    case europa = "Europa"
+    case genymede = "Genymede"
+    case callisto = "Callisto"
+}
+
 class Planet: SCNNode {
     
-    init(radius: CGFloat, planetName: Planets) {
+    init(radius: CGFloat, planetName: String) {
         super.init()
         
         let planet = SCNSphere(radius: radius)
         let material = SCNMaterial()
-        material.diffuse.contents = UIImage(named: "\(planetName.rawValue).jpg")
+        material.diffuse.contents = UIImage(named: "\(planetName).jpg")
         planet.materials = [material]
         
         self.geometry = planet

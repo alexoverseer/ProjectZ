@@ -1,17 +1,17 @@
 import Foundation
 import ARKit
 
-class Venus: Planet {
+class IoMoon: Planet {
     
     var ring = Ring(ringSize: 0.5)
     
-    init(radius: CGFloat = 0.04, rotationSpeed: Float = 0.4) {
-        super.init(radius: radius, planetName: Planets.venus.rawValue)
+    init(radius: CGFloat = 0.05, rotationSpeed: Float = 0.4) {
+        super.init(radius: radius, planetName: JupiterMoons.ioMoon.rawValue)
         
         self.position = SCNVector3(x: 0.5, y: 0, z: 0)
-        self.rotateObject(rotation: 0.4, duration: rotationSpeed)
-        ring.rotateObject(rotation: 0.4, duration: 1)
+        self.rotateObject(rotation: 1, duration: rotationSpeed)
         ring.addChildNode(self)
+        
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -19,6 +19,7 @@ class Venus: Planet {
     }
     
     override func planetWithRing() -> SCNNode {
+        
         return ring
     }
 }

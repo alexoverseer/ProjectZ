@@ -6,7 +6,7 @@ class Earth: Planet {
     var ring = Ring(ringSize: 0.7)
     
     init(radius: CGFloat = 0.05, rotationSpeed: Float = 0.4, moon: Planet = Moon()) {
-        super.init(radius: radius, planetName: Planets.earth)
+        super.init(radius: radius, planetName: Planets.earth.rawValue)
         
         self.position = SCNVector3(x: 0.7, y: 0, z: 0)
         self.rotateObject(rotation: 0.25, duration: rotationSpeed)

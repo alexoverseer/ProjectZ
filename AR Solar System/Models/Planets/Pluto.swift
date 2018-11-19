@@ -6,7 +6,7 @@ class Pluto: Planet {
     let ring = Ring(ringSize: 2)
     
     init() {
-        super.init(radius: 0.02, planetName: Planets.pluto)
+        super.init(radius: 0.02, planetName: Planets.pluto.rawValue)
         
         self.position = SCNVector3(x: 2, y: 0, z: 0)
         self.rotateObject(rotation: 0.1, duration: 0.4)
