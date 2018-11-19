@@ -33,15 +33,13 @@ final class SolarSystemInteractor: SolarSystemOutput {
         case .saturnAndMoons:
             return SaturnAndMoonsBuilder().build()
         case .uranusAndMoons:
-            return SCNNode()
+            return UranusAndMoonsBuilder().build()
         case .neptuneAndMoons:
             return SCNNode()
         case .plutonAndCharon:
             return SCNNode()
         case .solarSystem:
             return SolarSystemPlanetBuilder().build()
-        case .sunEarthAndMoon:
-            return SCNNode()
         }
     }
 }

@@ -14,8 +14,8 @@ class Saturn: Planet {
         ring.addChildNode(self)
         addLoops(width: radius * 5)
         
-        guard let jupiterMoons = moons else { return }
-        _ = jupiterMoons.map { self.addChildNode($0) }
+        guard let saturnMoons = moons else { return }
+        _ = saturnMoons.map { self.addChildNode($0) }
     }
     
     private func addLoops(width: CGFloat) {

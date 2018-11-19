@@ -29,6 +29,14 @@ enum SaturnMoons: String {
     case tethys = "Tethys"
 }
 
+enum UranusMoons: String {
+    case ariel = "Ariel"
+    case miranda = "Miranda"
+    case oberon = "Oberon"
+    case titania = "Titania"
+    case umbriel = "Umbriel"
+}
+
 class Planet: SCNNode {
     
     init(radius: CGFloat, planetName: String) {

@@ -11,7 +11,6 @@ enum PlanetOption: Int {
     case neptuneAndMoons
     case plutonAndCharon
     case solarSystem
-    case sunEarthAndMoon
 }
 
 final class PlanetCategory {
@@ -40,8 +39,7 @@ final class PlanetCategoryBuilder {
                           PlanetCategory(title: "Uranus & Moons", imageName: "", type: .uranusAndMoons, isSelected: false),
                           PlanetCategory(title: "Neptune & Triton", imageName: "", type: .neptuneAndMoons, isSelected: false),
                           PlanetCategory(title: "Pluton & Charon", imageName: "", type: .plutonAndCharon, isSelected: false),
-                          PlanetCategory(title: "Solar System", imageName: "", type: .solarSystem, isSelected: false),
-                          PlanetCategory(title: "Sun, Earth & Moon", imageName: "", type: .sunEarthAndMoon, isSelected: false)]
+                          PlanetCategory(title: "Solar System", imageName: "", type: .solarSystem, isSelected: false)]
         
         return categories
     }
