@@ -14,6 +14,14 @@
 		BC0EADF92148465900A84818 /* SpaceManListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0EADF82148465900A84818 /* SpaceManListInteractor.swift */; };
 		BC0EADFB2148466600A84818 /* SpaceManListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0EADFA2148466600A84818 /* SpaceManListViewController.swift */; };
 		BC39A8E1214671520013D333 /* SCNNodeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC39A8E0214671520013D333 /* SCNNodeExtensions.swift */; };
+		BC43276A21A347E100D56149 /* Dione.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43276921A347E100D56149 /* Dione.swift */; };
+		BC43276C21A347EA00D56149 /* Enceladus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43276B21A347EA00D56149 /* Enceladus.swift */; };
+		BC43276E21A347F500D56149 /* Mimas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43276D21A347F500D56149 /* Mimas.swift */; };
+		BC43277021A3480000D56149 /* Rhea.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43276F21A3480000D56149 /* Rhea.swift */; };
+		BC43277221A3480E00D56149 /* Tethys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43277121A3480E00D56149 /* Tethys.swift */; };
+		BC43277621A3489200D56149 /* SaturnAndMoonsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43277521A3489200D56149 /* SaturnAndMoonsBuilder.swift */; };
+		BC43277921A34A6400D56149 /* SolarSystemInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43277821A34A6400D56149 /* SolarSystemInput.swift */; };
+		BC43277B21A34A6D00D56149 /* SolarSystemOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43277A21A34A6D00D56149 /* SolarSystemOutput.swift */; };
 		BC5CD7442147B6BB0048CCAF /* PlanetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD7422147B6BB0048CCAF /* PlanetCollectionViewCell.swift */; };
 		BC5CD7452147B6BB0048CCAF /* PlanetCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5CD7432147B6BB0048CCAF /* PlanetCollectionViewCell.xib */; };
 		BC5CD7472147C3070048CCAF /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD7462147C3070048CCAF /* StoryboardInstantiable.swift */; };
@@ -34,7 +42,7 @@
 		BC6807B72158108C00923B15 /* EarthAndMoonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6807B62158108C00923B15 /* EarthAndMoonBuilder.swift */; };
 		BC6807B9215816AD00923B15 /* SolarSystemPlanetBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6807B8215816AD00923B15 /* SolarSystemPlanetBuilder.swift */; };
 		BC6807BB2158192E00923B15 /* MarsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6807BA2158192E00923B15 /* MarsBuilder.swift */; };
-		BC6807BD21581D8100923B15 /* JupiterAndMoons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6807BC21581D8100923B15 /* JupiterAndMoons.swift */; };
+		BC6807BD21581D8100923B15 /* JupiterAndMoonsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6807BC21581D8100923B15 /* JupiterAndMoonsBuilder.swift */; };
 		BC6807C12158266F00923B15 /* EuropaMoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6807C02158266F00923B15 /* EuropaMoon.swift */; };
 		BC6807C32158268000923B15 /* GenymedeMoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6807C22158268000923B15 /* GenymedeMoon.swift */; };
 		BC6807C52158268800923B15 /* CalistoMoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6807C42158268800923B15 /* CalistoMoon.swift */; };
@@ -96,6 +104,14 @@
 		BC0EADF82148465900A84818 /* SpaceManListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManListInteractor.swift; sourceTree = "<group>"; };
 		BC0EADFA2148466600A84818 /* SpaceManListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManListViewController.swift; sourceTree = "<group>"; };
 		BC39A8E0214671520013D333 /* SCNNodeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNNodeExtensions.swift; sourceTree = "<group>"; };
+		BC43276921A347E100D56149 /* Dione.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dione.swift; sourceTree = "<group>"; };
+		BC43276B21A347EA00D56149 /* Enceladus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enceladus.swift; sourceTree = "<group>"; };
+		BC43276D21A347F500D56149 /* Mimas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mimas.swift; sourceTree = "<group>"; };
+		BC43276F21A3480000D56149 /* Rhea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rhea.swift; sourceTree = "<group>"; };
+		BC43277121A3480E00D56149 /* Tethys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tethys.swift; sourceTree = "<group>"; };
+		BC43277521A3489200D56149 /* SaturnAndMoonsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturnAndMoonsBuilder.swift; sourceTree = "<group>"; };
+		BC43277821A34A6400D56149 /* SolarSystemInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemInput.swift; sourceTree = "<group>"; };
+		BC43277A21A34A6D00D56149 /* SolarSystemOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemOutput.swift; sourceTree = "<group>"; };
 		BC5CD7422147B6BB0048CCAF /* PlanetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCollectionViewCell.swift; sourceTree = "<group>"; };
 		BC5CD7432147B6BB0048CCAF /* PlanetCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlanetCollectionViewCell.xib; sourceTree = "<group>"; };
 		BC5CD7462147C3070048CCAF /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
@@ -116,7 +132,7 @@
 		BC6807B62158108C00923B15 /* EarthAndMoonBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthAndMoonBuilder.swift; sourceTree = "<group>"; };
 		BC6807B8215816AD00923B15 /* SolarSystemPlanetBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemPlanetBuilder.swift; sourceTree = "<group>"; };
 		BC6807BA2158192E00923B15 /* MarsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsBuilder.swift; sourceTree = "<group>"; };
-		BC6807BC21581D8100923B15 /* JupiterAndMoons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JupiterAndMoons.swift; sourceTree = "<group>"; };
+		BC6807BC21581D8100923B15 /* JupiterAndMoonsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JupiterAndMoonsBuilder.swift; sourceTree = "<group>"; };
 		BC6807C02158266F00923B15 /* EuropaMoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropaMoon.swift; sourceTree = "<group>"; };
 		BC6807C22158268000923B15 /* GenymedeMoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenymedeMoon.swift; sourceTree = "<group>"; };
 		BC6807C42158268800923B15 /* CalistoMoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalistoMoon.swift; sourceTree = "<group>"; };
@@ -255,6 +271,37 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		BC43276721A347B800D56149 /* Saturn */ = {
+			isa = PBXGroup;
+			children = (
+				BC43276821A347C300D56149 /* Moons */,
+				BCF6D4E72146AF0B00D39D69 /* Saturn.swift */,
+			);
+			path = Saturn;
+			sourceTree = "<group>";
+		};
+		BC43276821A347C300D56149 /* Moons */ = {
+			isa = PBXGroup;
+			children = (
+				BC43276921A347E100D56149 /* Dione.swift */,
+				BC43276B21A347EA00D56149 /* Enceladus.swift */,
+				BC43276D21A347F500D56149 /* Mimas.swift */,
+				BC43276F21A3480000D56149 /* Rhea.swift */,
+				BC43277121A3480E00D56149 /* Tethys.swift */,
+			);
+			path = Moons;
+			sourceTree = "<group>";
+		};
+		BC43277721A34A4E00D56149 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				BC43277821A34A6400D56149 /* SolarSystemInput.swift */,
+				BC43277A21A34A6D00D56149 /* SolarSystemOutput.swift */,
+				BC5CD74A2147C3760048CCAF /* SolarSystemInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		BC5CD7412147B65F0048CCAF /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -302,7 +349,8 @@
 				BC6807B62158108C00923B15 /* EarthAndMoonBuilder.swift */,
 				BC6807B8215816AD00923B15 /* SolarSystemPlanetBuilder.swift */,
 				BC6807BA2158192E00923B15 /* MarsBuilder.swift */,
-				BC6807BC21581D8100923B15 /* JupiterAndMoons.swift */,
+				BC6807BC21581D8100923B15 /* JupiterAndMoonsBuilder.swift */,
+				BC43277521A3489200D56149 /* SaturnAndMoonsBuilder.swift */,
 			);
 			path = Builders;
 			sourceTree = "<group>";
@@ -354,7 +402,7 @@
 			children = (
 				BC5CD7412147B65F0048CCAF /* Cells */,
 				BC5CD7482147C33C0048CCAF /* SolarSystemBuilder.swift */,
-				BC5CD74A2147C3760048CCAF /* SolarSystemInteractor.swift */,
+				BC43277721A34A4E00D56149 /* Interactor */,
 				BCA6ED4821465D4B00CDFC18 /* SolarSystemViewController.swift */,
 				BC5CD74C2147C4AA0048CCAF /* SolarSystemViewController.storyboard */,
 			);
@@ -512,7 +560,7 @@
 				BCF6D4E12146AEF600D39D69 /* Moon.swift */,
 				BCF6D4E32146AEFE00D39D69 /* Mars.swift */,
 				BC6807BE2158262000923B15 /* Jupiter */,
-				BCF6D4E72146AF0B00D39D69 /* Saturn.swift */,
+				BC43276721A347B800D56149 /* Saturn */,
 				BCF6D4E92146AF1100D39D69 /* Uranus.swift */,
 				BCF6D4EB2146AF1B00D39D69 /* Neptune.swift */,
 				BCF6D4ED2146AF2300D39D69 /* Pluto.swift */,
@@ -668,16 +716,20 @@
 				BC39A8E1214671520013D333 /* SCNNodeExtensions.swift in Sources */,
 				BC5CD75D214807C00048CCAF /* Utils.swift in Sources */,
 				BCF6D4D72146AC7300D39D69 /* Ring.swift in Sources */,
-				BC6807BD21581D8100923B15 /* JupiterAndMoons.swift in Sources */,
+				BC43277921A34A6400D56149 /* SolarSystemInput.swift in Sources */,
+				BC6807BD21581D8100923B15 /* JupiterAndMoonsBuilder.swift in Sources */,
 				BCE383262152CD4E00662D79 /* AudioPlayerViewController.swift in Sources */,
 				BCF6D4E22146AEF600D39D69 /* Moon.swift in Sources */,
 				BCB0296E2150506A00881901 /* UIViewControllerExtensions.swift in Sources */,
 				BC5CD7492147C33C0048CCAF /* SolarSystemBuilder.swift in Sources */,
 				BCF6D4E02146AEEE00D39D69 /* Earth.swift in Sources */,
+				BC43276A21A347E100D56149 /* Dione.swift in Sources */,
+				BC43276C21A347EA00D56149 /* Enceladus.swift in Sources */,
 				BC0EADF72148464F00A84818 /* SpaceManListBuilder.swift in Sources */,
 				BC5CD755214806320048CCAF /* PeopleInSpaceRightNow.swift in Sources */,
 				BCF6D4E62146AF0500D39D69 /* Jupiter.swift in Sources */,
 				BC6807C32158268000923B15 /* GenymedeMoon.swift in Sources */,
+				BC43277621A3489200D56149 /* SaturnAndMoonsBuilder.swift in Sources */,
 				BC6807B9215816AD00923B15 /* SolarSystemPlanetBuilder.swift in Sources */,
 				BC5CD757214806560048CCAF /* SpaceMan.swift in Sources */,
 				BC6807BB2158192E00923B15 /* MarsBuilder.swift in Sources */,
@@ -687,6 +739,7 @@
 				BCE383242152CD3600662D79 /* AudioPlayerInteractor.swift in Sources */,
 				BCF6D4EA2146AF1100D39D69 /* Uranus.swift in Sources */,
 				BCF11CE7219DFF21004AFD5F /* SpacePeopleProtocol.swift in Sources */,
+				BC43277B21A34A6D00D56149 /* SolarSystemOutput.swift in Sources */,
 				BCF6D4EC2146AF1B00D39D69 /* Neptune.swift in Sources */,
 				BCB029682150433B00881901 /* SpaceManDetailsBuilder.swift in Sources */,
 				BC6807B521580FD000923B15 /* VenusBuilder.swift in Sources */,
@@ -696,7 +749,9 @@
 				BCF11CEB219E03D7004AFD5F /* AudioTracksBuilder.swift in Sources */,
 				BC5CD75A214807200048CCAF /* Request.swift in Sources */,
 				BC5CD760214807F60048CCAF /* SpacePeopleService.swift in Sources */,
+				BC43276E21A347F500D56149 /* Mimas.swift in Sources */,
 				BC5CD7442147B6BB0048CCAF /* PlanetCollectionViewCell.swift in Sources */,
+				BC43277021A3480000D56149 /* Rhea.swift in Sources */,
 				BCF11CE3219DFC2B004AFD5F /* AppConfigurable.swift in Sources */,
 				BC5CD75B214807200048CCAF /* ErrorType.swift in Sources */,
 				BCF11CF4219EA91A004AFD5F /* SpaceManListInput.swift in Sources */,
@@ -725,6 +780,7 @@
 				BCE3832A2152DEC100662D79 /* UserDefaults+AudioPlayerSettings.swift in Sources */,
 				BC5CD74B2147C3760048CCAF /* SolarSystemInteractor.swift in Sources */,
 				BC5CD7502147DC6E0048CCAF /* PlanetOption.swift in Sources */,
+				BC43277221A3480E00D56149 /* Tethys.swift in Sources */,
 				BCF6D4DC2146AEE000D39D69 /* Mercury.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

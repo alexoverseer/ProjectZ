@@ -1,16 +1,6 @@
 import Foundation
 import ARKit
 
-protocol SolarSystemInput: class {
-    func setupSceneView(with node: SCNNode)
-}
-
-protocol SolarSystemOutput {
-    var planetOptions: [PlanetCategory] { get }
-    func viewDidLoad()
-    func setNewPlanetType(for index: Int)
-}
-
 final class SolarSystemInteractor: SolarSystemOutput {
     
     weak var view: SolarSystemInput?
@@ -39,9 +29,9 @@ final class SolarSystemInteractor: SolarSystemOutput {
         case .mars:
             return MarsBuilder().build()
         case .jupiterAndMoons:
-            return JupiterAndMoons().build()
+            return JupiterAndMoonsBuilder().build()
         case .saturnAndMoons:
-            return SCNNode()
+            return SaturnAndMoonsBuilder().build()
         case .uranusAndMoons:
             return SCNNode()
         case .neptuneAndMoons:

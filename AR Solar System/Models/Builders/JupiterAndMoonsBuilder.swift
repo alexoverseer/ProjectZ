@@ -1,7 +1,7 @@
 import Foundation
 import ARKit
 
-final class JupiterAndMoons: PlanetBuilder {
+final class JupiterAndMoonsBuilder: PlanetBuilder {
     
     func build() -> SCNNode {
         let moons = [IoMoon(), EuropaMoon(), GenymedeMoon(), CalistoMoon()]

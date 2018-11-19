@@ -5,19 +5,22 @@ class Saturn: Planet {
     
     let ring = Ring(ringSize: 1.25)
     
-    init() {
-        super.init(radius: 0.09, planetName: Planets.saturn.rawValue)
+    init(radius: CGFloat = 0.1, rotationSpeed: Float = 0.4, moons: [Planet]? = nil) {
+        super.init(radius: radius, planetName: Planets.saturn.rawValue)
         
         self.position = SCNVector3(x: 1.25, y: 0, z: 0)
-        self.rotateObject(rotation: 0.34, duration: 0.4)
+        self.rotateObject(rotation: 0.34, duration: rotationSpeed)
         ring.rotateObject(rotation: 0.34, duration: 1)
         ring.addChildNode(self)
-        addLoops()
+        addLoops(width: radius * 5)
+        
+        guard let jupiterMoons = moons else { return }
+        _ = jupiterMoons.map { self.addChildNode($0) }
     }
     
-    private func addLoops() {
+    private func addLoops(width: CGFloat) {
         
-        let saturnLoop = SCNBox(width: 0.4, height: 0, length: 0.5, chamferRadius: 0)
+        let saturnLoop = SCNBox(width: width, height: 0, length: width, chamferRadius: 0)
         let saturnLoopMaterial = SCNMaterial()
         saturnLoopMaterial.diffuse.contents = #imageLiteral(resourceName: "Saturn_loop")
         saturnLoop.materials = [saturnLoopMaterial]
