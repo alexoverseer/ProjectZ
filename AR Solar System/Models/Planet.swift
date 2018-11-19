@@ -41,6 +41,10 @@ enum NeptuneMoons: String {
     case triton = "Triton"
 }
 
+enum PlutoMoons: String {
+    case charon = "Charon"
+}
+
 class Planet: SCNNode {
     
     init(radius: CGFloat, planetName: String) {

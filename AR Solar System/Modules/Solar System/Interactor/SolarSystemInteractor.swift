@@ -37,7 +37,7 @@ final class SolarSystemInteractor: SolarSystemOutput {
         case .neptuneAndMoons:
             return NeptuneAndMoonsBuilder().build()
         case .plutonAndCharon:
-            return SCNNode()
+            return PlutoAndMoonsBuilder().build()
         case .solarSystem:
             return SolarSystemPlanetBuilder().build()
         }
