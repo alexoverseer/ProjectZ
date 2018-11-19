@@ -47,6 +47,8 @@ final class SolarSystemViewController: UIViewController, StoryboardInstantiable 
         planetsCollectionView?.register(cellType: PlanetCollectionViewCell.self)
     }
     
+    // MARK: - Actions
+    
     @IBAction private func showManInSpace() {
         let controller = SpaceManListBuilder.build()
         navigationController?.pushViewController(controller, animated: true)
@@ -55,6 +57,18 @@ final class SolarSystemViewController: UIViewController, StoryboardInstantiable 
     @IBAction private func showAudioPlayer() {
         let controller = AudioPlayerBuilder.build()
         present(controller, animated: true, completion: nil)
+    }
+    
+    @IBAction func showFactsAboutPlanet() {
+        
+    }
+    
+    @IBAction func showDistanceFromEarth() {
+//        let planetCategory = interactor.selectedOption
+//        let controller = PlanetDistanceBuilder.build(with: planetCategory)
+//        controller.modalTransitionStyle = .crossDissolve
+//        controller.modalPresentationStyle = .fullScreen
+//        self.addChild(controller)
     }
 }
 
@@ -74,47 +88,5 @@ extension SolarSystemViewController: ARSCNViewDelegate {
         DispatchQueue.main.async {
             self.showAlert(with: "Error", alertMessage: error.localizedDescription)
         }
-    }
-}
-
-extension SolarSystemViewController: UICollectionViewDataSource {
-    
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return interactor.planetOptions.count
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell: PlanetCollectionViewCell = collectionView.dequeueReusableCell(for: indexPath)
-        
-        let planetOption = interactor.planetOptions[indexPath.row]
-        cell.populate(with: planetOption)
-        
-        return cell
-    }
-}
-
-extension SolarSystemViewController: UICollectionViewDelegate {
-    
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
-        _ = interactor.planetOptions.map {$0.isSelected = false}
-        interactor.planetOptions[indexPath.row].isSelected = true
-        interactor.setNewPlanetType(for: indexPath.row)
-        planetsCollectionView.reloadData()
-        planetsCollectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
-    }
-}
-
-extension SolarSystemViewController: UICollectionViewDelegateFlowLayout {
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        
-        return CGSize(width: collectionView.frame.width / 3,
-                      height: collectionView.frame.height - 16)
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        
-        return 8
     }
 }

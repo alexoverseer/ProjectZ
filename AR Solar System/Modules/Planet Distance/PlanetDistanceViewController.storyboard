@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Planet Distance View Controller-->
+        <scene sceneID="vZZ-wd-425">
+            <objects>
+                <viewController storyboardIdentifier="PlanetDistanceViewController" id="QvT-a3-X8R" customClass="PlanetDistanceViewController" customModule="AR_Solar_System" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8vc-tk-YaU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CPC-1o-twv">
+                                <rect key="frame" x="20" y="40" width="335" height="607"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="vRk-3m-lJG">
+                                    <rect key="frame" x="0.0" y="0.0" width="335" height="607"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gMv-Fg-EC0">
+                                            <rect key="frame" x="0.0" y="0.0" width="335" height="40"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compas_icon" translatesAutoresizingMaskIntoConstraints="NO" id="k3W-iA-1pt">
+                                                    <rect key="frame" x="8" y="5" width="30" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="30" id="EaP-cE-ntg"/>
+                                                        <constraint firstAttribute="height" constant="30" id="HmN-5E-SkG"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Navigation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tRK-lu-GcU">
+                                                    <rect key="frame" x="46" y="8" width="233" height="24"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCw-eG-xdY">
+                                                    <rect key="frame" x="287" y="0.0" width="40" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="Uh7-jX-4gm"/>
+                                                        <constraint firstAttribute="width" constant="40" id="wpd-H8-LGE"/>
+                                                    </constraints>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <state key="normal" image="playerButtonClose"/>
+                                                    <connections>
+                                                        <action selector="closeModule" destination="QvT-a3-X8R" eventType="touchUpInside" id="Mmh-RV-xbk"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="1Dt-eF-ezX"/>
+                                                <constraint firstItem="QCw-eG-xdY" firstAttribute="leading" secondItem="tRK-lu-GcU" secondAttribute="trailing" constant="8" id="DEj-k1-EKS"/>
+                                                <constraint firstAttribute="bottom" secondItem="tRK-lu-GcU" secondAttribute="bottom" constant="8" id="Ezh-36-4nL"/>
+                                                <constraint firstItem="QCw-eG-xdY" firstAttribute="centerY" secondItem="gMv-Fg-EC0" secondAttribute="centerY" id="PMh-37-Bow"/>
+                                                <constraint firstAttribute="trailing" secondItem="QCw-eG-xdY" secondAttribute="trailing" constant="8" id="lIH-MZ-Jv1"/>
+                                                <constraint firstItem="k3W-iA-1pt" firstAttribute="centerY" secondItem="gMv-Fg-EC0" secondAttribute="centerY" id="p64-OV-PSn"/>
+                                                <constraint firstItem="tRK-lu-GcU" firstAttribute="leading" secondItem="k3W-iA-1pt" secondAttribute="trailing" constant="8" id="qEj-02-EAm"/>
+                                                <constraint firstItem="k3W-iA-1pt" firstAttribute="leading" secondItem="gMv-Fg-EC0" secondAttribute="leading" constant="8" id="slU-xO-GIk"/>
+                                                <constraint firstItem="tRK-lu-GcU" firstAttribute="top" secondItem="gMv-Fg-EC0" secondAttribute="top" constant="8" id="taO-bN-zEr"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="gMv-Fg-EC0" firstAttribute="top" secondItem="vRk-3m-lJG" secondAttribute="top" id="7nC-Ex-LYj"/>
+                                        <constraint firstAttribute="trailing" secondItem="gMv-Fg-EC0" secondAttribute="trailing" id="KVx-ql-6YH"/>
+                                        <constraint firstItem="gMv-Fg-EC0" firstAttribute="leading" secondItem="vRk-3m-lJG" secondAttribute="leading" id="aIL-Li-t17"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <blurEffect style="dark"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CPC-1o-twv" firstAttribute="leading" secondItem="Xea-IH-2ok" secondAttribute="leading" constant="20" id="B2t-pB-iSj"/>
+                            <constraint firstItem="Xea-IH-2ok" firstAttribute="trailing" secondItem="CPC-1o-twv" secondAttribute="trailing" constant="20" id="ccJ-8R-CeC"/>
+                            <constraint firstItem="CPC-1o-twv" firstAttribute="top" secondItem="Xea-IH-2ok" secondAttribute="top" constant="20" id="rdI-lU-esb"/>
+                            <constraint firstItem="Xea-IH-2ok" firstAttribute="bottom" secondItem="CPC-1o-twv" secondAttribute="bottom" constant="20" id="sz5-wE-PLn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Xea-IH-2ok"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AxO-1h-rBI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125.59999999999999" y="-118.29085457271366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="compas_icon" width="33" height="33"/>
+        <image name="playerButtonClose" width="17" height="17"/>
+    </resources>
+</document>

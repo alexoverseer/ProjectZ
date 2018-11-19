@@ -7,6 +7,10 @@ final class SolarSystemInteractor: SolarSystemOutput {
     
     var planetOptions = PlanetCategoryBuilder.buildCategories()
     
+    var selectedOption: PlanetCategory {
+        return planetOptions.filter { $0.isSelected }.first ?? planetOptions[0]
+    }
+    
     func viewDidLoad() {
         let generatedScene = getScene(for: PlanetOption(rawValue: 0)!)
         view?.setupSceneView(with: generatedScene)

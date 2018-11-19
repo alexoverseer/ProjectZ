@@ -32,6 +32,14 @@
 		BC43278F21A35CAD00D56149 /* NeptuneAndMoonsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43278E21A35CAD00D56149 /* NeptuneAndMoonsBuilder.swift */; };
 		BC43279321A35EAF00D56149 /* Charon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43279221A35EAF00D56149 /* Charon.swift */; };
 		BC43279521A35F0000D56149 /* PlutoAndMoonsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43279421A35F0000D56149 /* PlutoAndMoonsBuilder.swift */; };
+		BC43279721A3660700D56149 /* SolarSystemViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43279621A3660700D56149 /* SolarSystemViewController+CollectionView.swift */; };
+		BC43279921A3666900D56149 /* PlanetCellSizeGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43279821A3666900D56149 /* PlanetCellSizeGuide.swift */; };
+		BC43279C21A3691100D56149 /* PlanetDistanceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43279B21A3691100D56149 /* PlanetDistanceBuilder.swift */; };
+		BC43279F21A3692F00D56149 /* PlanetDistanceInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43279E21A3692F00D56149 /* PlanetDistanceInput.swift */; };
+		BC4327A121A3693900D56149 /* PlanetDistanceOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4327A021A3693900D56149 /* PlanetDistanceOutput.swift */; };
+		BC4327A321A3694700D56149 /* PlanetDistanceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4327A221A3694700D56149 /* PlanetDistanceInteractor.swift */; };
+		BC4327A521A3695F00D56149 /* PlanetDistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4327A421A3695F00D56149 /* PlanetDistanceViewController.swift */; };
+		BC4327A921A37B2B00D56149 /* PlanetDistanceViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4327A821A37B2B00D56149 /* PlanetDistanceViewController.storyboard */; };
 		BC5CD7442147B6BB0048CCAF /* PlanetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD7422147B6BB0048CCAF /* PlanetCollectionViewCell.swift */; };
 		BC5CD7452147B6BB0048CCAF /* PlanetCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5CD7432147B6BB0048CCAF /* PlanetCollectionViewCell.xib */; };
 		BC5CD7472147C3070048CCAF /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD7462147C3070048CCAF /* StoryboardInstantiable.swift */; };
@@ -132,6 +140,14 @@
 		BC43278E21A35CAD00D56149 /* NeptuneAndMoonsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeptuneAndMoonsBuilder.swift; sourceTree = "<group>"; };
 		BC43279221A35EAF00D56149 /* Charon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charon.swift; sourceTree = "<group>"; };
 		BC43279421A35F0000D56149 /* PlutoAndMoonsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlutoAndMoonsBuilder.swift; sourceTree = "<group>"; };
+		BC43279621A3660700D56149 /* SolarSystemViewController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SolarSystemViewController+CollectionView.swift"; sourceTree = "<group>"; };
+		BC43279821A3666900D56149 /* PlanetCellSizeGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCellSizeGuide.swift; sourceTree = "<group>"; };
+		BC43279B21A3691100D56149 /* PlanetDistanceBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDistanceBuilder.swift; sourceTree = "<group>"; };
+		BC43279E21A3692F00D56149 /* PlanetDistanceInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDistanceInput.swift; sourceTree = "<group>"; };
+		BC4327A021A3693900D56149 /* PlanetDistanceOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDistanceOutput.swift; sourceTree = "<group>"; };
+		BC4327A221A3694700D56149 /* PlanetDistanceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDistanceInteractor.swift; sourceTree = "<group>"; };
+		BC4327A421A3695F00D56149 /* PlanetDistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDistanceViewController.swift; sourceTree = "<group>"; };
+		BC4327A821A37B2B00D56149 /* PlanetDistanceViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PlanetDistanceViewController.storyboard; sourceTree = "<group>"; };
 		BC5CD7422147B6BB0048CCAF /* PlanetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCollectionViewCell.swift; sourceTree = "<group>"; };
 		BC5CD7432147B6BB0048CCAF /* PlanetCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlanetCollectionViewCell.xib; sourceTree = "<group>"; };
 		BC5CD7462147C3070048CCAF /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
@@ -377,9 +393,31 @@
 			path = Moons;
 			sourceTree = "<group>";
 		};
+		BC43279A21A368E900D56149 /* Planet Distance */ = {
+			isa = PBXGroup;
+			children = (
+				BC43279B21A3691100D56149 /* PlanetDistanceBuilder.swift */,
+				BC43279D21A3691D00D56149 /* Interactor */,
+				BC4327A421A3695F00D56149 /* PlanetDistanceViewController.swift */,
+				BC4327A821A37B2B00D56149 /* PlanetDistanceViewController.storyboard */,
+			);
+			path = "Planet Distance";
+			sourceTree = "<group>";
+		};
+		BC43279D21A3691D00D56149 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				BC43279E21A3692F00D56149 /* PlanetDistanceInput.swift */,
+				BC4327A021A3693900D56149 /* PlanetDistanceOutput.swift */,
+				BC4327A221A3694700D56149 /* PlanetDistanceInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		BC5CD7412147B65F0048CCAF /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				BC43279821A3666900D56149 /* PlanetCellSizeGuide.swift */,
 				BC5CD7422147B6BB0048CCAF /* PlanetCollectionViewCell.swift */,
 				BC5CD7432147B6BB0048CCAF /* PlanetCollectionViewCell.xib */,
 			);
@@ -469,6 +507,7 @@
 			isa = PBXGroup;
 			children = (
 				BCA10BEB214665990049F72C /* Solar System */,
+				BC43279A21A368E900D56149 /* Planet Distance */,
 				BC0EADEF2148456100A84818 /* People In Space */,
 				BCE383202152CC8F00662D79 /* Space Player */,
 			);
@@ -482,6 +521,7 @@
 				BC5CD7482147C33C0048CCAF /* SolarSystemBuilder.swift */,
 				BC43277721A34A4E00D56149 /* Interactor */,
 				BCA6ED4821465D4B00CDFC18 /* SolarSystemViewController.swift */,
+				BC43279621A3660700D56149 /* SolarSystemViewController+CollectionView.swift */,
 				BC5CD74C2147C4AA0048CCAF /* SolarSystemViewController.storyboard */,
 			);
 			path = "Solar System";
@@ -720,6 +760,7 @@
 				BCA6ED5121465D4C00CDFC18 /* LaunchScreen.storyboard in Resources */,
 				BCA6ED4E21465D4C00CDFC18 /* Assets.xcassets in Resources */,
 				BCCAEF302150324A0080C2FC /* CosmonautTableViewCell.xib in Resources */,
+				BC4327A921A37B2B00D56149 /* PlanetDistanceViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -799,6 +840,7 @@
 				BC5CD75D214807C00048CCAF /* Utils.swift in Sources */,
 				BCF6D4D72146AC7300D39D69 /* Ring.swift in Sources */,
 				BC43277921A34A6400D56149 /* SolarSystemInput.swift in Sources */,
+				BC43279721A3660700D56149 /* SolarSystemViewController+CollectionView.swift in Sources */,
 				BC43278F21A35CAD00D56149 /* NeptuneAndMoonsBuilder.swift in Sources */,
 				BC6807BD21581D8100923B15 /* JupiterAndMoonsBuilder.swift in Sources */,
 				BCE383262152CD4E00662D79 /* AudioPlayerViewController.swift in Sources */,
@@ -823,6 +865,8 @@
 				BCF6D4EA2146AF1100D39D69 /* Uranus.swift in Sources */,
 				BCF11CE7219DFF21004AFD5F /* SpacePeopleProtocol.swift in Sources */,
 				BC43277B21A34A6D00D56149 /* SolarSystemOutput.swift in Sources */,
+				BC4327A321A3694700D56149 /* PlanetDistanceInteractor.swift in Sources */,
+				BC43279921A3666900D56149 /* PlanetCellSizeGuide.swift in Sources */,
 				BCF6D4EC2146AF1B00D39D69 /* Neptune.swift in Sources */,
 				BCB029682150433B00881901 /* SpaceManDetailsBuilder.swift in Sources */,
 				BC6807B521580FD000923B15 /* VenusBuilder.swift in Sources */,
@@ -830,7 +874,9 @@
 				BC6807C72158269500923B15 /* IoMoon.swift in Sources */,
 				BC6807C12158266F00923B15 /* EuropaMoon.swift in Sources */,
 				BCF11CEB219E03D7004AFD5F /* AudioTracksBuilder.swift in Sources */,
+				BC4327A121A3693900D56149 /* PlanetDistanceOutput.swift in Sources */,
 				BC5CD75A214807200048CCAF /* Request.swift in Sources */,
+				BC43279F21A3692F00D56149 /* PlanetDistanceInput.swift in Sources */,
 				BC5CD760214807F60048CCAF /* SpacePeopleService.swift in Sources */,
 				BC43276E21A347F500D56149 /* Mimas.swift in Sources */,
 				BC43278D21A35C6A00D56149 /* Triton.swift in Sources */,
@@ -841,6 +887,7 @@
 				BCF11CF4219EA91A004AFD5F /* SpaceManListInput.swift in Sources */,
 				BCE383322152E8CB00662D79 /* TracksBuilder.swift in Sources */,
 				BCCAEF2F2150324A0080C2FC /* CosmonautTableViewCell.swift in Sources */,
+				BC4327A521A3695F00D56149 /* PlanetDistanceViewController.swift in Sources */,
 				BCF6D4DA2146AED000D39D69 /* Sun.swift in Sources */,
 				BC43279521A35F0000D56149 /* PlutoAndMoonsBuilder.swift in Sources */,
 				BCB0296A2150434600881901 /* SpaceManDetailsInteractor.swift in Sources */,
@@ -867,6 +914,7 @@
 				BCE3832A2152DEC100662D79 /* UserDefaults+AudioPlayerSettings.swift in Sources */,
 				BC5CD74B2147C3760048CCAF /* SolarSystemInteractor.swift in Sources */,
 				BC43279321A35EAF00D56149 /* Charon.swift in Sources */,
+				BC43279C21A3691100D56149 /* PlanetDistanceBuilder.swift in Sources */,
 				BC5CD7502147DC6E0048CCAF /* PlanetOption.swift in Sources */,
 				BC43277221A3480E00D56149 /* Tethys.swift in Sources */,
 				BCF6D4DC2146AEE000D39D69 /* Mercury.swift in Sources */,
