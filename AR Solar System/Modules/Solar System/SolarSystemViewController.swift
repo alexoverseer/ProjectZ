@@ -64,11 +64,11 @@ final class SolarSystemViewController: UIViewController, StoryboardInstantiable 
     }
     
     @IBAction func showDistanceFromEarth() {
-//        let planetCategory = interactor.selectedOption
-//        let controller = PlanetDistanceBuilder.build(with: planetCategory)
-//        controller.modalTransitionStyle = .crossDissolve
-//        controller.modalPresentationStyle = .fullScreen
-//        self.addChild(controller)
+        let planetCategory = interactor.selectedOption
+        let controller = PlanetDistanceBuilder.build(with: planetCategory)
+        controller.modalTransitionStyle = .crossDissolve
+        controller.modalPresentationStyle = .overCurrentContext
+        self.present(controller, animated: true, completion: nil)
     }
 }
 

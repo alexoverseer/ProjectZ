@@ -13,6 +13,16 @@
 		BC0EADF72148464F00A84818 /* SpaceManListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0EADF62148464F00A84818 /* SpaceManListBuilder.swift */; };
 		BC0EADF92148465900A84818 /* SpaceManListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0EADF82148465900A84818 /* SpaceManListInteractor.swift */; };
 		BC0EADFB2148466600A84818 /* SpaceManListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0EADFA2148466600A84818 /* SpaceManListViewController.swift */; };
+		BC20531C21AC668A003807FD /* ApplicationCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20531A21AC6689003807FD /* ApplicationCache.swift */; };
+		BC20531D21AC668A003807FD /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20531B21AC668A003807FD /* Decoder.swift */; };
+		BC20531F21AC66E1003807FD /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20531E21AC66E1003807FD /* Repository.swift */; };
+		BC20532121AC672E003807FD /* NavigationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20532021AC672E003807FD /* NavigationRepository.swift */; };
+		BC20532421AC6778003807FD /* DefaultNavigationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20532321AC6778003807FD /* DefaultNavigationRepository.swift */; };
+		BC20532621AC6DDF003807FD /* navigation.json in Resources */ = {isa = PBXBuildFile; fileRef = BC20532521AC6DDF003807FD /* navigation.json */; };
+		BC20532821AC7037003807FD /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20532721AC7037003807FD /* Navigation.swift */; };
+		BC20532A21AC74B6003807FD /* ViewModelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20532921AC74B6003807FD /* ViewModelBuilder.swift */; };
+		BC20532C21AC868E003807FD /* PlanetCategoryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20532B21AC868E003807FD /* PlanetCategoryBuilder.swift */; };
+		BC20532F21AC86C7003807FD /* PlanetCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20532E21AC86C7003807FD /* PlanetCategory.swift */; };
 		BC39A8E1214671520013D333 /* SCNNodeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC39A8E0214671520013D333 /* SCNNodeExtensions.swift */; };
 		BC43276A21A347E100D56149 /* Dione.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43276921A347E100D56149 /* Dione.swift */; };
 		BC43276C21A347EA00D56149 /* Enceladus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43276B21A347EA00D56149 /* Enceladus.swift */; };
@@ -121,6 +131,16 @@
 		BC0EADF62148464F00A84818 /* SpaceManListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManListBuilder.swift; sourceTree = "<group>"; };
 		BC0EADF82148465900A84818 /* SpaceManListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManListInteractor.swift; sourceTree = "<group>"; };
 		BC0EADFA2148466600A84818 /* SpaceManListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManListViewController.swift; sourceTree = "<group>"; };
+		BC20531A21AC6689003807FD /* ApplicationCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationCache.swift; sourceTree = "<group>"; };
+		BC20531B21AC668A003807FD /* Decoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
+		BC20531E21AC66E1003807FD /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		BC20532021AC672E003807FD /* NavigationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRepository.swift; sourceTree = "<group>"; };
+		BC20532321AC6778003807FD /* DefaultNavigationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNavigationRepository.swift; sourceTree = "<group>"; };
+		BC20532521AC6DDF003807FD /* navigation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = navigation.json; sourceTree = "<group>"; };
+		BC20532721AC7037003807FD /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		BC20532921AC74B6003807FD /* ViewModelBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBuilder.swift; sourceTree = "<group>"; };
+		BC20532B21AC868E003807FD /* PlanetCategoryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCategoryBuilder.swift; sourceTree = "<group>"; };
+		BC20532E21AC86C7003807FD /* PlanetCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCategory.swift; sourceTree = "<group>"; };
 		BC39A8E0214671520013D333 /* SCNNodeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNNodeExtensions.swift; sourceTree = "<group>"; };
 		BC43276921A347E100D56149 /* Dione.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dione.swift; sourceTree = "<group>"; };
 		BC43276B21A347EA00D56149 /* Enceladus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enceladus.swift; sourceTree = "<group>"; };
@@ -285,6 +305,79 @@
 			path = "SpaceMan List";
 			sourceTree = "<group>";
 		};
+		BC20531421AC6588003807FD /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				BC20531521AC65B9003807FD /* ContentBuilder */,
+				BC20531621AC65C9003807FD /* Cache */,
+				BC20531721AC65D2003807FD /* Repository */,
+				BC20531821AC65DE003807FD /* Mocks */,
+				BC20531921AC65E6003807FD /* Models */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		BC20531521AC65B9003807FD /* ContentBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				BC20532921AC74B6003807FD /* ViewModelBuilder.swift */,
+			);
+			path = ContentBuilder;
+			sourceTree = "<group>";
+		};
+		BC20531621AC65C9003807FD /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				BC20531B21AC668A003807FD /* Decoder.swift */,
+				BC20531A21AC6689003807FD /* ApplicationCache.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		BC20531721AC65D2003807FD /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				BC20531E21AC66E1003807FD /* Repository.swift */,
+				BC20532221AC6749003807FD /* Navigation */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		BC20531821AC65DE003807FD /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				BC20532521AC6DDF003807FD /* navigation.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		BC20531921AC65E6003807FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC20532721AC7037003807FD /* Navigation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC20532221AC6749003807FD /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				BC20532021AC672E003807FD /* NavigationRepository.swift */,
+				BC20532321AC6778003807FD /* DefaultNavigationRepository.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		BC20532D21AC86B6003807FD /* PlanetCategory */ = {
+			isa = PBXGroup;
+			children = (
+				BC20532B21AC868E003807FD /* PlanetCategoryBuilder.swift */,
+				BC20532E21AC86C7003807FD /* PlanetCategory.swift */,
+				BC5CD74F2147DC6E0048CCAF /* PlanetOption.swift */,
+			);
+			path = PlanetCategory;
+			sourceTree = "<group>";
+		};
 		BC39A8DF2146712F0013D333 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,7 +393,7 @@
 			children = (
 				BCF6D4D421469F6900D39D69 /* Planet.swift */,
 				BCF6D4D62146AC7300D39D69 /* Ring.swift */,
-				BC5CD74F2147DC6E0048CCAF /* PlanetOption.swift */,
+				BC20532D21AC86B6003807FD /* PlanetCategory */,
 				BCF6D4D82146AEBE00D39D69 /* Planets */,
 				BC6807AF2157FE9F00923B15 /* Builders */,
 			);
@@ -551,6 +644,7 @@
 				BCF11CE1219DFC07004AFD5F /* Application */,
 				BC39A8DF2146712F0013D333 /* Extensions */,
 				BCA10BE9214664650049F72C /* Utilities */,
+				BC20531421AC6588003807FD /* Database */,
 				BC5CD752214805EB0048CCAF /* Networking */,
 				BC39A8E221469E400013D333 /* Models */,
 				BCA10BEA2146658E0049F72C /* Modules */,
@@ -761,6 +855,7 @@
 				BCA6ED4E21465D4C00CDFC18 /* Assets.xcassets in Resources */,
 				BCCAEF302150324A0080C2FC /* CosmonautTableViewCell.xib in Resources */,
 				BC4327A921A37B2B00D56149 /* PlanetDistanceViewController.storyboard in Resources */,
+				BC20532621AC6DDF003807FD /* navigation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -841,12 +936,16 @@
 				BCF6D4D72146AC7300D39D69 /* Ring.swift in Sources */,
 				BC43277921A34A6400D56149 /* SolarSystemInput.swift in Sources */,
 				BC43279721A3660700D56149 /* SolarSystemViewController+CollectionView.swift in Sources */,
+				BC20532C21AC868E003807FD /* PlanetCategoryBuilder.swift in Sources */,
 				BC43278F21A35CAD00D56149 /* NeptuneAndMoonsBuilder.swift in Sources */,
+				BC20531D21AC668A003807FD /* Decoder.swift in Sources */,
 				BC6807BD21581D8100923B15 /* JupiterAndMoonsBuilder.swift in Sources */,
 				BCE383262152CD4E00662D79 /* AudioPlayerViewController.swift in Sources */,
+				BC20532821AC7037003807FD /* Navigation.swift in Sources */,
 				BCF6D4E22146AEF600D39D69 /* Moon.swift in Sources */,
 				BCB0296E2150506A00881901 /* UIViewControllerExtensions.swift in Sources */,
 				BC5CD7492147C33C0048CCAF /* SolarSystemBuilder.swift in Sources */,
+				BC20532421AC6778003807FD /* DefaultNavigationRepository.swift in Sources */,
 				BCF6D4E02146AEEE00D39D69 /* Earth.swift in Sources */,
 				BC43276A21A347E100D56149 /* Dione.swift in Sources */,
 				BC43276C21A347EA00D56149 /* Enceladus.swift in Sources */,
@@ -873,6 +972,7 @@
 				BC5CD7472147C3070048CCAF /* StoryboardInstantiable.swift in Sources */,
 				BC6807C72158269500923B15 /* IoMoon.swift in Sources */,
 				BC6807C12158266F00923B15 /* EuropaMoon.swift in Sources */,
+				BC20532F21AC86C7003807FD /* PlanetCategory.swift in Sources */,
 				BCF11CEB219E03D7004AFD5F /* AudioTracksBuilder.swift in Sources */,
 				BC4327A121A3693900D56149 /* PlanetDistanceOutput.swift in Sources */,
 				BC5CD75A214807200048CCAF /* Request.swift in Sources */,
@@ -889,11 +989,15 @@
 				BCCAEF2F2150324A0080C2FC /* CosmonautTableViewCell.swift in Sources */,
 				BC4327A521A3695F00D56149 /* PlanetDistanceViewController.swift in Sources */,
 				BCF6D4DA2146AED000D39D69 /* Sun.swift in Sources */,
+				BC20532A21AC74B6003807FD /* ViewModelBuilder.swift in Sources */,
+				BC20531F21AC66E1003807FD /* Repository.swift in Sources */,
 				BC43279521A35F0000D56149 /* PlutoAndMoonsBuilder.swift in Sources */,
 				BCB0296A2150434600881901 /* SpaceManDetailsInteractor.swift in Sources */,
+				BC20532121AC672E003807FD /* NavigationRepository.swift in Sources */,
 				BCE383302152E7FF00662D79 /* AudioTrack.swift in Sources */,
 				BCB0296C2150435500881901 /* SpaceManDetailsViewController.swift in Sources */,
 				BCA10BE8214664620049F72C /* Alert.swift in Sources */,
+				BC20531C21AC668A003807FD /* ApplicationCache.swift in Sources */,
 				BCA6ED4921465D4B00CDFC18 /* SolarSystemViewController.swift in Sources */,
 				BC43278921A3568900D56149 /* UranusAndMoonsBuilder.swift in Sources */,
 				BCA6ED4521465D4B00CDFC18 /* AppDelegate.swift in Sources */,

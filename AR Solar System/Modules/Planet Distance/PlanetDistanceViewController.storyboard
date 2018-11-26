@@ -19,9 +19,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CPC-1o-twv">
-                                <rect key="frame" x="20" y="40" width="335" height="607"/>
+                                <rect key="frame" x="20" y="174" width="335" height="200"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="vRk-3m-lJG">
-                                    <rect key="frame" x="0.0" y="0.0" width="335" height="607"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="335" height="200"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gMv-Fg-EC0">
@@ -66,11 +66,71 @@
                                                 <constraint firstItem="tRK-lu-GcU" firstAttribute="top" secondItem="gMv-Fg-EC0" secondAttribute="top" constant="8" id="taO-bN-zEr"/>
                                             </constraints>
                                         </view>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="PEW-cl-qWQ">
+                                            <rect key="frame" x="8" y="48" width="319" height="144"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="lBU-yp-Ktw">
+                                                    <rect key="frame" x="0.0" y="0.0" width="101" height="144"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance to Mercury" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1IH-ck-5ln">
+                                                            <rect key="frame" x="0.0" y="0.0" width="101" height="68"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="48 million miles" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vuP-sj-50c">
+                                                            <rect key="frame" x="0.0" y="76" width="101" height="68"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="83d-A1-UpP">
+                                                    <rect key="frame" x="109" y="0.0" width="101" height="144"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diameter of Mercury" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qkf-63-9At">
+                                                            <rect key="frame" x="0.0" y="0.0" width="101" height="68"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4,879 km" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URI-Hd-dyS">
+                                                            <rect key="frame" x="0.0" y="76" width="101" height="68"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="jc2-4s-oxP">
+                                                    <rect key="frame" x="218" y="0.0" width="101" height="144"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Area of Mercury" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ry-af-7v7">
+                                                            <rect key="frame" x="0.0" y="0.0" width="101" height="68"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="74.8 ml km²" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rW1-by-anm">
+                                                            <rect key="frame" x="0.0" y="76" width="101" height="68"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="PEW-cl-qWQ" secondAttribute="trailing" constant="8" id="0uv-qG-9Vn"/>
                                         <constraint firstItem="gMv-Fg-EC0" firstAttribute="top" secondItem="vRk-3m-lJG" secondAttribute="top" id="7nC-Ex-LYj"/>
                                         <constraint firstAttribute="trailing" secondItem="gMv-Fg-EC0" secondAttribute="trailing" id="KVx-ql-6YH"/>
+                                        <constraint firstItem="PEW-cl-qWQ" firstAttribute="top" secondItem="gMv-Fg-EC0" secondAttribute="bottom" constant="8" id="UmY-Ha-4bw"/>
                                         <constraint firstItem="gMv-Fg-EC0" firstAttribute="leading" secondItem="vRk-3m-lJG" secondAttribute="leading" id="aIL-Li-t17"/>
+                                        <constraint firstItem="PEW-cl-qWQ" firstAttribute="leading" secondItem="vRk-3m-lJG" secondAttribute="leading" constant="8" id="biG-Rr-9i5"/>
+                                        <constraint firstAttribute="bottom" secondItem="PEW-cl-qWQ" secondAttribute="bottom" constant="8" id="c6U-Ss-aDA"/>
                                     </constraints>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -78,6 +138,9 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="WgL-6Z-ZJn"/>
+                                </constraints>
                                 <blurEffect style="dark"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -90,12 +153,19 @@
                         <constraints>
                             <constraint firstItem="CPC-1o-twv" firstAttribute="leading" secondItem="Xea-IH-2ok" secondAttribute="leading" constant="20" id="B2t-pB-iSj"/>
                             <constraint firstItem="Xea-IH-2ok" firstAttribute="trailing" secondItem="CPC-1o-twv" secondAttribute="trailing" constant="20" id="ccJ-8R-CeC"/>
-                            <constraint firstItem="CPC-1o-twv" firstAttribute="top" secondItem="Xea-IH-2ok" secondAttribute="top" constant="20" id="rdI-lU-esb"/>
-                            <constraint firstItem="Xea-IH-2ok" firstAttribute="bottom" secondItem="CPC-1o-twv" secondAttribute="bottom" constant="20" id="sz5-wE-PLn"/>
+                            <constraint firstItem="CPC-1o-twv" firstAttribute="top" secondItem="Xea-IH-2ok" secondAttribute="top" constant="110" id="rdI-lU-esb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Xea-IH-2ok"/>
                     </view>
-                    <size key="freeformSize" width="375" height="667"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="areaLabel" destination="rW1-by-anm" id="5dP-62-hYH"/>
+                        <outlet property="areaTitleLabel" destination="2Ry-af-7v7" id="Zrk-44-a80"/>
+                        <outlet property="diameterLabel" destination="URI-Hd-dyS" id="0Ha-9p-SCd"/>
+                        <outlet property="diameterTitleLabel" destination="qkf-63-9At" id="RMI-rY-DGZ"/>
+                        <outlet property="distanceLabel" destination="vuP-sj-50c" id="EtJ-Jg-AkH"/>
+                        <outlet property="distanceTitleLabel" destination="1IH-ck-5ln" id="1Dh-Lf-K90"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AxO-1h-rBI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

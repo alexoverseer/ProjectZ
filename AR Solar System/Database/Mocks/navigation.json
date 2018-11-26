@@ -1,0 +1,63 @@
+[
+    {
+        "identifier": "fcc464d1-4376-4464-ac91-5c01914beadd",
+        "distance": "77M km",
+        "diameter": "4,849 km",
+        "area": "74.8 km²"
+    },
+    {
+        "identifier": "e8871327-6f09-41a7-a862-eb384324cee2",
+        "distance": "261M km",
+        "diameter": "12,104 km",
+        "area": "460.2M km²"
+    },
+    {
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "distance": "384,400 km",
+        "diameter": "3,474 km",
+        "area": "38M square km"
+    },
+    {
+        "identifier": "4bc704d9-49f2-41d1-86fe-ecab39a348c2",
+        "distance": "54.6M km",
+        "diameter": "6,779 km",
+        "area": "144.8M km²"
+    },
+    {
+        "identifier": "e0f5b8bc-cade-40b3-8292-26cdcd2ba5dc",
+        "distance": "588M km",
+        "diameter": "139,822 km",
+        "area": "61.42 billion km²"
+    },
+    {
+        "identifier": "8bcc6a3e-6d4b-45a3-8884-64c698469a5d",
+        "distance": "1.2B km",
+        "diameter": "116,464 km",
+        "area": "42.7B km²"
+    },
+    {
+        "identifier": "1edc326d-1703-485b-90c6-448de8d30ab8",
+        "distance": "2.6B km",
+        "diameter": "50,724 km",
+        "area": "8.083B km²"
+    },
+    {
+        "identifier": "1c049999-8d75-4763-a8ea-fa76477aa511",
+        "distance": "4.3B miles",
+        "diameter": "49,244 km",
+        "area": "7.618 billion km²"
+    },
+    {
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "distance": "7.5B km",
+        "diameter": "2,377 km",
+        "area": "17,6M km²"
+    },
+    {
+        "identifier": "3dc35087-ff99-4184-ab8e-6eb1769f9c09",
+        "distance": "149.6M km",
+        "diameter": "12,742 km",
+        "area": "510.1M km²"
+    }
+]
+
