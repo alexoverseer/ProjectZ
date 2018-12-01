@@ -23,8 +23,8 @@ final class SolarSystemViewController: UIViewController, StoryboardInstantiable 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-//        let configuration = ARWorldTrackingConfiguration()
-//        sceneView.session.run(configuration)
+        let configuration = ARWorldTrackingConfiguration()
+        sceneView.session.run(configuration)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -60,7 +60,9 @@ final class SolarSystemViewController: UIViewController, StoryboardInstantiable 
     }
     
     @IBAction func showFactsAboutPlanet() {
-        
+        let planetCategory = interactor.selectedOption
+        let controller = PlanetFactBuilder.build(with: planetCategory)
+        self.navigationController?.pushViewController(controller, animated: true)
     }
     
     @IBAction func showDistanceFromEarth() {
@@ -76,8 +78,8 @@ extension SolarSystemViewController: SolarSystemInput {
     
     func setupSceneView(with node: SCNNode) {
         DispatchQueue.main.async {
-//            _ = self.sceneView.scene.rootNode.childNodes.map { $0.removeFromParentNode() }
-//            self.sceneView.scene.rootNode.addChildNode(node)
+            _ = self.sceneView.scene.rootNode.childNodes.map { $0.removeFromParentNode() }
+            self.sceneView.scene.rootNode.addChildNode(node)
         }
     }
 }
@@ -86,7 +88,7 @@ extension SolarSystemViewController: ARSCNViewDelegate {
     
     func session(_ session: ARSession, didFailWithError error: Error) {
         DispatchQueue.main.async {
-            self.showAlert(with: "Error", alertMessage: error.localizedDescription)
+//            self.showAlert(with: "Error", alertMessage: error.localizedDescription)
         }
     }
 }

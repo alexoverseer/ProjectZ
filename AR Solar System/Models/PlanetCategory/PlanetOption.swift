@@ -17,7 +17,7 @@ enum PlanetOption: Int {
         case .mercury:
             return "Mercury"
         case .venus:
-            return "Menus"
+            return "Venus"
         case .earthAndMoon:
             return "Moon"
         case .mars:

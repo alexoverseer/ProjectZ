@@ -11,6 +11,10 @@ final class SolarSystemInteractor: SolarSystemOutput {
         return planetOptions.filter { $0.isSelected }.first ?? planetOptions[0]
     }
     
+    var selectedPlanetIdentifier: String {
+        return selectedOption.identifier
+    }
+    
     func viewDidLoad() {
         let generatedScene = getScene(for: PlanetOption(rawValue: 0)!)
         view?.setupSceneView(with: generatedScene)

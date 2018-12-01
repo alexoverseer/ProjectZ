@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,11 +15,11 @@
             <objects>
                 <viewController storyboardIdentifier="PlanetDistanceViewController" id="QvT-a3-X8R" customClass="PlanetDistanceViewController" customModule="AR_Solar_System" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8vc-tk-YaU">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CPC-1o-twv">
-                                <rect key="frame" x="20" y="174" width="335" height="200"/>
+                                <rect key="frame" x="20" y="198" width="335" height="200"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="vRk-3m-lJG">
                                     <rect key="frame" x="0.0" y="0.0" width="335" height="200"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -150,12 +150,16 @@
                             </visualEffectView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="CPC-1o-twv" firstAttribute="leading" secondItem="Xea-IH-2ok" secondAttribute="leading" constant="20" id="B2t-pB-iSj"/>
                             <constraint firstItem="Xea-IH-2ok" firstAttribute="trailing" secondItem="CPC-1o-twv" secondAttribute="trailing" constant="20" id="ccJ-8R-CeC"/>
                             <constraint firstItem="CPC-1o-twv" firstAttribute="top" secondItem="Xea-IH-2ok" secondAttribute="top" constant="110" id="rdI-lU-esb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Xea-IH-2ok"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="99i-5u-yic" appends="YES" id="BIw-pp-Jn3"/>
+                        </connections>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
@@ -168,12 +172,17 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AxO-1h-rBI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="99i-5u-yic">
+                    <connections>
+                        <action selector="closeModule" destination="QvT-a3-X8R" id="N6N-k9-clC"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="125.59999999999999" y="-118.29085457271366"/>
         </scene>
     </scenes>
     <resources>
-        <image name="compas_icon" width="33" height="33"/>
+        <image name="compas_icon" width="33.333332061767578" height="33.333332061767578"/>
         <image name="playerButtonClose" width="17" height="17"/>
     </resources>
 </document>

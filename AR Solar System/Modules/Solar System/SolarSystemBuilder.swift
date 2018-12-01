@@ -5,11 +5,7 @@ final class SolarSystemBuilder {
     static func build() -> UIViewController {
         let viewController = SolarSystemViewController.instantiate()
         let navigationController = UINavigationController(rootViewController: viewController)
-        navigationController.navigationBar.setBackgroundImage(UIImage(), for: .default)
-        navigationController.navigationBar.shadowImage = UIImage()
-        navigationController.navigationBar.isTranslucent = true
-        navigationController.navigationBar.tintColor = UIColor.white
-        
+        setNavigationBarAppearance(for: navigationController.navigationBar)
         viewController.interactor = createInteractor(with: viewController)
         
         return navigationController
@@ -20,5 +16,16 @@ final class SolarSystemBuilder {
         interactor.view = view
         
         return interactor
+    }
+    
+    private static func setNavigationBarAppearance(for navigationBar: UINavigationBar) {
+        let lightAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        
+        navigationBar.titleTextAttributes = lightAttributes
+        navigationBar.largeTitleTextAttributes = lightAttributes
+        navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationBar.shadowImage = UIImage()
+        navigationBar.isTranslucent = true
+        navigationBar.tintColor = UIColor.white
     }
 }

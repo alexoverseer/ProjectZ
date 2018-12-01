@@ -13,6 +13,15 @@
 		BC0EADF72148464F00A84818 /* SpaceManListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0EADF62148464F00A84818 /* SpaceManListBuilder.swift */; };
 		BC0EADF92148465900A84818 /* SpaceManListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0EADF82148465900A84818 /* SpaceManListInteractor.swift */; };
 		BC0EADFB2148466600A84818 /* SpaceManListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0EADFA2148466600A84818 /* SpaceManListViewController.swift */; };
+		BC154ACD21B302F7005725B8 /* PlanetFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC154ACC21B302F7005725B8 /* PlanetFact.swift */; };
+		BC154AD021B30390005725B8 /* FactsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC154ACF21B30390005725B8 /* FactsRepository.swift */; };
+		BC154AD221B3039D005725B8 /* DefaultFactsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC154AD121B3039D005725B8 /* DefaultFactsRepository.swift */; };
+		BC154AD521B30962005725B8 /* PlanetFactBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC154AD421B30962005725B8 /* PlanetFactBuilder.swift */; };
+		BC154AD821B3099C005725B8 /* PlanetFactInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC154AD721B3099C005725B8 /* PlanetFactInput.swift */; };
+		BC154ADA21B309AC005725B8 /* PlanetFactOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC154AD921B309AC005725B8 /* PlanetFactOutput.swift */; };
+		BC154ADC21B309B8005725B8 /* PlanetFactInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC154ADB21B309B8005725B8 /* PlanetFactInteractor.swift */; };
+		BC154ADE21B309DC005725B8 /* PlanetFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC154ADD21B309DC005725B8 /* PlanetFactViewController.swift */; };
+		BC154AE021B309E7005725B8 /* PlanetFactViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC154ADF21B309E7005725B8 /* PlanetFactViewController.storyboard */; };
 		BC20531C21AC668A003807FD /* ApplicationCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20531A21AC6689003807FD /* ApplicationCache.swift */; };
 		BC20531D21AC668A003807FD /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20531B21AC668A003807FD /* Decoder.swift */; };
 		BC20531F21AC66E1003807FD /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20531E21AC66E1003807FD /* Repository.swift */; };
@@ -50,6 +59,7 @@
 		BC4327A321A3694700D56149 /* PlanetDistanceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4327A221A3694700D56149 /* PlanetDistanceInteractor.swift */; };
 		BC4327A521A3695F00D56149 /* PlanetDistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4327A421A3695F00D56149 /* PlanetDistanceViewController.swift */; };
 		BC4327A921A37B2B00D56149 /* PlanetDistanceViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4327A821A37B2B00D56149 /* PlanetDistanceViewController.storyboard */; };
+		BC461F4C21B30086003A531B /* facts.json in Resources */ = {isa = PBXBuildFile; fileRef = BC461F4B21B30086003A531B /* facts.json */; };
 		BC5CD7442147B6BB0048CCAF /* PlanetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD7422147B6BB0048CCAF /* PlanetCollectionViewCell.swift */; };
 		BC5CD7452147B6BB0048CCAF /* PlanetCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5CD7432147B6BB0048CCAF /* PlanetCollectionViewCell.xib */; };
 		BC5CD7472147C3070048CCAF /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD7462147C3070048CCAF /* StoryboardInstantiable.swift */; };
@@ -131,6 +141,15 @@
 		BC0EADF62148464F00A84818 /* SpaceManListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManListBuilder.swift; sourceTree = "<group>"; };
 		BC0EADF82148465900A84818 /* SpaceManListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManListInteractor.swift; sourceTree = "<group>"; };
 		BC0EADFA2148466600A84818 /* SpaceManListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManListViewController.swift; sourceTree = "<group>"; };
+		BC154ACC21B302F7005725B8 /* PlanetFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetFact.swift; sourceTree = "<group>"; };
+		BC154ACF21B30390005725B8 /* FactsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsRepository.swift; sourceTree = "<group>"; };
+		BC154AD121B3039D005725B8 /* DefaultFactsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultFactsRepository.swift; sourceTree = "<group>"; };
+		BC154AD421B30962005725B8 /* PlanetFactBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetFactBuilder.swift; sourceTree = "<group>"; };
+		BC154AD721B3099C005725B8 /* PlanetFactInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetFactInput.swift; sourceTree = "<group>"; };
+		BC154AD921B309AC005725B8 /* PlanetFactOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetFactOutput.swift; sourceTree = "<group>"; };
+		BC154ADB21B309B8005725B8 /* PlanetFactInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetFactInteractor.swift; sourceTree = "<group>"; };
+		BC154ADD21B309DC005725B8 /* PlanetFactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetFactViewController.swift; sourceTree = "<group>"; };
+		BC154ADF21B309E7005725B8 /* PlanetFactViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlanetFactViewController.storyboard; sourceTree = "<group>"; };
 		BC20531A21AC6689003807FD /* ApplicationCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationCache.swift; sourceTree = "<group>"; };
 		BC20531B21AC668A003807FD /* Decoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
 		BC20531E21AC66E1003807FD /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
@@ -168,6 +187,7 @@
 		BC4327A221A3694700D56149 /* PlanetDistanceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDistanceInteractor.swift; sourceTree = "<group>"; };
 		BC4327A421A3695F00D56149 /* PlanetDistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDistanceViewController.swift; sourceTree = "<group>"; };
 		BC4327A821A37B2B00D56149 /* PlanetDistanceViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PlanetDistanceViewController.storyboard; sourceTree = "<group>"; };
+		BC461F4B21B30086003A531B /* facts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = facts.json; sourceTree = "<group>"; };
 		BC5CD7422147B6BB0048CCAF /* PlanetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCollectionViewCell.swift; sourceTree = "<group>"; };
 		BC5CD7432147B6BB0048CCAF /* PlanetCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlanetCollectionViewCell.xib; sourceTree = "<group>"; };
 		BC5CD7462147C3070048CCAF /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
@@ -305,6 +325,36 @@
 			path = "SpaceMan List";
 			sourceTree = "<group>";
 		};
+		BC154ACE21B30378005725B8 /* Facts */ = {
+			isa = PBXGroup;
+			children = (
+				BC154ACF21B30390005725B8 /* FactsRepository.swift */,
+				BC154AD121B3039D005725B8 /* DefaultFactsRepository.swift */,
+			);
+			path = Facts;
+			sourceTree = "<group>";
+		};
+		BC154AD321B30942005725B8 /* Planet Fact */ = {
+			isa = PBXGroup;
+			children = (
+				BC154AD421B30962005725B8 /* PlanetFactBuilder.swift */,
+				BC154AD621B30975005725B8 /* Interactor */,
+				BC154ADD21B309DC005725B8 /* PlanetFactViewController.swift */,
+				BC154ADF21B309E7005725B8 /* PlanetFactViewController.storyboard */,
+			);
+			path = "Planet Fact";
+			sourceTree = "<group>";
+		};
+		BC154AD621B30975005725B8 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				BC154AD721B3099C005725B8 /* PlanetFactInput.swift */,
+				BC154AD921B309AC005725B8 /* PlanetFactOutput.swift */,
+				BC154ADB21B309B8005725B8 /* PlanetFactInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		BC20531421AC6588003807FD /* Database */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,6 +389,7 @@
 			children = (
 				BC20531E21AC66E1003807FD /* Repository.swift */,
 				BC20532221AC6749003807FD /* Navigation */,
+				BC154ACE21B30378005725B8 /* Facts */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -347,6 +398,7 @@
 			isa = PBXGroup;
 			children = (
 				BC20532521AC6DDF003807FD /* navigation.json */,
+				BC461F4B21B30086003A531B /* facts.json */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -355,6 +407,7 @@
 			isa = PBXGroup;
 			children = (
 				BC20532721AC7037003807FD /* Navigation.swift */,
+				BC154ACC21B302F7005725B8 /* PlanetFact.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -601,6 +654,7 @@
 			children = (
 				BCA10BEB214665990049F72C /* Solar System */,
 				BC43279A21A368E900D56149 /* Planet Distance */,
+				BC154AD321B30942005725B8 /* Planet Fact */,
 				BC0EADEF2148456100A84818 /* People In Space */,
 				BCE383202152CC8F00662D79 /* Space Player */,
 			);
@@ -845,6 +899,7 @@
 				BCE3833A2152EB3700662D79 /* Lonely Space Rhodes - Jonas Elander.mp3 in Resources */,
 				BC5CD74D2147C4AA0048CCAF /* SolarSystemViewController.storyboard in Resources */,
 				BC5CD7452147B6BB0048CCAF /* PlanetCollectionViewCell.xib in Resources */,
+				BC154AE021B309E7005725B8 /* PlanetFactViewController.storyboard in Resources */,
 				BCE383392152EB3700662D79 /* Floating Drone - Teddy Bergström.mp3 in Resources */,
 				BCE383382152EB3700662D79 /* The Cosmos - Johannes Bornlöf.mp3 in Resources */,
 				BCA6ED4721465D4B00CDFC18 /* art.scnassets in Resources */,
@@ -855,6 +910,7 @@
 				BCA6ED4E21465D4C00CDFC18 /* Assets.xcassets in Resources */,
 				BCCAEF302150324A0080C2FC /* CosmonautTableViewCell.xib in Resources */,
 				BC4327A921A37B2B00D56149 /* PlanetDistanceViewController.storyboard in Resources */,
+				BC461F4C21B30086003A531B /* facts.json in Resources */,
 				BC20532621AC6DDF003807FD /* navigation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -940,14 +996,17 @@
 				BC43278F21A35CAD00D56149 /* NeptuneAndMoonsBuilder.swift in Sources */,
 				BC20531D21AC668A003807FD /* Decoder.swift in Sources */,
 				BC6807BD21581D8100923B15 /* JupiterAndMoonsBuilder.swift in Sources */,
+				BC154AD521B30962005725B8 /* PlanetFactBuilder.swift in Sources */,
 				BCE383262152CD4E00662D79 /* AudioPlayerViewController.swift in Sources */,
 				BC20532821AC7037003807FD /* Navigation.swift in Sources */,
 				BCF6D4E22146AEF600D39D69 /* Moon.swift in Sources */,
 				BCB0296E2150506A00881901 /* UIViewControllerExtensions.swift in Sources */,
 				BC5CD7492147C33C0048CCAF /* SolarSystemBuilder.swift in Sources */,
 				BC20532421AC6778003807FD /* DefaultNavigationRepository.swift in Sources */,
+				BC154ADC21B309B8005725B8 /* PlanetFactInteractor.swift in Sources */,
 				BCF6D4E02146AEEE00D39D69 /* Earth.swift in Sources */,
 				BC43276A21A347E100D56149 /* Dione.swift in Sources */,
+				BC154ADA21B309AC005725B8 /* PlanetFactOutput.swift in Sources */,
 				BC43276C21A347EA00D56149 /* Enceladus.swift in Sources */,
 				BC0EADF72148464F00A84818 /* SpaceManListBuilder.swift in Sources */,
 				BC5CD755214806320048CCAF /* PeopleInSpaceRightNow.swift in Sources */,
@@ -958,6 +1017,7 @@
 				BC5CD757214806560048CCAF /* SpaceMan.swift in Sources */,
 				BC6807BB2158192E00923B15 /* MarsBuilder.swift in Sources */,
 				BCF11CF1219E073C004AFD5F /* AudioPlayerOutput.swift in Sources */,
+				BC154AD021B30390005725B8 /* FactsRepository.swift in Sources */,
 				BC0EADFB2148466600A84818 /* SpaceManListViewController.swift in Sources */,
 				BCE3832C2152E58F00662D79 /* FirstLaunch.swift in Sources */,
 				BCE383242152CD3600662D79 /* AudioPlayerInteractor.swift in Sources */,
@@ -987,6 +1047,7 @@
 				BCF11CF4219EA91A004AFD5F /* SpaceManListInput.swift in Sources */,
 				BCE383322152E8CB00662D79 /* TracksBuilder.swift in Sources */,
 				BCCAEF2F2150324A0080C2FC /* CosmonautTableViewCell.swift in Sources */,
+				BC154AD821B3099C005725B8 /* PlanetFactInput.swift in Sources */,
 				BC4327A521A3695F00D56149 /* PlanetDistanceViewController.swift in Sources */,
 				BCF6D4DA2146AED000D39D69 /* Sun.swift in Sources */,
 				BC20532A21AC74B6003807FD /* ViewModelBuilder.swift in Sources */,
@@ -1010,6 +1071,7 @@
 				BCF6D4D521469F6900D39D69 /* Planet.swift in Sources */,
 				BCF11CF6219EA922004AFD5F /* SpaceManListOutput.swift in Sources */,
 				BCF6D4DE2146AEE700D39D69 /* Venus.swift in Sources */,
+				BC154ACD21B302F7005725B8 /* PlanetFact.swift in Sources */,
 				BCF6D4EE2146AF2300D39D69 /* Pluto.swift in Sources */,
 				BC6807C52158268800923B15 /* CalistoMoon.swift in Sources */,
 				BC43278121A354F400D56149 /* Miranda.swift in Sources */,
@@ -1018,7 +1080,9 @@
 				BCE3832A2152DEC100662D79 /* UserDefaults+AudioPlayerSettings.swift in Sources */,
 				BC5CD74B2147C3760048CCAF /* SolarSystemInteractor.swift in Sources */,
 				BC43279321A35EAF00D56149 /* Charon.swift in Sources */,
+				BC154AD221B3039D005725B8 /* DefaultFactsRepository.swift in Sources */,
 				BC43279C21A3691100D56149 /* PlanetDistanceBuilder.swift in Sources */,
+				BC154ADE21B309DC005725B8 /* PlanetFactViewController.swift in Sources */,
 				BC5CD7502147DC6E0048CCAF /* PlanetOption.swift in Sources */,
 				BC43277221A3480E00D56149 /* Tethys.swift in Sources */,
 				BCF6D4DC2146AEE000D39D69 /* Mercury.swift in Sources */,
