@@ -55,7 +55,7 @@ struct Request {
         Alamofire.request(url,
                           method: inputs.method,
                           parameters: inputs.params,
-                          encoding: JSONEncoding.default).responseString(completionHandler: { (response) in
+                          encoding: JSONEncoding.default).responseString(encoding: String.Encoding.utf8, completionHandler: { (response) in
                             switch response.result {
                             case .success: inputs.onSuccess(response.value)
                             case .failure: inputs.onFailure(.request(response.error))

@@ -23,8 +23,8 @@ final class SolarSystemViewController: UIViewController, StoryboardInstantiable 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        let configuration = ARWorldTrackingConfiguration()
-        sceneView.session.run(configuration)
+//        let configuration = ARWorldTrackingConfiguration()
+//        sceneView.session.run(configuration)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -76,8 +76,8 @@ extension SolarSystemViewController: SolarSystemInput {
     
     func setupSceneView(with node: SCNNode) {
         DispatchQueue.main.async {
-            _ = self.sceneView.scene.rootNode.childNodes.map { $0.removeFromParentNode() }
-            self.sceneView.scene.rootNode.addChildNode(node)
+//            _ = self.sceneView.scene.rootNode.childNodes.map { $0.removeFromParentNode() }
+//            self.sceneView.scene.rootNode.addChildNode(node)
         }
     }
 }
