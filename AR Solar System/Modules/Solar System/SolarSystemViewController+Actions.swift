@@ -27,4 +27,12 @@ extension SolarSystemViewController {
         controller.modalPresentationStyle = .overCurrentContext
         self.present(controller, animated: true, completion: nil)
     }
+    
+    @IBAction private func recordGif() {
+        interactor.recordGIF()
+    }
+    
+    @IBAction private func recordLivePhoto() {
+        interactor.recordLivePhoto()
+    }
 }

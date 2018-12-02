@@ -8,6 +8,7 @@ target 'AR Solar System' do
   pod 'SwiftLint'
   pod 'Kingfisher'
   pod 'Reusable'
-  pod 'ARVideoKit'
+  pod 'ARVideoKit', :git => 'git@github.com:AFathi/ARVideoKit.git', :branch => 'swift_4_2'
+
   
 end

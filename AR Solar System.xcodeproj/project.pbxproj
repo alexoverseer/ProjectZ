@@ -85,6 +85,8 @@
 		BC6807C32158268000923B15 /* GenymedeMoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6807C22158268000923B15 /* GenymedeMoon.swift */; };
 		BC6807C52158268800923B15 /* CalistoMoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6807C42158268800923B15 /* CalistoMoon.swift */; };
 		BC6807C72158269500923B15 /* IoMoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6807C62158269500923B15 /* IoMoon.swift */; };
+		BC7A8FFF21B43E8A0085F09F /* LivePhotoRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7A8FFE21B43E8A0085F09F /* LivePhotoRecorder.swift */; };
+		BC7A900121B43F220085F09F /* DefaultLivePhotoRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7A900021B43F220085F09F /* DefaultLivePhotoRecorder.swift */; };
 		BCA10BE8214664620049F72C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA10BE7214664610049F72C /* Alert.swift */; };
 		BCA6ED4521465D4B00CDFC18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6ED4421465D4B00CDFC18 /* AppDelegate.swift */; };
 		BCA6ED4721465D4B00CDFC18 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA6ED4621465D4B00CDFC18 /* art.scnassets */; };
@@ -93,7 +95,7 @@
 		BCA6ED5121465D4C00CDFC18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA6ED4F21465D4C00CDFC18 /* LaunchScreen.storyboard */; };
 		BCAD374121B408E4009E7AE6 /* FactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD373F21B408E4009E7AE6 /* FactTableViewCell.swift */; };
 		BCAD374221B408E4009E7AE6 /* FactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCAD374021B408E4009E7AE6 /* FactTableViewCell.xib */; };
-		BCAD374421B43200009E7AE6 /* SolarSystemViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD374321B43200009E7AE6 /* SolarSystemViewController+Navigation.swift */; };
+		BCAD374421B43200009E7AE6 /* SolarSystemViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD374321B43200009E7AE6 /* SolarSystemViewController+Actions.swift */; };
 		BCB029662150396B00881901 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB029652150396B00881901 /* ImageDownloader.swift */; };
 		BCB029682150433B00881901 /* SpaceManDetailsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB029672150433B00881901 /* SpaceManDetailsBuilder.swift */; };
 		BCB0296A2150434600881901 /* SpaceManDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB029692150434600881901 /* SpaceManDetailsInteractor.swift */; };
@@ -216,6 +218,8 @@
 		BC6807C22158268000923B15 /* GenymedeMoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenymedeMoon.swift; sourceTree = "<group>"; };
 		BC6807C42158268800923B15 /* CalistoMoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalistoMoon.swift; sourceTree = "<group>"; };
 		BC6807C62158269500923B15 /* IoMoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoMoon.swift; sourceTree = "<group>"; };
+		BC7A8FFE21B43E8A0085F09F /* LivePhotoRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePhotoRecorder.swift; sourceTree = "<group>"; };
+		BC7A900021B43F220085F09F /* DefaultLivePhotoRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLivePhotoRecorder.swift; sourceTree = "<group>"; };
 		BCA10BE7214664610049F72C /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		BCA6ED4121465D4B00CDFC18 /* AR Solar System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Solar System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA6ED4421465D4B00CDFC18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -226,7 +230,7 @@
 		BCA6ED5221465D4C00CDFC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCAD373F21B408E4009E7AE6 /* FactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactTableViewCell.swift; sourceTree = "<group>"; };
 		BCAD374021B408E4009E7AE6 /* FactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FactTableViewCell.xib; sourceTree = "<group>"; };
-		BCAD374321B43200009E7AE6 /* SolarSystemViewController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SolarSystemViewController+Navigation.swift"; sourceTree = "<group>"; };
+		BCAD374321B43200009E7AE6 /* SolarSystemViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SolarSystemViewController+Actions.swift"; sourceTree = "<group>"; };
 		BCB029652150396B00881901 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		BCB029672150433B00881901 /* SpaceManDetailsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManDetailsBuilder.swift; sourceTree = "<group>"; };
 		BCB029692150434600881901 /* SpaceManDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManDetailsInteractor.swift; sourceTree = "<group>"; };
@@ -644,6 +648,23 @@
 			path = Moons;
 			sourceTree = "<group>";
 		};
+		BC7A8FFC21B43E6B0085F09F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A8FFD21B43E750085F09F /* LivePhotoRecorder */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BC7A8FFD21B43E750085F09F /* LivePhotoRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A8FFE21B43E8A0085F09F /* LivePhotoRecorder.swift */,
+				BC7A900021B43F220085F09F /* DefaultLivePhotoRecorder.swift */,
+			);
+			path = LivePhotoRecorder;
+			sourceTree = "<group>";
+		};
 		BCA10BE9214664650049F72C /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -671,12 +692,12 @@
 		BCA10BEB214665990049F72C /* Solar System */ = {
 			isa = PBXGroup;
 			children = (
-				BC5CD7412147B65F0048CCAF /* Cells */,
 				BC5CD7482147C33C0048CCAF /* SolarSystemBuilder.swift */,
 				BC43277721A34A4E00D56149 /* Interactor */,
+				BC5CD7412147B65F0048CCAF /* Cells */,
 				BCA6ED4821465D4B00CDFC18 /* SolarSystemViewController.swift */,
 				BC43279621A3660700D56149 /* SolarSystemViewController+CollectionView.swift */,
-				BCAD374321B43200009E7AE6 /* SolarSystemViewController+Navigation.swift */,
+				BCAD374321B43200009E7AE6 /* SolarSystemViewController+Actions.swift */,
 				BC5CD74C2147C4AA0048CCAF /* SolarSystemViewController.storyboard */,
 			);
 			path = "Solar System";
@@ -707,6 +728,7 @@
 				BC39A8DF2146712F0013D333 /* Extensions */,
 				BCA10BE9214664650049F72C /* Utilities */,
 				BC20531421AC6588003807FD /* Database */,
+				BC7A8FFC21B43E6B0085F09F /* Services */,
 				BC5CD752214805EB0048CCAF /* Networking */,
 				BC39A8E221469E400013D333 /* Models */,
 				BCA10BEA2146658E0049F72C /* Modules */,
@@ -943,12 +965,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AR Solar System/Pods-AR Solar System-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARVideoKit/ARVideoKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARVideoKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
@@ -1009,7 +1033,7 @@
 				BC39A8E1214671520013D333 /* SCNNodeExtensions.swift in Sources */,
 				BC5CD75D214807C00048CCAF /* Utils.swift in Sources */,
 				BCF6D4D72146AC7300D39D69 /* Ring.swift in Sources */,
-				BCAD374421B43200009E7AE6 /* SolarSystemViewController+Navigation.swift in Sources */,
+				BCAD374421B43200009E7AE6 /* SolarSystemViewController+Actions.swift in Sources */,
 				BC43277921A34A6400D56149 /* SolarSystemInput.swift in Sources */,
 				BC43279721A3660700D56149 /* SolarSystemViewController+CollectionView.swift in Sources */,
 				BC20532C21AC868E003807FD /* PlanetCategoryBuilder.swift in Sources */,
@@ -1037,6 +1061,7 @@
 				BC5CD757214806560048CCAF /* SpaceMan.swift in Sources */,
 				BC6807BB2158192E00923B15 /* MarsBuilder.swift in Sources */,
 				BCF11CF1219E073C004AFD5F /* AudioPlayerOutput.swift in Sources */,
+				BC7A8FFF21B43E8A0085F09F /* LivePhotoRecorder.swift in Sources */,
 				BC154AD021B30390005725B8 /* FactsRepository.swift in Sources */,
 				BC0EADFB2148466600A84818 /* SpaceManListViewController.swift in Sources */,
 				BCE3832C2152E58F00662D79 /* FirstLaunch.swift in Sources */,
@@ -1069,6 +1094,7 @@
 				BCCAEF2F2150324A0080C2FC /* CosmonautTableViewCell.swift in Sources */,
 				BC154AD821B3099C005725B8 /* PlanetFactInput.swift in Sources */,
 				BC4327A521A3695F00D56149 /* PlanetDistanceViewController.swift in Sources */,
+				BC7A900121B43F220085F09F /* DefaultLivePhotoRecorder.swift in Sources */,
 				BCF6D4DA2146AED000D39D69 /* Sun.swift in Sources */,
 				BC20532A21AC74B6003807FD /* ViewModelBuilder.swift in Sources */,
 				BC20531F21AC66E1003807FD /* Repository.swift in Sources */,

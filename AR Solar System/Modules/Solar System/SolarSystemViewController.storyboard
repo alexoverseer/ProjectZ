@@ -89,8 +89,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </visualEffectView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="OM0-4E-wIE">
-                                <rect key="frame" x="131.66666666666666" y="630" width="112" height="50"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="OM0-4E-wIE">
+                                <rect key="frame" x="63" y="618" width="249" height="50"/>
                                 <subviews>
                                     <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mMa-P4-hj5">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -114,6 +114,10 @@
                                                 <constraint firstAttribute="trailing" secondItem="YkP-pP-6pJ" secondAttribute="trailing" constant="8" id="wb8-po-1d4"/>
                                             </constraints>
                                         </view>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="jyR-Jh-md4"/>
+                                            <constraint firstAttribute="height" constant="50" id="rWa-hG-uLy"/>
+                                        </constraints>
                                         <blurEffect style="dark"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -145,6 +149,90 @@
                                                 <constraint firstAttribute="bottom" secondItem="Igk-B0-svu" secondAttribute="bottom" constant="8" id="j2A-VM-TKG"/>
                                             </constraints>
                                         </view>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="BX1-x1-1Hj"/>
+                                            <constraint firstAttribute="width" constant="50" id="i4m-jF-XeF"/>
+                                        </constraints>
+                                        <blurEffect style="dark"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </visualEffectView>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WTR-8e-Cw7">
+                                        <rect key="frame" x="124" y="0.0" width="1" height="50"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="W1J-U4-St2">
+                                            <rect key="frame" x="0.0" y="0.0" width="1" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="UYi-L4-oap"/>
+                                            <constraint firstAttribute="width" constant="1" id="mYs-pU-c19"/>
+                                        </constraints>
+                                        <blurEffect style="light"/>
+                                    </visualEffectView>
+                                    <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VzP-m2-vWb">
+                                        <rect key="frame" x="137" y="0.0" width="50" height="50"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Hfw-Yc-j5r">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A13-2T-eF0">
+                                                    <rect key="frame" x="8" y="8" width="34" height="34"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <state key="normal" image="gif_icon"/>
+                                                    <connections>
+                                                        <action selector="recordGif" destination="r0n-lQ-Da4" eventType="touchUpInside" id="8rS-tc-b6X"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="A13-2T-eF0" firstAttribute="top" secondItem="Hfw-Yc-j5r" secondAttribute="top" constant="8" id="71s-Os-SW5"/>
+                                                <constraint firstAttribute="trailing" secondItem="A13-2T-eF0" secondAttribute="trailing" constant="8" id="dlN-JK-H7M"/>
+                                                <constraint firstItem="A13-2T-eF0" firstAttribute="leading" secondItem="Hfw-Yc-j5r" secondAttribute="leading" constant="8" id="mie-2Y-57A"/>
+                                                <constraint firstAttribute="bottom" secondItem="A13-2T-eF0" secondAttribute="bottom" constant="8" id="tV2-3i-aSh"/>
+                                            </constraints>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="5Zn-p0-QN2"/>
+                                            <constraint firstAttribute="height" constant="50" id="6rX-jI-MC5"/>
+                                        </constraints>
+                                        <blurEffect style="dark"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </visualEffectView>
+                                    <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cLz-9N-GF3">
+                                        <rect key="frame" x="199" y="0.0" width="50" height="50"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zXd-Kc-zK3">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C5U-ew-Meq">
+                                                    <rect key="frame" x="8" y="8" width="34" height="34"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <state key="normal" image="livephoto_icon">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="recordLivePhoto" destination="r0n-lQ-Da4" eventType="touchUpInside" id="jyG-t6-Cuk"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="C5U-ew-Meq" secondAttribute="bottom" constant="8" id="OgQ-nd-Hzf"/>
+                                                <constraint firstAttribute="trailing" secondItem="C5U-ew-Meq" secondAttribute="trailing" constant="8" id="Sge-4D-DZl"/>
+                                                <constraint firstItem="C5U-ew-Meq" firstAttribute="top" secondItem="zXd-Kc-zK3" secondAttribute="top" constant="8" id="UlX-jj-eYS"/>
+                                                <constraint firstItem="C5U-ew-Meq" firstAttribute="leading" secondItem="zXd-Kc-zK3" secondAttribute="leading" constant="8" id="lq1-p6-E1c"/>
+                                            </constraints>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="DRt-kW-eLN"/>
+                                            <constraint firstAttribute="height" constant="50" id="enQ-jB-tcN"/>
+                                        </constraints>
                                         <blurEffect style="dark"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -199,7 +287,7 @@
                             <constraint firstItem="OM0-4E-wIE" firstAttribute="centerX" secondItem="feI-Ue-5A0" secondAttribute="centerX" id="Hw7-B3-cn2"/>
                             <constraint firstItem="YMV-BS-LkT" firstAttribute="bottom" secondItem="ClZ-Gx-zbI" secondAttribute="bottom" id="KDf-eL-cM0"/>
                             <constraint firstItem="YMV-BS-LkT" firstAttribute="leading" secondItem="ClZ-Gx-zbI" secondAttribute="leading" id="OgK-JZ-yuP"/>
-                            <constraint firstItem="Jae-C9-g8L" firstAttribute="top" secondItem="OM0-4E-wIE" secondAttribute="bottom" constant="8" id="RQ6-3j-60A"/>
+                            <constraint firstItem="Jae-C9-g8L" firstAttribute="top" secondItem="OM0-4E-wIE" secondAttribute="bottom" constant="20" id="RQ6-3j-60A"/>
                             <constraint firstItem="hjn-H9-2SR" firstAttribute="bottom" secondItem="Jae-C9-g8L" secondAttribute="bottom" constant="10" id="Smk-m8-sYz"/>
                             <constraint firstItem="U2t-iz-VL2" firstAttribute="leading" secondItem="hjn-H9-2SR" secondAttribute="leading" constant="20" id="WFT-pg-VNR"/>
                             <constraint firstItem="Jae-C9-g8L" firstAttribute="leading" secondItem="hjn-H9-2SR" secondAttribute="leading" constant="10" id="YnK-pz-iO8"/>
@@ -226,6 +314,8 @@
         <image name="astronaut_icon" width="33.333332061767578" height="33.333332061767578"/>
         <image name="binocular_icon" width="33.333332061767578" height="33.333332061767578"/>
         <image name="compas_icon" width="33.333332061767578" height="33.333332061767578"/>
+        <image name="gif_icon" width="72" height="72"/>
+        <image name="livephoto_icon" width="72" height="72"/>
         <image name="music_icon" width="32" height="32"/>
         <image name="pause_selected_icon" width="33.333332061767578" height="33.333332061767578"/>
     </resources>

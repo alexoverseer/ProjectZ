@@ -4,6 +4,7 @@ import ARKit
 final class SolarSystemInteractor: SolarSystemOutput {
     
     weak var view: SolarSystemInput?
+    var livePhotoRecorder: LivePhotoRecorder!
     
     var planetOptions = PlanetCategoryBuilder.buildCategories()
     
@@ -49,5 +50,33 @@ final class SolarSystemInteractor: SolarSystemOutput {
         case .solarSystem:
             return SolarSystemPlanetBuilder().build()
         }
+    }
+}
+
+// MARK: - LivePhotoRecorder
+
+extension SolarSystemInteractor {
+    
+    func registerARSCNView(view: ARSCNView) {
+        livePhotoRecorder.registerView(view: view)
+        livePhotoRecorder.onEndRecording = { [weak self] saved, status in
+            self?.view?.exportMessage(success: saved, status: status)
+        }
+    }
+    
+    func prepareRecorder(configuration: ARWorldTrackingConfiguration) {
+        livePhotoRecorder.prepareRecorder(configuration: configuration)
+    }
+    
+    func stopRecorder() {
+        livePhotoRecorder.stopRecording()
+    }
+    
+    func recordGIF() {
+        livePhotoRecorder.startRecordGIF()
+    }
+    
+    func recordLivePhoto() {
+        livePhotoRecorder.startRecordLivePhoto()
     }
 }

@@ -14,6 +14,7 @@ final class SolarSystemBuilder {
     private static func createInteractor(with view: SolarSystemInput) -> SolarSystemOutput {
         let interactor = SolarSystemInteractor()
         interactor.view = view
+        interactor.livePhotoRecorder = DefaultLivePhotoRecorder()
         
         return interactor
     }
