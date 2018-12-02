@@ -93,6 +93,7 @@
 		BCA6ED5121465D4C00CDFC18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA6ED4F21465D4C00CDFC18 /* LaunchScreen.storyboard */; };
 		BCAD374121B408E4009E7AE6 /* FactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD373F21B408E4009E7AE6 /* FactTableViewCell.swift */; };
 		BCAD374221B408E4009E7AE6 /* FactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCAD374021B408E4009E7AE6 /* FactTableViewCell.xib */; };
+		BCAD374421B43200009E7AE6 /* SolarSystemViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD374321B43200009E7AE6 /* SolarSystemViewController+Navigation.swift */; };
 		BCB029662150396B00881901 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB029652150396B00881901 /* ImageDownloader.swift */; };
 		BCB029682150433B00881901 /* SpaceManDetailsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB029672150433B00881901 /* SpaceManDetailsBuilder.swift */; };
 		BCB0296A2150434600881901 /* SpaceManDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB029692150434600881901 /* SpaceManDetailsInteractor.swift */; };
@@ -225,6 +226,7 @@
 		BCA6ED5221465D4C00CDFC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCAD373F21B408E4009E7AE6 /* FactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactTableViewCell.swift; sourceTree = "<group>"; };
 		BCAD374021B408E4009E7AE6 /* FactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FactTableViewCell.xib; sourceTree = "<group>"; };
+		BCAD374321B43200009E7AE6 /* SolarSystemViewController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SolarSystemViewController+Navigation.swift"; sourceTree = "<group>"; };
 		BCB029652150396B00881901 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		BCB029672150433B00881901 /* SpaceManDetailsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManDetailsBuilder.swift; sourceTree = "<group>"; };
 		BCB029692150434600881901 /* SpaceManDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceManDetailsInteractor.swift; sourceTree = "<group>"; };
@@ -674,6 +676,7 @@
 				BC43277721A34A4E00D56149 /* Interactor */,
 				BCA6ED4821465D4B00CDFC18 /* SolarSystemViewController.swift */,
 				BC43279621A3660700D56149 /* SolarSystemViewController+CollectionView.swift */,
+				BCAD374321B43200009E7AE6 /* SolarSystemViewController+Navigation.swift */,
 				BC5CD74C2147C4AA0048CCAF /* SolarSystemViewController.storyboard */,
 			);
 			path = "Solar System";
@@ -1006,6 +1009,7 @@
 				BC39A8E1214671520013D333 /* SCNNodeExtensions.swift in Sources */,
 				BC5CD75D214807C00048CCAF /* Utils.swift in Sources */,
 				BCF6D4D72146AC7300D39D69 /* Ring.swift in Sources */,
+				BCAD374421B43200009E7AE6 /* SolarSystemViewController+Navigation.swift in Sources */,
 				BC43277921A34A6400D56149 /* SolarSystemInput.swift in Sources */,
 				BC43279721A3660700D56149 /* SolarSystemViewController+CollectionView.swift in Sources */,
 				BC20532C21AC868E003807FD /* PlanetCategoryBuilder.swift in Sources */,

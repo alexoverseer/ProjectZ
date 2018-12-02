@@ -8,5 +8,6 @@ target 'AR Solar System' do
   pod 'SwiftLint'
   pod 'Kingfisher'
   pod 'Reusable'
+  pod 'ARVideoKit'
   
 end
