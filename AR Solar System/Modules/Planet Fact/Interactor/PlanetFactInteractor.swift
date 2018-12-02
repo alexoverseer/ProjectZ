@@ -1,7 +1,7 @@
 import Foundation
 
 final class PlanetFactInteractor: PlanetFactOutput {
-   
+
     weak var view: PlanetFactInput?
     private(set) var planetCategory: PlanetCategory
     private let viewModel = ViewModelBuilder()
@@ -15,5 +15,13 @@ final class PlanetFactInteractor: PlanetFactOutput {
         facts = viewModel.buildPlanetFacts(identifier: self.planetCategory.identifier)
         view?.setTitle(title: self.planetCategory.title)
         view?.reloadData()
+    }
+    
+    func numberOfCells() -> Int {
+        return facts.count
+    }
+    
+    func planetFact(for index: Int) -> PlanetFact? {
+        return facts[index]
     }
 }

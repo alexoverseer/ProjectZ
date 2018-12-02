@@ -7,7 +7,17 @@
     {
         "name": "Mercury",
         "identifier": "fcc464d1-4376-4464-ac91-5c01914beadd",
+        "fact": "Your weight on Mercury would be 38% of your weight on Earth."
+    },
+    {
+        "name": "Mercury",
+        "identifier": "fcc464d1-4376-4464-ac91-5c01914beadd",
         "fact": "Mercury is the smallest planet in the Solar System. \nOne of five planets visible with the naked eye a, Mercury is just 4,879 Kilometres across its equator, compared with 12,742 Kilometres for the Earth."
+    },
+    {
+        "name": "Mercury",
+        "identifier": "fcc464d1-4376-4464-ac91-5c01914beadd",
+        "fact": "A day on the surface of Mercury lasts 176 Earth days."
     },
     {
         "name": "Mercury",
@@ -17,12 +27,27 @@
     {
         "name": "Mercury",
         "identifier": "fcc464d1-4376-4464-ac91-5c01914beadd",
+        "fact": "A year on Mercury takes 88 Earth days."
+    },
+    {
+        "name": "Mercury",
+        "identifier": "fcc464d1-4376-4464-ac91-5c01914beadd",
         "fact": "Mercury has wrinkles. \nAs the iron core of the planet cooled and contracted, the surface of the planet became wrinkled. Scientist have named these wrinkles, Lobate Scarps. These Scarps can be up to a mile high and hundreds of miles long."
     },
     {
         "name": "Mercury",
         "identifier": "fcc464d1-4376-4464-ac91-5c01914beadd",
+        "fact": "Mercury has a diameter of 4,879 km, making it the smallest planet."
+    },
+    {
+        "name": "Mercury",
+        "identifier": "fcc464d1-4376-4464-ac91-5c01914beadd",
         "fact": "Mercury has a molten core. \nIn recent years scientists from NASA have come to believe the solid iron core of Mercury could in fact be molten. Normally the core of smaller planets cools rapidly, but after extensive research, the results were not in line with those expected from a solid core. Scientists now believe the core to contain a lighter element such as sulphur, which would lower the melting temperature of the core material. It is estimated Mercury’s core makes up 42% of its volume, while the Earth’s core makes up 17%."
+    },
+    {
+        "name": "Mercury",
+        "identifier": "fcc464d1-4376-4464-ac91-5c01914beadd",
+        "fact": "It’s not known who discovered Mercury."
     },
     {
         "name": "Mercury",
@@ -48,5 +73,555 @@
         "name": "Mercury",
         "identifier": "fcc464d1-4376-4464-ac91-5c01914beadd",
         "fact": "Mercury has an atmosphere (sort of). \nMercury has just 38% the gravity of Earth, this is too little to hold on to what atmosphere it has which is blown away by solar winds. However while gases escape into space they are constantly being replenished at the same time by the same solar winds, radioactive decay and dust caused by micrometeorites."
+    },
+    {
+        "name": "Mercury",
+        "identifier": "fcc464d1-4376-4464-ac91-5c01914beadd",
+        "fact": "Mercury does not have any moons or rings."
+    },
+    {
+        "name": "Venus",
+        "identifier": "e8871327-6f09-41a7-a862-eb384324cee2",
+        "fact": "Venus does not have any moons or rings."
+    },
+    {
+        "name": "Venus",
+        "identifier": "e8871327-6f09-41a7-a862-eb384324cee2",
+        "fact": "Venus is nearly as big as the Earth with a diameter of 12,104 km."
+    },
+    {
+        "name": "Venus",
+        "identifier": "e8871327-6f09-41a7-a862-eb384324cee2",
+        "fact": "Venus is thought to be made up of a central iron core, rocky mantle and silicate crust."
+    },
+    {
+        "name": "Venus",
+        "identifier": "e8871327-6f09-41a7-a862-eb384324cee2",
+        "fact": "A day on the surface of Venus (solar day) would appear to take 117 Earth days."
+    },
+    {
+        "name": "Venus",
+        "identifier": "e8871327-6f09-41a7-a862-eb384324cee2",
+        "fact": "A year on Venus takes 225 Earth days."
+    },
+    {
+        "name": "Venus",
+        "identifier": "e8871327-6f09-41a7-a862-eb384324cee2",
+        "fact": "The surface temperature on Venus can reach 471 °C."
+    },
+    {
+        "name": "Venus",
+        "identifier": "e8871327-6f09-41a7-a862-eb384324cee2",
+        "fact": "A day on Venus lasts longer than a year. \nIt takes 243 Earth days to rotate once on its axis (sidereal day). The planet’s orbit around the Sun takes 225 Earth days, compared to the Earth’s 365. A day on the surface of Venus (solar day) takes 117 Earth days."
+    },
+    {
+        "name": "Venus",
+        "identifier": "e8871327-6f09-41a7-a862-eb384324cee2",
+        "fact": "Venus rotates in the opposite direction to most other planets. \nThis means that Venus is rotating in the opposite direction to the Sun, this is also know as a retrograde rotation. A possible reason might be a collision in the past with an asteroid or other object that caused the planet to alter its rotational path. It also differs from most other planets in our solar system by having no natural satellites."
+    },
+    {
+        "name": "Venus",
+        "identifier": "e8871327-6f09-41a7-a862-eb384324cee2",
+        "fact": "Venus is the second brightest object in the night sky. \nOnly the Moon is brighter. With a magnitude of between -3.8 to -4.6 Venus is so bright it can be seen during daytime on a clear day."
+    },
+    {
+        "name": "Venus",
+        "identifier": "e8871327-6f09-41a7-a862-eb384324cee2",
+        "fact": "Atmospheric pressure on Venus is 92 times greater than the Earth’s. \nWhile its size and mass are similar to Earth, the small asteroids are crushed when entering its atmosphere, meaning no small craters lie on the surface of the planet. The pressure felt by a human on the surface would be equivalent to that experienced deep beneath the sea on Earth."
+    },
+    {
+        "name": "Venus",
+        "identifier": "e8871327-6f09-41a7-a862-eb384324cee2",
+        "fact": "Venus is often called the Earth’s sister planet. \nThe Earth and Venus are very similar in size with only a 638 km difference in diameter, Venus having 81.5% of the Earth’s mass. Both also have a central core, a molten mantle and a crust."
+    },
+    {
+        "name": "Venus",
+        "identifier": "e8871327-6f09-41a7-a862-eb384324cee2",
+        "fact": "Venus is also known as the Morning Star and the Evening Star. \nEarly civilisations thought Venus was two different bodies, called Phosphorus and Hesperus by the Greeks, and Lucifer and Vesper by the Romans. This is because when its orbit around the Sun overtakes Earth’s orbit, it changes from being visible after sunset to being visible before sunrise. Mayan astronomers made detailed observations of Venus as early as 650 AD."
+    },
+    {
+        "name": "Venus",
+        "identifier": "e8871327-6f09-41a7-a862-eb384324cee2",
+        "fact": "Venus is the hottest planet in our solar system. \nThe average surface temperature is 462 °C, and because Venus does not tilt on its axis, there is no seasonal variation. The dense atmosphere of around 96.5 percent carbon dioxide traps heat and causes a greenhouse effect."
+    },
+    {
+        "name": "Venus",
+        "identifier": "e8871327-6f09-41a7-a862-eb384324cee2",
+        "fact": "A detailed study of Venus finished in 2015. \nIn 2006, the Venus Express space craft was sent into orbit around Venus by the European Space Agency, and sent back information about the planet. Originally planned to last five hundred Earth days, the mission was extended several times before the craft was finally deorbited in 2015. More than 1,000 volcanoes or volcanic centres larger than 20 km have been found on the surface of Venus."
+    },
+    {
+        "name": "Venus",
+        "identifier": "e8871327-6f09-41a7-a862-eb384324cee2",
+        "fact": "The Russians sent the first mission to Venus. \nThe Venera 1 space probe was launched in 1961, but lost contact with base. The USA also lost their first probe to Venus, Mariner 1, although Mariner 2 was able to take measurements of the planet in 1962. The Soviet Union’s Venera 3 was the first man-made craft to land on Venus in 1966."
+    },
+    {
+        "name": "Venus",
+        "identifier": "e8871327-6f09-41a7-a862-eb384324cee2",
+        "fact": "At one point it was thought Venus might be a tropical paradise. \nThe dense clouds of sulphuric acid surrounding Venus make it impossible to view its surface from outside its atmosphere. It was only when radio mapping was developed in the 1960s that scientists were able to observe and measure the extreme temperatures and hostile environment. It is thought Venus did once have oceans but these evaporated as the planets temperature increased."
+    },
+    {
+        "name": "Earth & Moon",
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "fact": "The Earth’s rotation is gradually slowing. \nThis deceleration is happening almost imperceptibly, at approximately 17 milliseconds per hundred years, although the rate at which it occurs is not perfectly uniform. This has the effect of lengthening our days, but it happens so slowly that it could be as much as 140 million years before the length of a day will have increased to 25 hours."
+    },
+    {
+        "name": "Earth & Moon",
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "fact": "The Earth was once believed to be the centre of the universe. \nDue to the apparent movements of the Sun and planets in relation to their viewpoint, ancient scientists insisted that the Earth remained static, whilst other celestial bodies travelled in circular orbits around it. Eventually, the view that the Sun was at the centre of the universe was postulated by Copernicus, though this is also not the case."
+    },
+    {
+        "name": "Earth & Moon",
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "fact": "Earth has a powerful magnetic field. \nThis phenomenon is caused by the nickel-iron core of the planet, coupled with its rapid rotation. This field protects the Earth from the effects of solar wind."
+    },
+    {
+        "name": "Earth & Moon",
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "fact": "There is only one natural satellite of the planet Earth. \nAs a percentage of the size of the body it orbits, the Moon is the largest satellite of any planet in our solar system. In real terms, however, it is only the fifth largest natural satellite."
+    },
+    {
+        "name": "Earth & Moon",
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "fact": "Earth is the only planet not named after a god. \nThe other seven planets in our solar system are all named after Roman gods or goddesses. Although only Mercury, Venus, Mars, Jupiter and Saturn were named during ancient times, because they were visible to the naked eye, the Roman method of naming planets was retained after the discovery of Uranus and Neptune."
+    },
+    {
+        "name": "Earth & Moon",
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "fact": "The Earth is the densest planet in the Solar System. \nThis varies according to the part of the planet; for example, the metallic core is denser than the crust. The average density of the Earth is approximately 5.52 grams per cubic centimetre."
+    },
+    {
+        "name": "Earth & Moon",
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "fact": "The dark side of the moon is a myth. \nIn reality both sides of the Moon see the same amount of sunlight however only one face of the Moon is ever seen from Earth. This is because the Moon rotates around on its own axis in exactly the same time it takes to orbit the Earth, meaning the same side is always facing the Earth. The side facing away from Earth has only been seen by the human eye from spacecraft."
+    },
+    {
+        "name": "Earth & Moon",
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "fact": "The rise and fall of the tides on Earth is caused by the Moon. \nThere are two bulges in the Earth due to the gravitational pull that the Moon exerts; one on the side facing the Moon, and the other on the opposite side that faces away from the Moon, The bulges move around the oceans as the Earth rotates, causing high and low tides around the globe."
+    },
+    {
+        "name": "Earth & Moon",
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "fact": "The Moon is drifting away from the Earth. \nThe Moon is moving approximately 3.8 cm away from our planet every year. It is estimated that it will continue to do so for around 50 billion years. By the time that happens, the Moon will be taking around 47 days to orbit the Earth instead of the current 27.3 days."
+    },
+    {
+        "name": "Earth & Moon",
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "fact": "A person would weigh much less on the Moon. \nThe Moon has much weaker gravity than Earth, due to its smaller mass, so you would weigh about one sixth (16.5%) of your weight on Earth. This is why the lunar astronauts could leap and bound so high in the air."
+    },
+    {
+        "name": "Earth & Moon",
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "fact": "The Moon has only been walked on by 12 people; all American males. \nThe first man to set foot on the Moon in 1969 was Neil Armstrong on the Apollo 11 mission, while the last man to walk on the Moon in 1972 was Gene Cernan on the Apollo 17 mission. Since then the Moon has only be visited by unmanned vehicles."
+    },
+    {
+        "name": "Earth & Moon",
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "fact": "The Moon has no atmosphere. \nThis means that the surface of the Moon is unprotected from cosmic rays, meteorites and solar winds, and has huge temperature variations. The lack of atmosphere means no sound can be heard on the Moon, and the sky always appears black."
+    },
+    {
+        "name": "Earth & Moon",
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "fact": "The Moon has quakes. \nThese are caused by the gravitational pull of the Earth. Lunar astronauts used seismographs on their visits to the Moon, and found that small moonquakes occurred several kilometres beneath the surface, causing ruptures and cracks. Scientists think the Moon has a molten core, just like Earth."
+    },
+    {
+        "name": "Earth & Moon",
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "fact": "The first spacecraft to reach the Moon was Luna 1 in 1959. \nThis was a Soviet craft, which was launched from the USSR. It passed within 5995 km of the surface of the Moon before going into orbit around the Sun."
+    },
+    {
+        "name": "Earth & Moon",
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "fact": "The Moon is the fifth largest natural satellite in the Solar System. \nAt 3,475 km in diameter, the Moon is much smaller than the major moons of Jupiter and Saturn. Earth is about 80 times the volume than the Moon, but both are about the same age. A prevailing theory is that the Moon was once part of the Earth, and was formed from a chunk that broke away due to a huge object colliding with Earth when it was relatively young."
+    },
+    {
+        "name": "Earth & Moon",
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "fact": "The Moon will be visited by man in the near future. \nNASA plans to return astronauts to the moon to set up a permanent space station. Mankind may once again walk on the moon in 2019, if all goes according to plan."
+    },
+    {
+        "name": "Earth & Moon",
+        "identifier": "c3da0235-8dab-486d-a887-1dd9c684da70",
+        "fact": "During the 1950’s the USA considered detonating a nuclear bomb on the Moon. \nThe secret project was during the height cold war was known as “A Study of Lunar Research Flights” or “Project A119” and meant as a show of strength at a time they were lagging behind in the space race."
+    },
+    {
+        "name": "Mars",
+        "identifier": "4bc704d9-49f2-41d1-86fe-ecab39a348c2",
+        "fact": "Mars and Earth have approximately the same landmass. \nEven though Mars has only 15% of the Earth’s volume and just over 10% of the Earth’s mass, around two thirds of the Earth’s surface is covered in water. Martian surface gravity is only 37% of the Earth’s (meaning you could leap nearly three times higher on Mars)."
+    },
+    {
+        "name": "Mars",
+        "identifier": "4bc704d9-49f2-41d1-86fe-ecab39a348c2",
+        "fact": "Mars is home to the tallest mountain in the solar system. \nOlympus Mons, a shield volcano, is 21km high and 600km in diameter. Despite having formed over billions of years, evidence from volcanic lava flows is so recent many scientists believe it could still be active."
+    },
+    {
+        "name": "Mars",
+        "identifier": "4bc704d9-49f2-41d1-86fe-ecab39a348c2",
+        "fact": "Only 18 missions to Mars have been successful. \nAs of September 2014 there have been 40 missions to Mars, including orbiters, landers and rovers but not counting flybys. The most recent arrivals include the Mars Curiosity mission in 2012, the MAVEN mission, which arrived on September 22, 2014, followed by the Indian Space Research Organization’s MOM Mangalyaan orbiter, which arrived on September 24, 2014. The next missions to arrive will be the European Space Agency’s ExoMars mission, comprising an orbiter, lander, and a rover, followed by NASA’s InSight robotic lander mission, slated for launch in March 2016 and a planned arrival in September, 2016."
+    },
+    {
+        "name": "Mars",
+        "identifier": "4bc704d9-49f2-41d1-86fe-ecab39a348c2",
+        "fact": "Mars has the largest dust storms in the solar system. \nThey can last for months and cover the entire planet. The seasons are extreme because its elliptical (oval-shaped) orbital path around the Sun is more elongated than most other planets in the solar system."
+    },
+    {
+        "name": "Mars",
+        "identifier": "4bc704d9-49f2-41d1-86fe-ecab39a348c2",
+        "fact": "On Mars the Sun appears about half the size as it does on Earth. \nAt the closest point to the Sun, the Martian southern hemisphere leans towards the Sun, causing a short, intensely hot summer, while the northern hemisphere endures a brief, cold winter: at its farthest point from the Sun, the Martian northern hemisphere leans towards the Sun, causing a long, mild summer, while the southern hemisphere endures a lengthy, cold winter."
+    },
+    {
+        "name": "Mars",
+        "identifier": "4bc704d9-49f2-41d1-86fe-ecab39a348c2",
+        "fact": "Pieces of Mars have fallen to Earth. \nScientists have found tiny traces of Martian atmosphere within meteorites violently ejected from Mars, then orbiting the solar system amongst galactic debris for millions of years, before crash landing on Earth. This allowed scientists to begin studying Mars prior to launching space missions."
+    },
+    {
+        "name": "Mars",
+        "identifier": "4bc704d9-49f2-41d1-86fe-ecab39a348c2",
+        "fact": "Mars takes its name from the Roman god of war. \nThe ancient Greeks called the planet Ares, after their god of war; the Romans then did likewise, associating the planet’s blood-red colour with Mars, their own god of war. Interestingly, other ancient cultures also focused on colour – to China’s astronomers it was ‘the fire star’, whilst Egyptian priests called on ‘Her Desher’, or ‘the red one’. The red colour Mars is known for is due to the rock and dust covering its surface being rich in iron."
+    },
+    {
+        "name": "Mars",
+        "identifier": "4bc704d9-49f2-41d1-86fe-ecab39a348c2",
+        "fact": "There are signs of liquid water on Mars. \nFor years Mars has been known to have water in the form of ice. The first signs of trickling water are dark stripes or stains on crater wall and cliffs seen in satellite images. Due to Mars’ atmosphere this water would have to be salty to prevent it from freezing or vaporising."
+    },
+    {
+        "name": "Mars",
+        "identifier": "4bc704d9-49f2-41d1-86fe-ecab39a348c2",
+        "fact": "One day Mars will have a ring. \nIn the next 20-40 million years Mars’ largest moon Phobos will be torn apart by gravitational forces leading to the creation of a ring that could last up to 100 million years."
+    },
+    {
+        "name": "Jupiter & Moons",
+        "identifier": "e0f5b8bc-cade-40b3-8292-26cdcd2ba5dc",
+        "fact": "Jupiter is the fourth brightest object in the solar system. \nOnly the Sun, Moon and Venus are brighter. It is one of five planets visible to the naked eye from Earth."
+    },
+    {
+        "name": "Jupiter & Moons",
+        "identifier": "e0f5b8bc-cade-40b3-8292-26cdcd2ba5dc",
+        "fact": "The ancient Babylonians were the first to record their sightings of Jupiter. \nThis was around the 7th or 8th century BC. Jupiter is named after the king of the Roman gods. To the Greeks, it represented Zeus, the god of thunder. The Mesopotamians saw Jupiter as the god Marduk and patron of the city of Babylon. Germanic tribes saw this planet as Donar, or Thor."
+    },
+    {
+        "name": "Jupiter & Moons",
+        "identifier": "e0f5b8bc-cade-40b3-8292-26cdcd2ba5dc",
+        "fact": "Jupiter has the shortest day of all the planets. \nIt turns on its axis once every 9 hours and 55 minutes. The rapid rotation flattens the planet slightly, giving it an oblate shape."
+    },
+    {
+        "name": "Jupiter & Moons",
+        "identifier": "e0f5b8bc-cade-40b3-8292-26cdcd2ba5dc",
+        "fact": "Jupiter orbits the Sun once every 11.8 Earth years. \nFrom our point of view on Earth, it appears to move slowly in the sky, taking months to move from one constellation to another."
+    },
+    {
+        "name": "Jupiter & Moons",
+        "identifier": "e0f5b8bc-cade-40b3-8292-26cdcd2ba5dc",
+        "fact": "Jupiter has unique cloud features. \nThe upper atmosphere of Jupiter is divided into cloud belts and zones. They are made primarily of ammonia crystals, sulfur, and mixtures of the two compounds."
+    },
+    {
+        "name": "Jupiter & Moons",
+        "identifier": "e0f5b8bc-cade-40b3-8292-26cdcd2ba5dc",
+        "fact": "The Great Red Spot is a huge storm on Jupiter. \nIt has raged for at least 350 years. It is so large that three Earths could fit inside it."
+    },
+    {
+        "name": "Jupiter & Moons",
+        "identifier": "e0f5b8bc-cade-40b3-8292-26cdcd2ba5dc",
+        "fact": "Jupiter’s interior is made of rock, metal, and hydrogen compounds. \nBelow Jupiter’s massive atmosphere (which is made primarily of hydrogen), there are layers of compressed hydrogen gas, liquid metallic hydrogen, and a core of ice, rock, and metals."
+    },
+    {
+        "name": "Jupiter & Moons",
+        "identifier": "e0f5b8bc-cade-40b3-8292-26cdcd2ba5dc",
+        "fact": "Jupiter’s moon Ganymede is the largest moon in the solar system. \nJupiter’s moons are sometimes called the Jovian satellites, the largest of these are Ganymeade, Callisto Io and Europa. Ganymeade measures 5,268 km across, making it larger than the planet Mercury."
+    },
+    {
+        "name": "Jupiter & Moons",
+        "identifier": "e0f5b8bc-cade-40b3-8292-26cdcd2ba5dc",
+        "fact": "Jupiter has a thin ring system. \nIts rings are composed mainly of dust particles ejected from some of Jupiter’s smaller worlds during impacts from incoming comets and asteroids. The ring system begins some 92,000 kilometres above Jupiter’s cloud tops and stretches out to more than 225,000 km from the planet. They are between 2,000 to 12,500 kilometres thick."
+    },
+    {
+        "name": "Jupiter & Moons",
+        "identifier": "e0f5b8bc-cade-40b3-8292-26cdcd2ba5dc",
+        "fact": "Eight spacecraft have visited Jupiter. \nPioneer 10 and 11, Voyager 1 and 2, Galileo, Cassini, Ulysses, and New Horizons missions. The Juno mission is its way to Jupiter and will arrive in July 2016. Other future missions may focus on the Jovian moons Europa, Ganymede, and Callisto, and their subsurface oceans."
+    },
+    {
+        "name": "Jupiter & Moons",
+        "identifier": "e0f5b8bc-cade-40b3-8292-26cdcd2ba5dc",
+        "fact": "Jupiter’s Great Red Spot \nSituated 22° south of Jupiter’s equator, the Great Red Spot is a storm that has been raging for at least 186 years. In fact, upper estimates suggest that this red and turbulent storm could have been in existence for over three and a half centuries. A giant red spot was seen on Jupiter in the seventeenth century, when telescopes first started to be used. However, it is unknown whether this is the same red spot that we see today, or whether Jupiter has had many such storms that have come and gone as the centuries pass. \nThe red spot circulates anticlockwise and takes six (earth) days to rotate completely. Another mystery surrounding the red spot is what makes it red: scientists have come up with several theories (for instance, the presence of red organic compounds) but as yet nobody knows for certain. That will be a question for future astronomy!"
+    },
+    {
+        "name": "Jupiter & Moons",
+        "identifier": "e0f5b8bc-cade-40b3-8292-26cdcd2ba5dc",
+        "fact": "Jupiter’s Atmosphere \nJupiter’s atmosphere is special because it is the solar system’s largest planetary atmosphere. It is made up of hydrogen and helium, in roughly the same proportions as are found in the sun. However, it also contains much smaller amounts of other space gases, such as ammonia, methane and water. 90% of the atmosphere of Jupiter – a huge proportion – is made of hydrogen. It would be impossible for humans to breathe in this atmosphere. So, if you are thinking of travelling to space to do some hands on astronomy research, you would have to wear a breathing suit when visiting this planet."
+    },
+    {
+        "name": "Saturn & Moons",
+        "identifier": "8bcc6a3e-6d4b-45a3-8884-64c698469a5d",
+        "fact": "Saturn can be seen with the naked eye. \nIt is the fifth brightest object in the solar system and is also easily studied through binoculars or a small telescope."
+    },
+    {
+        "name": "Saturn & Moons",
+        "identifier": "8bcc6a3e-6d4b-45a3-8884-64c698469a5d",
+        "fact": "Saturn was known to the ancients, including the Babylonians and Far Eastern observers. \nIt is named for the Roman god Saturnus, and was known to the Greeks as Cronus."
+    },
+    {
+        "name": "Saturn & Moons",
+        "identifier": "8bcc6a3e-6d4b-45a3-8884-64c698469a5d",
+        "fact": "Saturn is the flattest planet. \nIts polar diameter is 90% of its equatorial diameter, this is due to its low density and fast rotation. Saturn turns on its axis once every 10 hours and 34 minutes giving it the second-shortest day of any of the solar system’s planets."
+    },
+    {
+        "name": "Saturn & Moons",
+        "identifier": "8bcc6a3e-6d4b-45a3-8884-64c698469a5d",
+        "fact": "Saturn orbits the Sun once every 29.4 Earth years. \nIts slow movement against the backdrop of stars earned it the nickname of “Lubadsagush” from the ancient Assyrians. The name means “oldest of the old”."
+    },
+    {
+        "name": "Saturn & Moons",
+        "identifier": "8bcc6a3e-6d4b-45a3-8884-64c698469a5d",
+        "fact": "Saturn’s upper atmosphere is divided into bands of clouds. \nThe top layers are mostly ammonia ice. Below them, the clouds are largely water ice. Below are layers of cold hydrogen and sulfur ice mixtures."
+    },
+    {
+        "name": "Saturn & Moons",
+        "identifier": "8bcc6a3e-6d4b-45a3-8884-64c698469a5d",
+        "fact": "Saturn has oval-shaped storms similar to Jupiter’s. \nThe region around its north pole has a hexagonal-shaped pattern of clouds. Scientists think this may be a wave pattern in the upper clouds. The planet also has a vortex over its south pole that resembles a hurricane-like storm."
+    },
+    {
+        "name": "Saturn & Moons",
+        "identifier": "8bcc6a3e-6d4b-45a3-8884-64c698469a5d",
+        "fact": "Saturn is made mostly of hydrogen. \nIt exists in layers that get denser farther into the planet. Eventually, deep inside, the hydrogen becomes metallic. At the core lies a hot interior."
+    },
+    {
+        "name": "Saturn & Moons",
+        "identifier": "8bcc6a3e-6d4b-45a3-8884-64c698469a5d",
+        "fact": "Saturn has the most extensive rings in the solar system. \nThe Saturnian rings are made mostly of chunks of ice and small amounts of carbonaceous dust. The rings stretch out more than 120,700 km from the planet, but are are amazingly thin: only about 20 meters thick."
+    },
+    {
+        "name": "Saturn & Moons",
+        "identifier": "8bcc6a3e-6d4b-45a3-8884-64c698469a5d",
+        "fact": "Saturn has 150 moons and smaller moonlets. \nAll are frozen worlds. The largest moons are Titan and Rhea. Enceladus appears to have an ocean below its frozen surface."
+    },
+    {
+        "name": "Saturn & Moons",
+        "identifier": "8bcc6a3e-6d4b-45a3-8884-64c698469a5d",
+        "fact": "Titan is a moon with complex and dense nitrogen-rich atmosphere. \nIt is composed mostly of water ice and rock. Its frozen surface has lakes of liquid methane and landscapes covered with frozen nitrogen. Planetary scientists consider Titan to be a possible harbour for life, but not Earth-like life."
+    },
+    {
+        "name": "Saturn & Moons",
+        "identifier": "8bcc6a3e-6d4b-45a3-8884-64c698469a5d",
+        "fact": "Four spacecraft have visited Saturn. \nPioneer 11, Voyager 1 and 2, and the Cassini-Huygens mission have all studied the planet. Cassini orbited Saturn from July 2004 until September 2017, sending back a wealth of data about the planet, its moons, and rings."
+    },
+    {
+        "name": "Saturn & Moons",
+        "identifier": "8bcc6a3e-6d4b-45a3-8884-64c698469a5d",
+        "fact": "Saturn’s Rings \nWhile all the gas giants in our solar system have rings none of them are as extensive or distinctive as Saturn’s. The rings were discovered by Galileo Galilei 1610 who observed them with a telescope. The first ‘up close’ view of the rings were by Pioneer 11 spacecraft which flew by Saturn on September 1, 1971. \nSaturn’s rings are made up of are billions of particles that range in size from tiny dust grains to to objects as large as mountains. These are made up of chunks of ice and rock, believed to have come from asteroids comets or even moons, that broke apart before they reached the planet. \nSaturn’s rings are divided into 7 groups, named alphabetically in the order of their discovery (Outwards from Saturn; D, C, B, A, F, G and E). The F ring is kept in place by two of Saturn’s moons, Prometheus and Pandora, these are referred to as ‘shepherd moons’. Other satellites are responsible for creating divisions in the rings as well as shepherding them."
+    },
+    {
+        "name": "Saturn & Moons",
+        "identifier": "8bcc6a3e-6d4b-45a3-8884-64c698469a5d",
+        "fact": "Saturn’s Atmosphere \nSaturn’s atmosphere is composed primarily of hydrogen (96%) and helium (3%) with traces of other substances like methane, ammonia, acetylene, ethane, propane and phosphine. Winds in the upper atmosphere can reach speeds of 500 metres a second, these combined with heat rising from within the planet’s interior cause yellow and gold bands."
+    },
+    {
+        "name": "Uranus & Moons",
+        "identifier": "1edc326d-1703-485b-90c6-448de8d30ab8",
+        "fact": "Uranus was officially discovered by Sir William Herschel in 1781. \nIt is too dim to have been seen by the ancients. At first Herschel thought it was a comet, but several years later it was confirmed as a planet. Herscal tried to have his discovery named “Georgian Sidus” after King George III. The name Uranus was suggested by astronomer Johann Bode. The name comes from the ancient Greek deity Ouranos."
+    },
+    {
+        "name": "Uranus & Moons",
+        "identifier": "1edc326d-1703-485b-90c6-448de8d30ab8",
+        "fact": "Uranus turns on its axis once every 17 hours, 14 minutes. \nThe planet rotates in a retrograde direction, opposite to the way Earth and most other planets turn."
+    },
+    {
+        "name": "Uranus & Moons",
+        "identifier": "1edc326d-1703-485b-90c6-448de8d30ab8",
+        "fact": "Uranus makes one trip around the Sun every 84 Earth years. \nDuring some parts of its orbit one or the other of its poles point directly at the Sun and get about 42 years of direct sunlight. The rest of the time they are in darkness."
+    },
+    {
+        "name": "Uranus & Moons",
+        "identifier": "1edc326d-1703-485b-90c6-448de8d30ab8",
+        "fact": "Uranus is often referred to as an “ice giant” planet. \nLike the other gas giants, it has a hydrogen upper layer, which has helium mixed in. Below that is an icy “mantle, which surrounds a rock and ice core. The upper atmosphere is made of water, ammonia and the methane ice crystals that give the planet its pale blue colour."
+    },
+    {
+        "name": "Uranus & Moons",
+        "identifier": "1edc326d-1703-485b-90c6-448de8d30ab8",
+        "fact": "Uranus hits the coldest temperatures of any planet. \nWith minimum atmospheric temperature of -224°C Uranus is nearly coldest planet in the solar system. While Neptune doesn’t get as cold as Uranus it is on average colder. The upper atmosphere of Uranus is covered by a methane haze which hides the storms that take place in the cloud decks."
+    },
+    {
+        "name": "Uranus & Moons",
+        "identifier": "1edc326d-1703-485b-90c6-448de8d30ab8",
+        "fact": "Uranus has two sets of very thin dark coloured rings. \nThe ring particles are small, ranging from a dust-sized particles to small boulders. There are eleven inner rings and two outer rings. They probably formed when one or more of Uranus’s moons were broken up in an impact. The first rings were discovered in 1977 with the two outer rings being discovered in Hubble Space Telescope images between 2003 and 2005."
+    },
+    {
+        "name": "Uranus & Moons",
+        "identifier": "1edc326d-1703-485b-90c6-448de8d30ab8",
+        "fact": "Uranus’ moons are named after characters created by William Shakespeare and Alexander Pope. \nThese include Oberon, Titania and Miranda.  All are frozen worlds with dark surfaces. Some are ice and rock mixtures.  The most interesting Uranian moon is Miranda; it has ice canyons, terraces, and other strange-looking surface areas."
+    },
+    {
+        "name": "Uranus & Moons",
+        "identifier": "1edc326d-1703-485b-90c6-448de8d30ab8",
+        "fact": "Only one spacecraft has flown by Uranus. \nIn 1986, the Voyager 2 spacecraft swept past the planet at a distance of 81,500 km. It returned the first close-up images of the planet, its moons, and rings."
+    },
+    {
+        "name": "Neptune & Triton",
+        "identifier": "1c049999-8d75-4763-a8ea-fa76477aa511",
+        "fact": "Neptune was not known to the ancients. \nIt is not visible to the naked eye and was first observed in 1846. Its position was determined using mathematical predictions. It was named after the Roman god of the sea."
+    },
+    {
+        "name": "Neptune & Triton",
+        "identifier": "1c049999-8d75-4763-a8ea-fa76477aa511",
+        "fact": "Neptune spins on its axis very rapidly. \nIts equatorial clouds take 18 hours to make one rotation. This is because Neptune is not solid body."
+    },
+    {
+        "name": "Neptune & Triton",
+        "identifier": "1c049999-8d75-4763-a8ea-fa76477aa511",
+        "fact": "Neptune is the smallest of the ice giants. \nDespite being smaller than Uranus, Neptune has a greater mass. Below its heavy atmosphere, Uranus is made of layers of hydrogen, helium, and methane gases. They enclose a layer of water, ammonia and methane ice. The inner core of the planet is made of rock."
+    },
+    {
+        "name": "Neptune & Triton",
+        "identifier": "1c049999-8d75-4763-a8ea-fa76477aa511",
+        "fact": "The atmosphere of Neptune is made of hydrogen and helium, with some methane. \nThe methane absorbs red light, which makes the planet appear a lovely blue. High, thin clouds drift in the upper atmosphere."
+    },
+    {
+        "name": "Neptune & Triton",
+        "identifier": "1c049999-8d75-4763-a8ea-fa76477aa511",
+        "fact": "Neptune has a very active climate. \nLarge storms whirl through its upper atmosphere, and high-speed winds track around the planet at up 600 meters per second. One of the largest storms ever seen was recorded in 1989. It was called the Great Dark Spot. It lasted about five years."
+    },
+    {
+        "name": "Neptune & Triton",
+        "identifier": "1c049999-8d75-4763-a8ea-fa76477aa511",
+        "fact": "Neptune has a very thin collection of rings. \nThey are likely made up of ice particles mixed with dust grains and possibly coated with a carbon-based substance."
+    },
+    {
+        "name": "Neptune & Triton",
+        "identifier": "1c049999-8d75-4763-a8ea-fa76477aa511",
+        "fact": "Neptune has 14 moons. \nThe most interesting moon is Triton, a frozen world that is spewing nitrogen ice and dust particles out from below its surface. It was likely captured by the gravitational pull of Neptune. It is probably the coldest world in the solar system."
+    },
+    {
+        "name": "Neptune & Triton",
+        "identifier": "1c049999-8d75-4763-a8ea-fa76477aa511",
+        "fact": "Only one spacecraft has flown by Neptune. \nIn 1989, the Voyager 2 spacecraft swept past the planet. It returned the first close-up images of the Neptune system. The NASA/ESA Hubble Space Telescope has also studied this planet, as have a number of ground-based telescopes."
+    },
+    {
+        "name": "Neptune & Triton",
+        "identifier": "1c049999-8d75-4763-a8ea-fa76477aa511",
+        "fact": "Neptune’s Great Dark Spot \nThe Great Dark Spot in the southern atmosphere of Neptune was first discovered in 1989 by the Voyager 2 spacecraft. It was an incredibly large rotating storm system with winds of upto 1,500 miles per hour, the strongest winds recorded on any planet. How such powerful winds were discovered on a planet so far from the sun is still considered a mystery to this day. \nData from the Voyager 2 spacecraft also showed that the Great Dark Spot varied significantly in size during their brief pass of the planet. When Neptune was viewed by the Hubble Space telescope in 1994 the Great Dark Spot had vanished, although a different dark spot had appeared in Neptune’s northern hemisphere."
+    },
+    {
+        "name": "Neptune & Triton",
+        "identifier": "1c049999-8d75-4763-a8ea-fa76477aa511",
+        "fact": "Neptune’s Atmosphere \nNeptune has an incredibly thick atmosphere comprised of 74% hydrogen, 25% helium and approximately 1% methane. Its atmosphere also contains icy clouds and the fastest winds recorded in the solar system. Particles of icy methane and minor gases in the extremities of the atmosphere give Neptune its deep blue colour. The striking blue and white features of Neptune also help to distinguish it from Uranus. \nNeptune’s atmosphere is subdivided into the lower troposphere and the stratosphere with the tropopause being the boundary between the two. In the lower troposphere temperatures decrease with altitude however they increase with altitude in the stratosphere. Hydrocarbons form hazes of smog that appear in the entire upper atmosphere of Neptune and hydrocarbon snowflakes that form in Neptune’s atmosphere melt before they reach its surface due to the high pressure."
+    },
+    {
+        "name": "Pluton & Charon",
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "fact": "Pluto is named after the Greek god of the underworld. \nThis is a later name for the more well known Hades and was proposed by Venetia Burney an eleven year old schoolgirl from Oxford, England."
+    },
+    {
+        "name": "Pluton & Charon",
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "fact": "Pluto was discovered on February 18th, 1930 by the Lowell Observatory. \nFor the 76 years between Pluto being discovered and the time it was reclassified as a dwarf planet it completed under a third of its orbit around the Sun."
+    },
+    {
+        "name": "Pluton & Charon",
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "fact": "Pluto has five known moons. \nThe moons are Charon (discovered in 1978,), Hydra and Nix (both discovered in 2005), Kerberos originally P4 (discovered 2011) and Styx originally P5 (discovered 2012) official designations S/2011 (134340) 1 and  S/2012 (134340) 1."
+    },
+    {
+        "name": "Pluton & Charon",
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "fact": "Pluto is the largest dwarf planet. \nAt one point it was thought this could be Eris. Currently the most accurate measurements give Eris an average diameter of 2,326km with a margin of error of 12km, while Pluto’s diameter is 2,372km with a 2km margin of error."
+    },
+    {
+        "name": "Pluton & Charon",
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "fact": "Pluto is one third water. \nThis is in the form of water ice which is more than 3 times as much water as in all the Earth’s oceans, the remaining two thirds are rock. Pluto’s surface is covered with ices, and has several mountain ranges, light and dark regions, and a scattering of craters."
+    },
+    {
+        "name": "Pluton & Charon",
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "fact": "Pluto is smaller than a number of moons. \nThese are Ganymede, Titan, Callisto, Io, Europa, Triton, and the Earth’s moon. Pluto has 66% of the diameter of the Earth’s moon and 18% of its mass. While it is now confirmed that Pluto is the largest dwarf planet for around 10 years it was thought that this was Eris."
+    },
+    {
+        "name": "Pluton & Charon",
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "fact": "Pluto has a eccentric and inclined orbit. \nThis takes it between 4.4 and 7.3 billion km from the Sun meaning Pluto is periodically closer to the Sun than Neptune."
+    },
+    {
+        "name": "Pluton & Charon",
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "fact": "Pluto has been visited by one spacecraft. \nThe New Horizons spacecraft, which was launched in 2006, flew by Pluto on the 14th of July 2015 and took a series of images and other measurements. New Horizons is now on its way to the Kuiper Belt to explore even more distant objects."
+    },
+    {
+        "name": "Pluton & Charon",
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "fact": "Pluto’s location was predicted by Percival Lowell in 1915. \nThe prediction came from deviations he initially observed in 1905 in the orbits of Uranus and Neptune."
+    },
+    {
+        "name": "Pluton & Charon",
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "fact": "Pluto sometimes has an atmosphere. \nWhen Pluto elliptical orbit takes it closer to the Sun, its surface ice thaws and forms a thin atmosphere primarily of nitrogen which slowly escapes the planet. It also has a methane haze that overs about 161 kilometres above the surface. The methane is dissociated by sunlight into hydrocarbons that fall to the surface and coat the ice with a dark covering. When Pluto travels away from the Sun the atmosphere then freezes back to its solid state."
+    },
+    {
+        "name": "Pluton & Charon",
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "fact": "Charon was named for the Greek mythological figure Charon, the ferryman to Styx. \nIt has two different pronunciations: “SHARE-on”, in honour of the discoverer’s wife’s name (used) NASA and the members of the New Horizons mission), and “CARE-on”, for those who prefer the Greek pronunciation."
+    },
+    {
+        "name": "Pluton & Charon",
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "fact": "If it were not orbiting Pluto, Charon would be a dwarf planet in its own right. \nIt may yet be determined a dwarf planet, particularly because it doesn’t orbit Pluto – instead, the two worlds orbit a common centre of gravity. As they move, they keep the same face toward each other because they are tidally locked."
+    },
+    {
+        "name": "Pluton & Charon",
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "fact": "Charon has a frigid surface, covered with methane and nitrogen ice, and possibly some water ice. \nAlthough Charon is mostly ice by mass, it may contain a small rocky core."
+    },
+    {
+        "name": "Pluton & Charon",
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "fact": "Charon MAY have ‘ice volcanoes’. \nObservations made by ground-based observers at the Gemini Observatory in Hawaii determined that Charon MAY have ice-particle geysers, a form of cryovolcanism."
+    },
+    {
+        "name": "Pluton & Charon",
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "fact": "Pluto and Charon have never been visited by a spacecraft. \nAlthough both have been observed by Hubble Space Telescope as well as ground-based observatories. The New Horizons mission was sent to fly past Pluto and Charon and gather information and images about these worlds."
+    },
+    {
+        "name": "Pluton & Charon",
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "fact": "Charon’s origin is still not completely understood. \nOne theory suggests that Charon was created when a neighbouring Kuiper Belt object collided with Pluto. That destroyed the impactor, sending chunks of debris into orbit around Pluto. Eventually the chunks reassembled themselves to create Charon. Another idea suggests that infant Pluto and Charon collided, but did not break apart. Instead they went into orbit around each other."
+    },
+    {
+        "name": "Pluton & Charon",
+        "identifier": "89e578ce-3337-4099-9409-e52a75022ff3",
+        "fact": "Charon has a canyon that is 7 to 9 km deep. \nFor comparison Mount Everest is 8.8 km high. Other extensive cliffs and troughs stretching around 1,000 km have also been observed on Charon’s surface."
+    },
+    {
+        "name": "Solar System",
+        "identifier": "3dc35087-ff99-4184-ab8e-6eb1769f9c09",
+        "fact": "The Solar System was formed approximately 4.6 billion years ago and consists of the Sun, planets, dwarf planets and other astronomical objects bound in its orbit. The formation was cause by the collapse of a giant molecular cloud, the mass at the centre collecting to form the Sun and a flat disk of dust around it which the planets and other bodies would eventually be formed from."
+    },
+    {
+        "name": "Solar System",
+        "identifier": "3dc35087-ff99-4184-ab8e-6eb1769f9c09",
+        "fact": "99.86% of the system’s mass is found in the Sun and the majority of the remaining 0.14% is contained within the solar system’s eight planets."
+    },
+    {
+        "name": "Solar System",
+        "identifier": "3dc35087-ff99-4184-ab8e-6eb1769f9c09",
+        "fact": "The four smaller inner planets, also known as the “terrestrial planets” (Mercury, Venus, Earth and Mars), are primarily composed of rock and metal."
+    },
+    {
+        "name": "Solar System",
+        "identifier": "3dc35087-ff99-4184-ab8e-6eb1769f9c09",
+        "fact": "The four outer planets, also known as the “gas giants” (Jupiter, Saturn, Uranus and Neptune), are substantially larger and more massive than the inner planets."
+    },
+    {
+        "name": "Solar System",
+        "identifier": "3dc35087-ff99-4184-ab8e-6eb1769f9c09",
+        "fact": "The two innermost gas giants, Jupiter and Saturn, are the larger of the four and are composed mainly of hydrogen and helium."
+    },
+    {
+        "name": "Solar System",
+        "identifier": "3dc35087-ff99-4184-ab8e-6eb1769f9c09",
+        "fact": "The two outermost gas giants, Uranus and Neptune, are composed largely of ices, (water, ammonia and methane) and are sometimes also referred to as the “ice giants“."
+    },
+    {
+        "name": "Solar System",
+        "identifier": "3dc35087-ff99-4184-ab8e-6eb1769f9c09",
+        "fact": "Other objects of note in the Solar System are the dwarf planets (Ceres, Pluto, Haumea, Makemake & Eris), moons, asteroids, the asteroid belt, comets and the Kuiper belt."
     }
 ]
