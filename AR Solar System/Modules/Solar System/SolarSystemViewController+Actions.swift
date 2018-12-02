@@ -1,4 +1,5 @@
 import Foundation
+import Toast_Swift
 
 extension SolarSystemViewController {
     
@@ -29,10 +30,12 @@ extension SolarSystemViewController {
     }
     
     @IBAction private func recordGif() {
+        view.makeToast("Capturing GIF, please wait.")
         interactor.recordGIF()
     }
     
     @IBAction private func recordLivePhoto() {
+        view.makeToast("Capturing Live Photo, please wait.")
         interactor.recordLivePhoto()
     }
 }
