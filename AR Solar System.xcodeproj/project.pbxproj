@@ -72,7 +72,7 @@
 		BC5CD75A214807200048CCAF /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD758214807200048CCAF /* Request.swift */; };
 		BC5CD75B214807200048CCAF /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD759214807200048CCAF /* ErrorType.swift */; };
 		BC5CD75D214807C00048CCAF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD75C214807C00048CCAF /* Utils.swift */; };
-		BC5CD760214807F60048CCAF /* SpacePeopleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD75F214807F60048CCAF /* SpacePeopleService.swift */; };
+		BC5CD760214807F60048CCAF /* DefaultSpacePeopleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD75F214807F60048CCAF /* DefaultSpacePeopleService.swift */; };
 		BC6807AE2157DB5100923B15 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6807AD2157DB5100923B15 /* AudioPlayer.swift */; };
 		BC6807B12157FEB600923B15 /* PlanetBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6807B02157FEB600923B15 /* PlanetBuilder.swift */; };
 		BC6807B32157FEDC00923B15 /* MercuryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6807B22157FEDC00923B15 /* MercuryBuilder.swift */; };
@@ -116,7 +116,7 @@
 		BCE3833A2152EB3700662D79 /* Lonely Space Rhodes - Jonas Elander.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCE383372152EB3700662D79 /* Lonely Space Rhodes - Jonas Elander.mp3 */; };
 		BCF11CE3219DFC2B004AFD5F /* AppConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF11CE2219DFC2B004AFD5F /* AppConfigurable.swift */; };
 		BCF11CE5219DFC58004AFD5F /* DefaultAppConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF11CE4219DFC58004AFD5F /* DefaultAppConfigurator.swift */; };
-		BCF11CE7219DFF21004AFD5F /* SpacePeopleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF11CE6219DFF21004AFD5F /* SpacePeopleProtocol.swift */; };
+		BCF11CE7219DFF21004AFD5F /* SpacePeopleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF11CE6219DFF21004AFD5F /* SpacePeopleService.swift */; };
 		BCF11CE9219E03B4004AFD5F /* AudioPlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF11CE8219E03B4004AFD5F /* AudioPlayerDelegate.swift */; };
 		BCF11CEB219E03D7004AFD5F /* AudioTracksBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF11CEA219E03D7004AFD5F /* AudioTracksBuilder.swift */; };
 		BCF11CEF219E0728004AFD5F /* AudioPlayerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF11CEE219E0728004AFD5F /* AudioPlayerInput.swift */; };
@@ -205,7 +205,7 @@
 		BC5CD758214807200048CCAF /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		BC5CD759214807200048CCAF /* ErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorType.swift; sourceTree = "<group>"; };
 		BC5CD75C214807C00048CCAF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		BC5CD75F214807F60048CCAF /* SpacePeopleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePeopleService.swift; sourceTree = "<group>"; };
+		BC5CD75F214807F60048CCAF /* DefaultSpacePeopleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSpacePeopleService.swift; sourceTree = "<group>"; };
 		BC6807AD2157DB5100923B15 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		BC6807B02157FEB600923B15 /* PlanetBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetBuilder.swift; sourceTree = "<group>"; };
 		BC6807B22157FEDC00923B15 /* MercuryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercuryBuilder.swift; sourceTree = "<group>"; };
@@ -251,7 +251,7 @@
 		BCE383372152EB3700662D79 /* Lonely Space Rhodes - Jonas Elander.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lonely Space Rhodes - Jonas Elander.mp3"; sourceTree = "<group>"; };
 		BCF11CE2219DFC2B004AFD5F /* AppConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurable.swift; sourceTree = "<group>"; };
 		BCF11CE4219DFC58004AFD5F /* DefaultAppConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAppConfigurator.swift; sourceTree = "<group>"; };
-		BCF11CE6219DFF21004AFD5F /* SpacePeopleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePeopleProtocol.swift; sourceTree = "<group>"; };
+		BCF11CE6219DFF21004AFD5F /* SpacePeopleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePeopleService.swift; sourceTree = "<group>"; };
 		BCF11CE8219E03B4004AFD5F /* AudioPlayerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerDelegate.swift; sourceTree = "<group>"; };
 		BCF11CEA219E03D7004AFD5F /* AudioTracksBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTracksBuilder.swift; sourceTree = "<group>"; };
 		BCF11CEE219E0728004AFD5F /* AudioPlayerInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerInput.swift; sourceTree = "<group>"; };
@@ -604,8 +604,8 @@
 		BC5CD75E214807D30048CCAF /* SpacePeople */ = {
 			isa = PBXGroup;
 			children = (
-				BCF11CE6219DFF21004AFD5F /* SpacePeopleProtocol.swift */,
-				BC5CD75F214807F60048CCAF /* SpacePeopleService.swift */,
+				BCF11CE6219DFF21004AFD5F /* SpacePeopleService.swift */,
+				BC5CD75F214807F60048CCAF /* DefaultSpacePeopleService.swift */,
 			);
 			path = SpacePeople;
 			sourceTree = "<group>";
@@ -1069,7 +1069,7 @@
 				BCE3832C2152E58F00662D79 /* FirstLaunch.swift in Sources */,
 				BCE383242152CD3600662D79 /* AudioPlayerInteractor.swift in Sources */,
 				BCF6D4EA2146AF1100D39D69 /* Uranus.swift in Sources */,
-				BCF11CE7219DFF21004AFD5F /* SpacePeopleProtocol.swift in Sources */,
+				BCF11CE7219DFF21004AFD5F /* SpacePeopleService.swift in Sources */,
 				BC43277B21A34A6D00D56149 /* SolarSystemOutput.swift in Sources */,
 				BC4327A321A3694700D56149 /* PlanetDistanceInteractor.swift in Sources */,
 				BC43279921A3666900D56149 /* PlanetCellSizeGuide.swift in Sources */,
@@ -1084,7 +1084,7 @@
 				BC4327A121A3693900D56149 /* PlanetDistanceOutput.swift in Sources */,
 				BC5CD75A214807200048CCAF /* Request.swift in Sources */,
 				BC43279F21A3692F00D56149 /* PlanetDistanceInput.swift in Sources */,
-				BC5CD760214807F60048CCAF /* SpacePeopleService.swift in Sources */,
+				BC5CD760214807F60048CCAF /* DefaultSpacePeopleService.swift in Sources */,
 				BC43276E21A347F500D56149 /* Mimas.swift in Sources */,
 				BC43278D21A35C6A00D56149 /* Triton.swift in Sources */,
 				BC5CD7442147B6BB0048CCAF /* PlanetCollectionViewCell.swift in Sources */,

@@ -15,13 +15,13 @@ extension SolarSystemViewController {
         present(controller, animated: true, completion: nil)
     }
     
-    @IBAction func showFactsAboutPlanet() {
+    @IBAction private func showFactsAboutPlanet() {
         let planetCategory = interactor.selectedOption
         let controller = PlanetFactBuilder.build(with: planetCategory)
         self.navigationController?.pushViewController(controller, animated: true)
     }
     
-    @IBAction func showDistanceFromEarth() {
+    @IBAction private func showDistanceFromEarth() {
         let planetCategory = interactor.selectedOption
         let controller = PlanetDistanceBuilder.build(with: planetCategory)
         controller.modalTransitionStyle = .crossDissolve

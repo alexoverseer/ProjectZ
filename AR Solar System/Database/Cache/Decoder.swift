@@ -16,7 +16,7 @@ final class Decoder: NSObject {
                 print("error:\(error)")
             }
         }
+        
         return nil
     }
-    
 }

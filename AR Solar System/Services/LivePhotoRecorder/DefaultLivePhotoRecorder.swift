@@ -27,22 +27,20 @@ final class DefaultLivePhotoRecorder: LivePhotoRecorder {
     }
     
     func startRecordGIF() {
-        if recorder?.status == .readyToRecord {
-            recorder?.gif(forDuration: 3.0, export: true) { [weak self] _, _, status, saved in
-                if saved {
-                    self?.onEndRecording?(saved, status)
-                }
+        guard recorder?.status == .readyToRecord else { return }
+        recorder?.gif(forDuration: 3.0, export: true) { [weak self] _, _, status, saved in
+            if saved {
+                self?.onEndRecording?(saved, status)
             }
         }
     }
     
     func startRecordLivePhoto() {
-        if recorder?.status == .readyToRecord {
-            caprturingQueue.async {
-                self.recorder?.livePhoto(export: true) { [weak self] _, _, status, saved in
-                    if saved {
-                        self?.onEndRecording?(saved, status)
-                    }
+        guard recorder?.status == .readyToRecord else { return }
+        caprturingQueue.async {
+            self.recorder?.livePhoto(export: true) { [weak self] _, _, status, saved in
+                if saved {
+                    self?.onEndRecording?(saved, status)
                 }
             }
         }

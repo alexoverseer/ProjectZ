@@ -5,14 +5,14 @@ final class SpaceManListInteractor: SpaceManListOutput {
     weak var view: SpaceManListInput?
     var peopleInSpaceRightNow: PeopleInSpaceRightNow?
 
-    let spacePeopleAPI: SpacePeopleProtocol
+    let spacePeopleService: SpacePeopleService
     
-    init(api service: SpacePeopleProtocol = SpacePeopleService()) {
-        self.spacePeopleAPI = service
+    init(api service: SpacePeopleService = DefaultSpacePeopleService()) {
+        self.spacePeopleService = service
     }
     
     func viewDidLoad() {
-        spacePeopleAPI.requestSpacePeopleDetails(onSuccess: { [weak self] people in
+        spacePeopleService.requestSpacePeopleDetails(onSuccess: { [weak self] people in
             self?.peopleInSpaceRightNow = people
             self?.view?.reloadData()
         }, onFailure: { [weak self] error in

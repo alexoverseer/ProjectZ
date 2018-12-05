@@ -2,11 +2,6 @@ import Alamofire
 
 private let baseAPI = "https://www.howmanypeopleareinspacerightnow.com/peopleinspace.json"
 
-enum Encoding {
-    case string
-    case json
-}
-
 struct RequestInputs {
     let params: [String: Any]?
     let path: String?
@@ -28,7 +23,7 @@ struct RequestInputs {
 }
 
 struct Request {
-    init(inputs: RequestInputs, encoding: Encoding) {
+    init(inputs: RequestInputs) {
         if !isReachable {
             inputs.onFailure(.connection)
             
@@ -39,13 +34,10 @@ struct Request {
             
             return
         }
-        switch encoding {
-        case .string: stringRequest(with: inputs, url: url)
-        case .json: jsonRequest(with: inputs, url: url)
-        }
+        request(with: inputs, url: url)
     }
     
-    private func stringRequest(with inputs: RequestInputs, url: URL) {
+    private func request(with inputs: RequestInputs, url: URL) {
         
         var url = url
         if let path = inputs.path {
@@ -56,24 +48,6 @@ struct Request {
                           method: inputs.method,
                           parameters: inputs.params,
                           encoding: JSONEncoding.default).responseString(encoding: String.Encoding.utf8, completionHandler: { (response) in
-                            switch response.result {
-                            case .success: inputs.onSuccess(response.value)
-                            case .failure: inputs.onFailure(.request(response.error))
-                            }
-                          })
-    }
-    
-    private func jsonRequest(with inputs: RequestInputs, url: URL) {
-        
-        var url = url
-        if let path = inputs.path {
-            url = url.appendingPathComponent(path)
-        }
-        
-        Alamofire.request(url,
-                          method: inputs.method,
-                          parameters: inputs.params,
-                          encoding: JSONEncoding.default).responseJSON(completionHandler: { response in
                             switch response.result {
                             case .success: inputs.onSuccess(response.value)
                             case .failure: inputs.onFailure(.request(response.error))
